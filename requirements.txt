@@ -1,0 +1,46 @@
+# Dépendances Django de base
+Django==5.2.4
+django-bootstrap5==25.1
+asgiref==3.9.1
+sqlparse==0.5.3
+tzdata==2025.2
+
+# Web scraping et parsing
+beautifulsoup4==4.13.4
+requests==2.32.4
+playwright==1.53.0
+soupsieve==2.7
+
+# Traitement des PDFs
+PyMuPDF==1.25.2
+
+# Azure OpenAI
+openai==1.58.1
+
+# Variables d'environnement
+python-dotenv==1.0.1
+
+# Utilitaires
+certifi==2025.7.14
+charset-normalizer==3.4.2
+idna==3.10
+urllib3==2.5.0
+typing_extensions==4.14.1
+
+# Async support
+aiohttp==3.12.14
+aiosignal==1.4.0
+aiohappyeyeballs==2.6.1
+attrs==25.3.0
+frozenlist==1.7.0
+greenlet==3.2.3
+multidict==6.6.3
+propcache==0.3.2
+pyee==13.0.0
+yarl==1.20.1
+
+# Développement et tests (optionnel)
+# pytest==8.3.4
+# pytest-django==4.9.0
+# black==24.10.0
+# flake8==7.1.1

@@ -1,0 +1,291 @@
+{% extends 'scraper/base.html' %}
+{% load static %}
+{% load django_bootstrap5 %}
+
+{% block title %}Tableau de bord PDF - {{ block.super }}{% endblock %}
+
+{% block extra_css %}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<style>
+    .stats-card {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 15px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .stats-card.success {
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    }
+    .stats-card.warning {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    }
+    .stats-card.info {
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    }
+    .chart-container {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+    .recent-docs {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+    .doc-item {
+        border-left: 4px solid #007bff;
+        padding: 10px;
+        margin-bottom: 10px;
+        background: #f8f9fa;
+        border-radius: 5px;
+    }
+    .progress-circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 14px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h1 class="display-4">
+                <i class="fas fa-chart-bar text-primary"></i>
+                Tableau de bord PDF
+            </h1>
+            <p class="lead">Analyse et statistiques des documents PDF traités</p>
+        </div>
+    </div>
+
+    <!-- Statistiques principales -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h3 class="mb-0">{{ total_docs }}</h3>
+                        <p class="mb-0">Documents totaux</p>
+                    </div>
+                    <i class="fas fa-file-pdf fa-2x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card success">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h3 class="mb-0">{{ processed_docs }}</h3>
+                        <p class="mb-0">Traités avec succès</p>
+                    </div>
+                    <i class="fas fa-check-circle fa-2x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card warning">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h3 class="mb-0">{{ error_docs }}</h3>
+                        <p class="mb-0">Erreurs</p>
+                    </div>
+                    <i class="fas fa-exclamation-triangle fa-2x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card info">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h3 class="mb-0">{{ processing_rate }}%</h3>
+                        <p class="mb-0">Taux de réussite</p>
+                    </div>
+                    <div class="progress-circle" style="background: rgba(255,255,255,0.2);">
+                        {{ processing_rate }}%
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Graphiques -->
+        <div class="col-md-8">
+            <!-- Répartition par langue -->
+            <div class="chart-container">
+                <h5><i class="fas fa-language text-primary"></i> Répartition par langue</h5>
+                <canvas id="languageChart" height="100"></canvas>
+            </div>
+
+            <!-- Répartition par thématique -->
+            <div class="chart-container">
+                <h5><i class="fas fa-tags text-success"></i> Répartition par thématique</h5>
+                <canvas id="themeChart" height="100"></canvas>
+            </div>
+
+            <!-- Répartition par répertoire -->
+            <div class="chart-container">
+                <h5><i class="fas fa-folder text-warning"></i> Répartition par répertoire source</h5>
+                <div class="row">
+                    {% for dir_stat in directories_stats %}
+                    <div class="col-md-6 mb-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-truncate" title="{{ dir_stat.source_directory }}">
+                                {{ dir_stat.source_directory|default:"Non spécifié" }}
+                            </small>
+                            <span class="badge bg-primary">{{ dir_stat.count }}</span>
+                        </div>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar" style="width: {% widthratio dir_stat.count total_docs 100 %}%"></div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <!-- Documents récents -->
+        <div class="col-md-4">
+            <div class="chart-container">
+                <h5><i class="fas fa-clock text-info"></i> Documents récents</h5>
+                <div class="recent-docs">
+                    {% for doc in recent_docs %}
+                    <div class="doc-item">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">
+                                    <a href="{% url 'scraper:pdf_detail' doc.pk %}" class="text-decoration-none">
+                                        {{ doc.filename|truncatechars:30 }}
+                                    </a>
+                                </h6>
+                                <small class="text-muted d-block">
+                                    <i class="fas fa-language"></i> {{ doc.language|default:"N/A" }} |
+                                    <i class="fas fa-tag"></i> {{ doc.theme|default:"N/A" }}
+                                </small>
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar"></i> {{ doc.created_at|date:"d/m/Y H:i" }}
+                                </small>
+                            </div>
+                            <div class="ms-2">
+                                {% if doc.is_processed %}
+                                    <span class="badge bg-success"><i class="fas fa-check"></i></span>
+                                {% else %}
+                                    <span class="badge bg-warning"><i class="fas fa-clock"></i></span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% empty %}
+                    <p class="text-muted text-center py-3">
+                        <i class="fas fa-inbox fa-2x d-block mb-2"></i>
+                        Aucun document trouvé
+                    </p>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Actions rapides -->
+            <div class="chart-container">
+                <h5><i class="fas fa-bolt text-warning"></i> Actions rapides</h5>
+                <div class="d-grid gap-2">
+                    <a href="{% url 'scraper:pdf_list' %}" class="btn btn-primary">
+                        <i class="fas fa-list"></i> Voir tous les PDFs
+                    </a>
+                    <a href="{% url 'scraper:pdf_list' %}?status=unprocessed" class="btn btn-warning">
+                        <i class="fas fa-clock"></i> PDFs non traités
+                    </a>
+                    <a href="{% url 'scraper:pdf_list' %}?status=errors" class="btn btn-danger">
+                        <i class="fas fa-exclamation-triangle"></i> PDFs en erreur
+                    </a>
+                    <a href="{% url 'scraper:export_pdf_data' %}" class="btn btn-success">
+                        <i class="fas fa-download"></i> Exporter CSV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+// Graphique des langues
+const languageCtx = document.getElementById('languageChart').getContext('2d');
+const languageChart = new Chart(languageCtx, {
+    type: 'doughnut',
+    data: {
+        labels: [
+            {% for lang in languages_stats %}
+                "{{ lang.language|default:'Non spécifié' }}"{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+        ],
+        datasets: [{
+            data: [
+                {% for lang in languages_stats %}
+                    {{ lang.count }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            ],
+            backgroundColor: [
+                '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF',
+                '#FF9F40', '#FF6384', '#C9CBCF', '#4BC0C0', '#FF6384'
+            ]
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'bottom'
+            }
+        }
+    }
+});
+
+// Graphique des thématiques
+const themeCtx = document.getElementById('themeChart').getContext('2d');
+const themeChart = new Chart(themeCtx, {
+    type: 'bar',
+    data: {
+        labels: [
+            {% for theme in themes_stats %}
+                "{{ theme.theme|default:'Non spécifié'|truncatechars:20 }}"{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+        ],
+        datasets: [{
+            label: 'Nombre de documents',
+            data: [
+                {% for theme in themes_stats %}
+                    {{ theme.count }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            ],
+            backgroundColor: 'rgba(54, 162, 235, 0.8)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        },
+        plugins: {
+            legend: {
+                display: false
+            }
+        }
+    }
+});
+</script>
+{% endblock %}

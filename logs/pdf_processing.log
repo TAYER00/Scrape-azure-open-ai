@@ -1,0 +1,55 @@
+INFO 2025-07-23 21:24:13,387 openai_client 13856 24036 Client Azure OpenAI initialisé avec succès
+INFO 2025-07-23 21:24:13,404 pdf_tools 13856 24036 Trouvé 307 fichiers PDF dans 5 répertoires
+INFO 2025-07-23 21:24:33,205 openai_client 5016 2788 Client Azure OpenAI initialisé avec succès
+INFO 2025-07-23 21:24:33,223 pdf_tools 5016 2788 Trouvé 307 fichiers PDF dans 5 répertoires
+ERROR 2025-07-23 21:24:33,228 process_pdfs 5016 2788 Erreur traitement cdp FR.pdf: 'source_directory'
+ERROR 2025-07-23 21:24:33,229 process_pdfs 5016 2788 Erreur traitement CdP-Publication Trois DT Bank Al-Maghrib.pdf: 'source_directory'
+ERROR 2025-07-23 21:24:33,234 process_pdfs 5016 2788 Erreur traitement CdP-Publication Trois DT Bank Al-Maghrib_.pdf: 'source_directory'
+INFO 2025-07-23 21:25:23,065 openai_client 14752 6800 Client Azure OpenAI initialisé avec succès
+INFO 2025-07-23 21:25:23,082 pdf_tools 14752 6800 Trouvé 307 fichiers PDF dans 5 répertoires
+INFO 2025-07-23 21:25:23,225 pdf_tools 14752 6800 Texte extrait avec succès de bkam.ma/bkam.ma/pdf_downloads/Communiques/pdf_scraper\cdp FR.pdf (2037 caractères)
+INFO 2025-07-23 21:25:25,245 openai_client 14752 6800 Réponse brute d'OpenAI: {
+    "language": "français",
+    "theme": "économie",
+    "confidence": "Élevé"
+}
+INFO 2025-07-23 21:25:27,441 pdf_tools 14752 6800 Texte extrait avec succès de bkam.ma/bkam.ma/pdf_downloads/Communiques/pdf_scraper\CdP-Publication Trois DT Bank Al-Maghrib.pdf (980 caractères)
+INFO 2025-07-23 21:25:28,146 openai_client 14752 6800 Réponse brute d'OpenAI: {
+    "language": "français",
+    "theme": "économie",
+    "confidence": "Élevé"
+}
+INFO 2025-07-23 22:18:25,968 openai_client 4400 10660 Client Azure OpenAI initialisé avec succès
+INFO 2025-07-23 22:18:25,985 pdf_tools 4400 10660 Trouvé 307 fichiers PDF dans 5 répertoires
+INFO 2025-07-23 22:18:43,765 openai_client 4980 21432 Client Azure OpenAI initialisé avec succès
+INFO 2025-07-23 22:18:43,783 pdf_tools 4980 21432 Trouvé 307 fichiers PDF dans 5 répertoires
+INFO 2025-07-23 22:18:43,813 pdf_tools 4980 21432 Texte extrait avec succès de bkam.ma/bkam.ma/pdf_downloads/Communiques/pdf_scraper\CdP-Publication Trois DT Bank Al-Maghrib_.pdf (960 caractères)
+INFO 2025-07-23 22:18:45,825 openai_client 4980 21432 Réponse brute d'OpenAI: {
+    "language": "français",
+    "theme": "économie",
+    "confidence": "Élevé"
+}
+INFO 2025-07-23 22:18:47,753 pdf_tools 4980 21432 Texte extrait avec succès de bkam.ma/bkam.ma/pdf_downloads/Communiques/pdf_scraper\CdP_APSF.pdf (1844 caractères)
+INFO 2025-07-23 22:18:48,434 openai_client 4980 21432 Réponse brute d'OpenAI: {
+    "language": "français",
+    "theme": "finance",
+    "confidence": "Élevé"
+}
+INFO 2025-07-23 22:18:50,976 pdf_tools 4980 21432 Texte extrait avec succès de bkam.ma/bkam.ma/pdf_downloads/Communiques/pdf_scraper\CdP_BAMBERD_DIFDD_1906_Fr.pdf (5099 caractères)
+INFO 2025-07-23 22:18:51,672 openai_client 4980 21432 Réponse brute d'OpenAI: {
+    "language": "français",
+    "theme": "économie",
+    "confidence": "Élevé"
+}
+INFO 2025-07-23 22:18:53,754 pdf_tools 4980 21432 Texte extrait avec succès de bkam.ma/bkam.ma/pdf_downloads/Communiques/pdf_scraper\CdP_Buna_Fr.pdf (804 caractères)
+INFO 2025-07-23 22:18:54,430 openai_client 4980 21432 Réponse brute d'OpenAI: {
+    "language": "français",
+    "theme": "économie",
+    "confidence": "Élevé"
+}
+INFO 2025-07-23 22:18:56,238 pdf_tools 4980 21432 Texte extrait avec succès de bkam.ma/bkam.ma/pdf_downloads/Communiques/pdf_scraper\cdp_cash_adha.pdf (2056 caractères)
+INFO 2025-07-23 22:18:56,973 openai_client 4980 21432 Réponse brute d'OpenAI: {
+    "language": "Arabe",
+    "theme": "Économie",
+    "confidence": "Élevé"
+}

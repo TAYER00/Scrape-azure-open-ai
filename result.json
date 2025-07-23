@@ -1,0 +1,416 @@
+{
+  "date_execution": "2025-07-23T22:35:45.222293",
+  "total_documents": 51,
+  "documents_traites": 51,
+  "erreurs": 33,
+  "documents": [
+    {
+      "filename": "ZambiaCaseStudy.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 19533,
+      "date_traitement": "2025-07-23T22:31:51.272949"
+    },
+    {
+      "filename": "Versionanglaise.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 4423,
+      "date_traitement": "2025-07-23T22:31:53.120843"
+    },
+    {
+      "filename": "ToolkitforResilientPublicProcurementStrategies.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 5632,
+      "date_traitement": "2025-07-23T22:31:55.153889"
+    },
+    {
+      "filename": "TaxIncentivesinMiningMinimisingRiskstoRevenue.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 42260,
+      "date_traitement": "2025-07-23T22:31:57.421190"
+    },
+    {
+      "filename": "Readmore.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 13877,
+      "date_traitement": "2025-07-23T22:31:59.293229"
+    },
+    {
+      "filename": "PublicconsultationdocumentDeterminingthePriceofMineralsAtransferpricingframeworkforLithium.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 68800,
+      "date_traitement": "2025-07-23T22:32:01.517607"
+    },
+    {
+      "filename": "PolicyDialogueonNaturalResource-basedDevelopmentPD-NR.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 8922,
+      "date_traitement": "2025-07-23T22:32:03.513924"
+    },
+    {
+      "filename": "pointdecontactnational.docx",
+      "langue": "anglais",
+      "theme": "autre",
+      "confiance": "Moyen",
+      "taille_contenu": 76,
+      "date_traitement": "2025-07-23T22:32:05.965074"
+    },
+    {
+      "filename": "PensionMarketsinFocusPreliminary2024.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 15547,
+      "date_traitement": "2025-07-23T22:32:07.982109"
+    },
+    {
+      "filename": "OECDDueDiligenceGuidanceforResponsibleBusinessConduct.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 161997,
+      "date_traitement": "2025-07-23T22:32:10.611115"
+    },
+    {
+      "filename": "MonitoringtheValueofMineralExportsPolicyOptionsforGovernments.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 65346,
+      "date_traitement": "2025-07-23T22:32:12.623515"
+    },
+    {
+      "filename": "MongoliaCaseStudy.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 22063,
+      "date_traitement": "2025-07-23T22:32:14.814142"
+    },
+    {
+      "filename": "LimitingtheImpactofExcessiveInterestDeductionsofMiningRevenue.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 49324,
+      "date_traitement": "2025-07-23T22:32:17.114414"
+    },
+    {
+      "filename": "InternationalRecommendationsforTourismStatistics2008.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 295572,
+      "date_traitement": "2025-07-23T22:32:19.904069"
+    },
+    {
+      "filename": "GovernmentSupportforPrimaryandSecondarymetalProduction.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 13755,
+      "date_traitement": "2025-07-23T22:32:21.972846"
+    },
+    {
+      "filename": "GlobalInsuranceMarketTrendsPreliminary2024.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 17671,
+      "date_traitement": "2025-07-23T22:32:24.144590"
+    },
+    {
+      "filename": "G20OECDHigh-LevelPrinciplesonFinancialConsumerProtection.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 27484,
+      "date_traitement": "2025-07-23T22:32:26.408717"
+    },
+    {
+      "filename": "FindaNationalContactPoint.docx",
+      "langue": "anglais",
+      "theme": "autre",
+      "confiance": "Moyen",
+      "taille_contenu": 76,
+      "date_traitement": "2025-07-23T22:32:28.416333"
+    },
+    {
+      "filename": "Ensavoirplus.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 13877,
+      "date_traitement": "2025-07-23T22:32:30.354362"
+    },
+    {
+      "filename": "DueDiligenceinColombiasGoldSupplyChain.docx",
+      "langue": "anglais",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 101711,
+      "date_traitement": "2025-07-23T22:32:32.636800"
+    },
+    {
+      "filename": "CriticalMineralsTodayandin2030AnAnalysisforOECDCountries.docx",
+      "langue": "anglais",
+      "theme": "environnement",
+      "confiance": "Élevé",
+      "taille_contenu": 94093,
+      "date_traitement": "2025-07-23T22:32:34.741727"
+    },
+    {
+      "filename": "CadremondialrelatifauxproduitschimiquesPouruneplanètesansproduitschimiquesnidéchetsnocifs.docx",
+      "langue": "français",
+      "theme": "environnement",
+      "confiance": "Moyen",
+      "taille_contenu": 78033,
+      "date_traitement": "2025-07-23T22:32:37.266084"
+    },
+    {
+      "filename": "Partie-9.docx",
+      "langue": "français",
+      "theme": "informatique",
+      "confiance": "Moyen",
+      "taille_contenu": 7462,
+      "date_traitement": "2025-07-23T22:32:41.514716"
+    },
+    {
+      "filename": "Partie-8.docx",
+      "langue": "français",
+      "theme": "informatique",
+      "confiance": "Moyen",
+      "taille_contenu": 2653,
+      "date_traitement": "2025-07-23T22:32:57.351692"
+    },
+    {
+      "filename": "Partie-7.docx",
+      "langue": "français",
+      "theme": "juridique",
+      "confiance": "Moyen",
+      "taille_contenu": 1416,
+      "date_traitement": "2025-07-23T22:33:09.104176"
+    },
+    {
+      "filename": "Partie-6.docx",
+      "langue": "français",
+      "theme": "technologie",
+      "confiance": "Moyen",
+      "taille_contenu": 3180,
+      "date_traitement": "2025-07-23T22:33:14.486248"
+    },
+    {
+      "filename": "Partie-5.docx",
+      "langue": "français",
+      "theme": "données ouvertes",
+      "confiance": "Élevé",
+      "taille_contenu": 6996,
+      "date_traitement": "2025-07-23T22:33:17.832170"
+    },
+    {
+      "filename": "Partie-4.docx",
+      "langue": "français",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 783,
+      "date_traitement": "2025-07-23T22:33:20.229814"
+    },
+    {
+      "filename": "Partie-3.docx",
+      "langue": "français",
+      "theme": "données ouvertes",
+      "confiance": "Élevé",
+      "taille_contenu": 1997,
+      "date_traitement": "2025-07-23T22:33:22.320276"
+    },
+    {
+      "filename": "partie-2.docx",
+      "langue": "français",
+      "theme": "autre",
+      "confiance": "Moyen",
+      "taille_contenu": 126,
+      "date_traitement": "2025-07-23T22:33:24.562355"
+    },
+    {
+      "filename": "Partie-1.docx",
+      "langue": "français",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 1729,
+      "date_traitement": "2025-07-23T22:33:26.845658"
+    },
+    {
+      "filename": "Cliquez-ici-pour-telecharger-le-manuel-en-pdf.docx",
+      "langue": "français",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 92774,
+      "date_traitement": "2025-07-23T22:33:29.631190"
+    },
+    {
+      "filename": "Cliquez-ici-pour-telecharger-le-guide-en-pdf.docx",
+      "langue": "français",
+      "theme": "administration publique",
+      "confiance": "Élevé",
+      "taille_contenu": 41047,
+      "date_traitement": "2025-07-23T22:33:32.221495"
+    },
+    {
+      "filename": "cliquer-ici-pour-telecharger-la-presentation.docx",
+      "langue": "français",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 13516,
+      "date_traitement": "2025-07-23T22:33:34.793419"
+    },
+    {
+      "filename": "مشروع-قانون-رقم-03.23-بتغيير-وتتميم-القانون-رقم-22.01-المتعلق-بالمسطرة-الجنائية.docx",
+      "langue": "arabe",
+      "theme": "juridique",
+      "confiance": "Moyen",
+      "taille_contenu": 56935,
+      "date_traitement": "2025-07-23T22:33:37.058194"
+    },
+    {
+      "filename": "Reglement-interieur-du-CESE.docx",
+      "langue": "français",
+      "theme": "juridique",
+      "confiance": "Élevé",
+      "taille_contenu": 37405,
+      "date_traitement": "2025-07-23T22:33:39.664083"
+    },
+    {
+      "filename": "consulter.docx",
+      "langue": "français",
+      "theme": "politique",
+      "confiance": "Élevé",
+      "taille_contenu": 189,
+      "date_traitement": "2025-07-23T22:33:42.900355"
+    },
+    {
+      "filename": "Charte-d-ethique.docx",
+      "langue": "français",
+      "theme": "politique",
+      "confiance": "Élevé",
+      "taille_contenu": 4449,
+      "date_traitement": "2025-07-23T22:33:44.981205"
+    },
+    {
+      "filename": "Charte-d-ethique-du-CESE.docx",
+      "langue": "français",
+      "theme": "politique",
+      "confiance": "Élevé",
+      "taille_contenu": 4644,
+      "date_traitement": "2025-07-23T22:33:47.162608"
+    },
+    {
+      "filename": "ASA_C2-82-a2-1.docx",
+      "langue": "arabe",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 66929,
+      "date_traitement": "2025-07-23T22:34:10.215427"
+    },
+    {
+      "filename": "ASA-C7-81-f-p3.docx",
+      "langue": "français",
+      "theme": "agriculture",
+      "confiance": "Élevé",
+      "taille_contenu": 76366,
+      "date_traitement": "2025-07-23T22:34:12.432751"
+    },
+    {
+      "filename": "ASA-C7-81-a-p2.docx",
+      "langue": "arabe",
+      "theme": "économie",
+      "confiance": "Moyen",
+      "taille_contenu": 71104,
+      "date_traitement": "2025-07-23T22:34:14.676529"
+    },
+    {
+      "filename": "ASA-C4-092023-76-a-3.docx",
+      "langue": "arabe",
+      "theme": "économie",
+      "confiance": "Élevé",
+      "taille_contenu": 48400,
+      "date_traitement": "2025-07-23T22:34:18.490362"
+    },
+    {
+      "filename": "Valorisation20eau20VA_btt_212.docx",
+      "langue": "français",
+      "theme": "agriculture",
+      "confiance": "Faible",
+      "taille_contenu": 109,
+      "date_traitement": "2025-07-23T22:34:20.669668"
+    },
+    {
+      "filename": "Plus-d-informations.docx",
+      "langue": "français",
+      "theme": "informatique",
+      "confiance": "Moyen",
+      "taille_contenu": 2672,
+      "date_traitement": "2025-07-23T22:34:23.757966"
+    },
+    {
+      "filename": "Plus dinformations.docx",
+      "langue": "français",
+      "theme": "technologie",
+      "confiance": "Moyen",
+      "taille_contenu": 2672,
+      "date_traitement": "2025-07-23T22:34:47.415407"
+    },
+    {
+      "filename": "PGES-Accord20de20financement-PAASIFEJ20-BAD20vf.docx",
+      "langue": "Erreur",
+      "theme": "Erreur",
+      "confiance": "Faible",
+      "taille_contenu": 4084,
+      "date_traitement": "2025-07-23T22:35:18.674954"
+    },
+    {
+      "filename": "MC3A9canisation20agricole20VA_BTT_210.docx",
+      "langue": "Erreur",
+      "theme": "Erreur",
+      "confiance": "Faible",
+      "taille_contenu": 2297,
+      "date_traitement": "2025-07-23T22:35:31.817501"
+    },
+    {
+      "filename": "FiliC3A8re20Truffes20au20Maroc20VF20btt_213.docx",
+      "langue": "Erreur",
+      "theme": "Erreur",
+      "confiance": "Faible",
+      "taille_contenu": 5003,
+      "date_traitement": "2025-07-23T22:35:33.919829"
+    },
+    {
+      "filename": "FiliC3A8re20Truffes20au20Maroc20VA20BTT_214.docx",
+      "langue": "Erreur",
+      "theme": "Erreur",
+      "confiance": "Faible",
+      "taille_contenu": 845,
+      "date_traitement": "2025-07-23T22:35:42.929131"
+    },
+    {
+      "filename": "Dahir-n-1-19-81.docx",
+      "langue": "Erreur",
+      "theme": "Erreur",
+      "confiance": "Faible",
+      "taille_contenu": 12,
+      "date_traitement": "2025-07-23T22:35:44.719548"
+    }
+  ]
+}

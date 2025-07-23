@@ -1,0 +1,462 @@
+{% extends 'scraper/base.html' %}
+{% load static %}
+{% load django_bootstrap5 %}
+
+{% block title %}{{ pdf_document.filename }} - {{ block.super }}{% endblock %}
+
+{% block extra_css %}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+<style>
+    .detail-card {
+        border: 1px solid #dee2e6;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background: white;
+    }
+    .detail-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .status-indicator {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 8px;
+    }
+    .status-success { background-color: #28a745; }
+    .status-warning { background-color: #ffc107; }
+    .status-danger { background-color: #dc3545; }
+    .content-section {
+        max-height: 400px;
+        overflow-y: auto;
+        background: #f8f9fa;
+        border-radius: 5px;
+        padding: 15px;
+        font-family: 'Courier New', monospace;
+        font-size: 0.9em;
+        line-height: 1.4;
+    }
+    .metadata-table th {
+        background-color: #f8f9fa;
+        width: 30%;
+    }
+    .confidence-bar {
+        height: 20px;
+        background: #e9ecef;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .confidence-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #dc3545 0%, #ffc107 50%, #28a745 100%);
+        transition: width 0.3s ease;
+    }
+    .action-buttons {
+        position: sticky;
+        top: 20px;
+    }
+    .summary-section {
+        background: #f8f9fa;
+        border-left: 4px solid #007bff;
+        padding: 15px;
+        border-radius: 0 5px 5px 0;
+    }
+    .error-section {
+        background: #f8d7da;
+        border-left: 4px solid #dc3545;
+        padding: 15px;
+        border-radius: 0 5px 5px 0;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- En-tête du document -->
+    <div class="detail-header">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <h1 class="mb-2">
+                    <i class="fas fa-file-pdf"></i>
+                    {{ pdf_document.filename }}
+                    {% if pdf_document.is_retained %}
+                        <i class="fas fa-star text-warning" title="Document important"></i>
+                    {% endif %}
+                </h1>
+                <div class="d-flex align-items-center mb-2">
+                    {% if pdf_document.is_processed %}
+                        <span class="status-indicator status-success"></span>
+                        <span>Document traité avec succès</span>
+                    {% else %}
+                        {% if pdf_document.error_message %}
+                            <span class="status-indicator status-danger"></span>
+                            <span>Erreur de traitement</span>
+                        {% else %}
+                            <span class="status-indicator status-warning"></span>
+                            <span>En attente de traitement</span>
+                        {% endif %}
+                    {% endif %}
+                </div>
+                <p class="mb-0 opacity-75">
+                    <i class="fas fa-calendar"></i> Créé le {{ pdf_document.created_at|date:"d/m/Y à H:i" }}
+                    {% if pdf_document.updated_at != pdf_document.created_at %}
+                        | Mis à jour le {{ pdf_document.updated_at|date:"d/m/Y à H:i" }}
+                    {% endif %}
+                </p>
+            </div>
+            <div class="col-md-4 text-end">
+                <div class="btn-group-vertical d-grid gap-2">
+                    <a href="{% url 'scraper:pdf_list' %}" class="btn btn-light">
+                        <i class="fas fa-arrow-left"></i> Retour à la liste
+                    </a>
+                    {% if pdf_document.file_path %}
+                    <a href="{{ pdf_document.file_path }}" target="_blank" class="btn btn-outline-light">
+                        <i class="fas fa-external-link-alt"></i> Ouvrir PDF
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Contenu principal -->
+        <div class="col-lg-8">
+            <!-- Informations générales -->
+            <div class="detail-card">
+                <h3 class="mb-3">
+                    <i class="fas fa-info-circle text-primary"></i>
+                    Informations générales
+                </h3>
+                <table class="table table-striped metadata-table">
+                    <tbody>
+                        <tr>
+                            <th>Nom du fichier</th>
+                            <td>{{ pdf_document.filename }}</td>
+                        </tr>
+                        <tr>
+                            <th>Chemin</th>
+                            <td>
+                                {% if pdf_document.file_path %}
+                                    <code>{{ pdf_document.file_path }}</code>
+                                {% else %}
+                                    <span class="text-muted">Non spécifié</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>URL</th>
+                            <td>
+                                {% if pdf_document.url %}
+                                    <a href="{{ pdf_document.url }}" target="_blank" class="text-break">
+                                        {{ pdf_document.url }}
+                                    </a>
+                                {% else %}
+                                    <span class="text-muted">Non spécifié</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Taille du fichier</th>
+                            <td>
+                                {% if pdf_document.file_size %}
+                                    {{ pdf_document.file_size_mb }} MB ({{ pdf_document.file_size|filesizeformat }})
+                                {% else %}
+                                    <span class="text-muted">Non spécifié</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Nombre de pages</th>
+                            <td>
+                                {% if pdf_document.page_count %}
+                                    {{ pdf_document.page_count }} page{{ pdf_document.page_count|pluralize }}
+                                {% else %}
+                                    <span class="text-muted">Non spécifié</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Répertoire source</th>
+                            <td>
+                                {% if pdf_document.source_directory %}
+                                    <code>{{ pdf_document.source_directory }}</code>
+                                {% else %}
+                                    <span class="text-muted">Non spécifié</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Analyse OpenAI -->
+            {% if pdf_document.is_processed and not pdf_document.error_message %}
+            <div class="detail-card">
+                <h3 class="mb-3">
+                    <i class="fas fa-brain text-success"></i>
+                    Analyse OpenAI
+                </h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="text-center p-3 border rounded">
+                            <h5 class="text-primary">Langue</h5>
+                            <span class="badge bg-primary fs-6">
+                                {{ pdf_document.language|default:"Non détectée" }}
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center p-3 border rounded">
+                            <h5 class="text-success">Thématique</h5>
+                            <span class="badge bg-success fs-6">
+                                {{ pdf_document.theme|default:"Non détectée" }}
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center p-3 border rounded">
+                            <h5 class="text-info">Confiance</h5>
+                            {% if pdf_document.confidence %}
+                                <div class="confidence-bar mb-2">
+                                    <div class="confidence-fill" style="width: {{ pdf_document.confidence|default:0|floatformat:0 }}%;"></div>
+                                </div>
+                                <span class="fw-bold">{{ pdf_document.confidence }}%</span>
+                            {% else %}
+                                <span class="text-muted">Non spécifié</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                {% if pdf_document.summary %}
+                <div class="summary-section mt-3">
+                    <h5><i class="fas fa-file-alt"></i> Résumé</h5>
+                    <p class="mb-0">{{ pdf_document.summary }}</p>
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
+
+            <!-- Erreurs -->
+            {% if pdf_document.error_message %}
+            <div class="detail-card">
+                <h3 class="mb-3">
+                    <i class="fas fa-exclamation-triangle text-danger"></i>
+                    Erreurs de traitement
+                </h3>
+                <div class="error-section">
+                    <h5><i class="fas fa-bug"></i> Message d'erreur</h5>
+                    <pre class="mb-0">{{ pdf_document.error_message }}</pre>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Contenu extrait -->
+            {% if pdf_document.content and pdf_document.extraction_success %}
+            <div class="detail-card">
+                <h3 class="mb-3">
+                    <i class="fas fa-file-text text-info"></i>
+                    Contenu extrait
+                    <small class="text-muted">({{ pdf_document.content_length }} caractères)</small>
+                </h3>
+                <div class="content-section">
+                    {{ pdf_document.content|linebreaksbr }}
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-outline-primary btn-sm" onclick="copyContent()">
+                        <i class="fas fa-copy"></i> Copier le contenu
+                    </button>
+                    <button class="btn btn-outline-secondary btn-sm" onclick="toggleFullscreen()">
+                        <i class="fas fa-expand"></i> Plein écran
+                    </button>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- Barre latérale d'actions -->
+        <div class="col-lg-4">
+            <div class="action-buttons">
+                <!-- Actions principales -->
+                <div class="detail-card">
+                    <h4 class="mb-3">
+                        <i class="fas fa-cogs"></i>
+                        Actions
+                    </h4>
+                    <div class="d-grid gap-2">
+                        <form method="post" action="{% url 'scraper:reprocess_pdf' pdf_document.pk %}">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-warning w-100" 
+                                    onclick="return confirm('Êtes-vous sûr de vouloir retraiter ce PDF ?')">
+                                <i class="fas fa-redo"></i> Retraiter le PDF
+                            </button>
+                        </form>
+                        
+                        <form method="post" action="{% url 'scraper:toggle_retained' pdf_document.pk %}">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-outline-warning w-100">
+                                {% if pdf_document.is_retained %}
+                                    <i class="fas fa-star"></i> Retirer des favoris
+                                {% else %}
+                                    <i class="far fa-star"></i> Ajouter aux favoris
+                                {% endif %}
+                            </button>
+                        </form>
+                        
+                        {% if pdf_document.file_path %}
+                        <a href="{{ pdf_document.file_path }}" download class="btn btn-success w-100">
+                            <i class="fas fa-download"></i> Télécharger PDF
+                        </a>
+                        {% endif %}
+                        
+                        <a href="{% url 'scraper:pdf_list' %}" class="btn btn-secondary w-100">
+                            <i class="fas fa-list"></i> Retour à la liste
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Statistiques rapides -->
+                <div class="detail-card">
+                    <h4 class="mb-3">
+                        <i class="fas fa-chart-pie"></i>
+                        Statistiques
+                    </h4>
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <div class="border rounded p-2">
+                                <h6 class="text-primary mb-1">Extraction</h6>
+                                {% if pdf_document.extraction_success %}
+                                    <i class="fas fa-check-circle text-success fa-2x"></i>
+                                {% else %}
+                                    <i class="fas fa-times-circle text-danger fa-2x"></i>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="border rounded p-2">
+                                <h6 class="text-success mb-1">Analyse</h6>
+                                {% if pdf_document.openai_analysis_success %}
+                                    <i class="fas fa-check-circle text-success fa-2x"></i>
+                                {% else %}
+                                    <i class="fas fa-times-circle text-danger fa-2x"></i>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Métadonnées techniques -->
+                <div class="detail-card">
+                    <h4 class="mb-3">
+                        <i class="fas fa-info"></i>
+                        Métadonnées
+                    </h4>
+                    <table class="table table-sm">
+                        <tbody>
+                            <tr>
+                                <td><strong>ID:</strong></td>
+                                <td>{{ pdf_document.pk }}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Créé:</strong></td>
+                                <td>{{ pdf_document.created_at|date:"d/m/y H:i" }}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Modifié:</strong></td>
+                                <td>{{ pdf_document.updated_at|date:"d/m/y H:i" }}</td>
+                            </tr>
+                            {% if pdf_document.processed_at %}
+                            <tr>
+                                <td><strong>Traité:</strong></td>
+                                <td>{{ pdf_document.processed_at|date:"d/m/y H:i" }}</td>
+                            </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+<script>
+// Copier le contenu dans le presse-papiers
+function copyContent() {
+    const contentSection = document.querySelector('.content-section');
+    if (contentSection) {
+        const text = contentSection.innerText;
+        navigator.clipboard.writeText(text).then(() => {
+            // Feedback visuel
+            const btn = event.target.closest('button');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> Copié!';
+            btn.classList.add('btn-success');
+            btn.classList.remove('btn-outline-primary');
+            
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.classList.remove('btn-success');
+                btn.classList.add('btn-outline-primary');
+            }, 2000);
+        }).catch(err => {
+            console.error('Erreur lors de la copie:', err);
+            alert('Erreur lors de la copie du contenu');
+        });
+    }
+}
+
+// Mode plein écran pour le contenu
+function toggleFullscreen() {
+    const contentSection = document.querySelector('.content-section');
+    if (contentSection) {
+        if (contentSection.style.position === 'fixed') {
+            // Sortir du plein écran
+            contentSection.style.position = '';
+            contentSection.style.top = '';
+            contentSection.style.left = '';
+            contentSection.style.width = '';
+            contentSection.style.height = '';
+            contentSection.style.zIndex = '';
+            contentSection.style.backgroundColor = '';
+            contentSection.style.maxHeight = '400px';
+            
+            const btn = document.querySelector('button[onclick="toggleFullscreen()"]');
+            btn.innerHTML = '<i class="fas fa-expand"></i> Plein écran';
+        } else {
+            // Entrer en plein écran
+            contentSection.style.position = 'fixed';
+            contentSection.style.top = '0';
+            contentSection.style.left = '0';
+            contentSection.style.width = '100vw';
+            contentSection.style.height = '100vh';
+            contentSection.style.zIndex = '9999';
+            contentSection.style.backgroundColor = '#f8f9fa';
+            contentSection.style.maxHeight = 'none';
+            
+            const btn = document.querySelector('button[onclick="toggleFullscreen()"]');
+            btn.innerHTML = '<i class="fas fa-compress"></i> Quitter';
+        }
+    }
+}
+
+// Échapper du plein écran avec la touche Escape
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        const contentSection = document.querySelector('.content-section');
+        if (contentSection && contentSection.style.position === 'fixed') {
+            toggleFullscreen();
+        }
+    }
+});
+</script>
+{% endblock %}

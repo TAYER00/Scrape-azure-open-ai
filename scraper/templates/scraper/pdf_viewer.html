@@ -1,0 +1,173 @@
+{% load static %}
+{% get_media_prefix as MEDIA_URL %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualiseur PDF - {{ pdf_title }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .pdf-viewer-container {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem 0;
+        }
+        
+        .pdf-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        
+        .pdf-header {
+            background: linear-gradient(45deg, #2c3e50, #3498db);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .pdf-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 0;
+        }
+        
+        .pdf-actions {
+            padding: 1.5rem;
+            text-align: center;
+            background: #f8f9fa;
+        }
+        
+        .btn-custom {
+            padding: 12px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        
+        .btn-view {
+            background: linear-gradient(45deg, #28a745, #20c997);
+            color: white;
+            border: none;
+        }
+        
+        .btn-view:hover {
+            background: linear-gradient(45deg, #218838, #1ea080);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+            color: white;
+        }
+        
+        .btn-download {
+            background: linear-gradient(45deg, #007bff, #6610f2);
+            color: white;
+            border: none;
+        }
+        
+        .btn-download:hover {
+            background: linear-gradient(45deg, #0056b3, #520dc2);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+            color: white;
+        }
+        
+        .pdf-info {
+            padding: 1rem 1.5rem;
+            background: #e9ecef;
+            border-top: 1px solid #dee2e6;
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        
+        .info-item i {
+            margin-right: 10px;
+            color: #6c757d;
+        }
+        
+        @media (max-width: 768px) {
+            .btn-custom {
+                display: block;
+                margin: 10px 0;
+                width: 100%;
+            }
+            
+            .pdf-title {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pdf-viewer-container">
+        <div class="container">
+            <div class="pdf-card">
+                <div class="pdf-header">
+                    <h1 class="pdf-title">
+                        <i class="fas fa-file-pdf me-2"></i>
+                        {{ pdf_title }}
+                    </h1>
+                </div>
+                
+                <div class="pdf-actions">
+                    <h3 class="mb-4">Actions disponibles</h3>
+                    
+                    <!-- Bouton Visualiser - Ouvre dans un nouvel onglet -->
+                    <a href="{{ MEDIA_URL }}pdf_downloads/{{ pdf_filename }}" 
+                       class="btn-custom btn-view" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        <i class="fas fa-eye me-2"></i>
+                        Visualiser le PDF
+                    </a>
+                    
+                    <!-- Bouton Télécharger - Force le téléchargement -->
+                    <a href="{{ MEDIA_URL }}pdf_downloads/{{ pdf_filename }}" 
+                       class="btn-custom btn-download" 
+                       download="{{ pdf_filename }}">
+                        <i class="fas fa-download me-2"></i>
+                        Télécharger le PDF
+                    </a>
+                </div>
+                
+                <div class="pdf-info">
+                    <div class="info-item">
+                        <i class="fas fa-file"></i>
+                        <span><strong>Nom du fichier:</strong> {{ pdf_filename }}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-link"></i>
+                        <span><strong>URL:</strong> {{ MEDIA_URL }}pdf_downloads/{{ pdf_filename }}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-info-circle"></i>
+                        <span><strong>Type:</strong> Document PDF</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bouton de retour -->
+            <div class="text-center mt-4">
+                <a href="javascript:history.back()" class="btn btn-outline-light">
+                    <i class="fas fa-arrow-left me-2"></i>
+                    Retour
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
