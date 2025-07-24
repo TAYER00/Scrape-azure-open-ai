@@ -1,416 +1,2258 @@
-{
-  "date_execution": "2025-07-23T22:35:45.222293",
-  "total_documents": 51,
-  "documents_traites": 51,
-  "erreurs": 33,
-  "documents": [
+[
     {
-      "filename": "ZambiaCaseStudy.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 19533,
-      "date_traitement": "2025-07-23T22:31:51.272949"
+        "filename": "Dahir-n-1-19-81.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\agriculture.gov.ma\\words_downloads\\Dahir-n-1-19-81.docx",
+        "summary": " Loi n° n° 51-14 is a French state . Loi is a state of origin in France . It is the first state of the state of France to be granted a French law .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Versionanglaise.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 4423,
-      "date_traitement": "2025-07-23T22:31:53.120843"
+        "filename": "FiliC3A8re20Truffes20au20Maroc20VA20BTT_214.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\agriculture.gov.ma\\words_downloads\\FiliC3A8re20Truffes20au20Maroc20VA20BTT_214.docx",
+        "summary": " The book is published on sale at Barnes & Spencer's Bookshop, www.Barnesonline.com.org . It is published in print and on sale in the U.S. and UK .",
+        "language": "ro",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "ToolkitforResilientPublicProcurementStrategies.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 5632,
-      "date_traitement": "2025-07-23T22:31:55.153889"
+        "filename": "FiliC3A8re20Truffes20au20Maroc20VF20btt_213.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\agriculture.gov.ma\\words_downloads\\FiliC3A8re20Truffes20au20Maroc20VF20btt_213.docx",
+        "summary": " BULLETIN MENSUEL D'INFORMATION ET DE LIAISON REVIEWER: Terfezia arenaria arenaria.                     reparably reluctively reformally renowned Tuber oligosper- Researchers: Tirmania pinoyi.                                                                                    Revenimania.                    - \"Tubmania leptoderma\"                                                                   \"Terfezian lept",
+        "language": "ro",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "TaxIncentivesinMiningMinimisingRiskstoRevenue.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 42260,
-      "date_traitement": "2025-07-23T22:31:57.421190"
+        "filename": "MC3A9canisation20agricole20VA_BTT_210.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\agriculture.gov.ma\\words_downloads\\MC3A9canisation20agricole20VA_BTT_210.docx",
+        "summary": " ﺍﻟﻢﻣﻹﻠﻛﻚﻼﻻﻓﻳﻡ﻿ﻄﻉ﻾ﻐﻎﻪﻥﻞﻁﻝﻘﻙﻜﻬ﻽ﻺ�: ﻻ�:ﻭﺭﻗﻨﻮ:＼ｽｼﾾ�",
+        "language": "inconnu",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Readmore.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 13877,
-      "date_traitement": "2025-07-23T22:31:59.293229"
+        "filename": "PGES-Accord20de20financement-PAASIFEJ20-BAD20vf.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\agriculture.gov.ma\\words_downloads\\PGES-Accord20de20financement-PAASIFEJ20-BAD20vf.docx",
+        "summary": " L. du Développement Rural et des Eaux et Forêts, représenté par l’Agence pour le .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "PublicconsultationdocumentDeterminingthePriceofMineralsAtransferpricingframeworkforLithium.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 68800,
-      "date_traitement": "2025-07-23T22:32:01.517607"
+        "filename": "Plus dinformations.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\agriculture.gov.ma\\words_downloads\\Plus dinformations.docx",
+        "summary": " Information sur les cookies sur les les cookies is available in the U.S. Privacy Information is available at http://://www.cnn.com//privilege .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "PolicyDialogueonNaturalResource-basedDevelopmentPD-NR.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 8922,
-      "date_traitement": "2025-07-23T22:32:03.513924"
+        "filename": "Plus-d-informations.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\agriculture.gov.ma\\words_downloads\\Plus-d-informations.docx",
+        "summary": " Information sur les cookies sur les les cookies is available in the U.S. Privacy Information is available at http://://www.cnn.com//privilege .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "pointdecontactnational.docx",
-      "langue": "anglais",
-      "theme": "autre",
-      "confiance": "Moyen",
-      "taille_contenu": 76,
-      "date_traitement": "2025-07-23T22:32:05.965074"
+        "filename": "Valorisation20eau20VA_btt_212.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\agriculture.gov.ma\\words_downloads\\Valorisation20eau20VA_btt_212.docx",
+        "summary": " The book is published by John Defterios, a self-advocationalist, and is available on Amazon.com.com . It is published in the U.S. and UK editions of this year’s edition of The Book, published by Simon Cowell, published in October.",
+        "language": "tl",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "PensionMarketsinFocusPreliminary2024.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 15547,
-      "date_traitement": "2025-07-23T22:32:07.982109"
+        "filename": "ASA-C4-092023-76-a-3.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\cese.ma\\words_downloads\\ASA-C4-092023-76-a-3.docx",
+        "summary": "    -   - migrants migrate to the U.S. to the United States.  migration and the United Nations. The U.N. is a non-U.N., non-interference-free zone .",
+        "language": "ar",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "OECDDueDiligenceGuidanceforResponsibleBusinessConduct.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 161997,
-      "date_traitement": "2025-07-23T22:32:10.611115"
+        "filename": "ASA-C7-81-a-p2.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\cese.ma\\words_downloads\\ASA-C7-81-a-p2.docx",
+        "summary": "     -  - -       -    \"-\"-\"-- \"- -- \" - is a term for a group of people who commit suicide in the wake of a terrorist attack . - was a suicide attempt in the early 1990s .",
+        "language": "ar",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "MonitoringtheValueofMineralExportsPolicyOptionsforGovernments.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 65346,
-      "date_traitement": "2025-07-23T22:32:12.623515"
+        "filename": "ASA-C7-81-f-p3.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\cese.ma\\words_downloads\\ASA-C7-81-f-p3.docx",
+        "summary": " Avis                            Avis du Conseil Economique, Social et Environnemental.                    \"Avis  resembled with avis\" - Avis. Avis .                                                                           Couples:   -  - \"Avis\"   - \"Couple\"  -- - is a non-member of the conseil .",
+        "language": "fr",
+        "theme": "Agriculture",
+        "extraction_success": true
     },
     {
-      "filename": "MongoliaCaseStudy.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 22063,
-      "date_traitement": "2025-07-23T22:32:14.814142"
+        "filename": "ASA_C2-82-a2-1.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\cese.ma\\words_downloads\\ASA_C2-82-a2-1.docx",
+        "summary": "    -   - -       -       - –       –   “ ” – ‘ ’ -‘- ‚ - ‘-“-’ –    –      -  –  –  Ś� –“–”   – “ń���”:        – œ��™ –      : ń��’  ",
+        "language": "ar",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "LimitingtheImpactofExcessiveInterestDeductionsofMiningRevenue.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 49324,
-      "date_traitement": "2025-07-23T22:32:17.114414"
+        "filename": "Charte-d-ethique-du-CESE.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\cese.ma\\words_downloads\\Charte-d-ethique-du-CESE.docx",
+        "summary": " Conseil Économique, Social et Environnemental.com: ÉGALITÉ, non-disCRIMINATION.com.au: Égalité, Non-Disgrimination.au.com . The site is located in Rabat .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "InternationalRecommendationsforTourismStatistics2008.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 295572,
-      "date_traitement": "2025-07-23T22:32:19.904069"
+        "filename": "Charte-d-ethique.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\cese.ma\\words_downloads\\Charte-d-ethique.docx",
+        "summary": " The Conseil Economique, Social et Environnemental is the name of the Conseils Economique . The ÉGALITÉ, non-disCRIMINATION  includes non-discrimination . The article ends with a summary of the contents of the article .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "GovernmentSupportforPrimaryandSecondarymetalProduction.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 13755,
-      "date_traitement": "2025-07-23T22:32:21.972846"
+        "filename": "consulter.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\cese.ma\\words_downloads\\consulter.docx",
+        "summary": " Le droit à l’eau et la sécurité hydrique hydrique, gravementment menacés par un usage intensif:    Le droit de l'eau and the sémetre de la droit  -  déférences .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "GlobalInsuranceMarketTrendsPreliminary2024.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 17671,
-      "date_traitement": "2025-07-23T22:32:24.144590"
+        "filename": "Reglement-interieur-du-CESE.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\cese.ma\\words_downloads\\Reglement-interieur-du-CESE.docx",
+        "summary": " The Conseil Economique, Social and Environnemental   receive a version of the Règlement intérieur Version 2024 . The Conseléétablir le Statut particulier du personnel du . personnel du Conseils, conformément to l’alinéa 2 de  l’informal . The conseléa de la société du savoir et de l.information will be presented at the end of this article .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "G20OECDHigh-LevelPrinciplesonFinancialConsumerProtection.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 27484,
-      "date_traitement": "2025-07-23T22:32:26.408717"
+        "filename": "مشروع-قانون-رقم-03.23-بتغيير-وتتميم-القانون-رقم-22.01-المتعلق-بالمسطرة-الجنائية.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\cese.ma\\words_downloads\\مشروع-قانون-رقم-03.23-بتغيير-وتتميم-القانون-رقم-22.01-المتعلق-بالمسطرة-الجنائية.docx",
+        "summary": " The CEA-CT-11022025-7408-a.a will be used to test new products for the CEA . The system is being used to support new products from the European Union .",
+        "language": "ar",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "FindaNationalContactPoint.docx",
-      "langue": "anglais",
-      "theme": "autre",
-      "confiance": "Moyen",
-      "taille_contenu": 76,
-      "date_traitement": "2025-07-23T22:32:28.416333"
+        "filename": "cliquer-ici-pour-telecharger-la-presentation.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\cliquer-ici-pour-telecharger-la-presentation.docx",
+        "summary": " Where ICT meets Social &    -   - World Wide Web Foundation . The World Wide Wide Web . Foundation. All rights reserved to Web users .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Ensavoirplus.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 13877,
-      "date_traitement": "2025-07-23T22:32:30.354362"
+        "filename": "Cliquez-ici-pour-telecharger-le-guide-en-pdf.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\Cliquez-ici-pour-telecharger-le-guide-en-pdf.docx",
+        "summary": " Quatre options principales peuvent être considérées :  mettre en place plusieurs sous-groupes de travail ; un sous-groupe au sein de chaque  - or  champs - may be difficult to renseigner certain champs .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "DueDiligenceinColombiasGoldSupplyChain.docx",
-      "langue": "anglais",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 101711,
-      "date_traitement": "2025-07-23T22:32:32.636800"
+        "filename": "Cliquez-ici-pour-telecharger-le-manuel-en-pdf.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\Cliquez-ici-pour-telecharger-le-manuel-en-pdf.docx",
+        "summary": " Le ROD facilite la priorisation des données dans le plan annuel d’activité Open Data .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "CriticalMineralsTodayandin2030AnAnalysisforOECDCountries.docx",
-      "langue": "anglais",
-      "theme": "environnement",
-      "confiance": "Élevé",
-      "taille_contenu": 94093,
-      "date_traitement": "2025-07-23T22:32:34.741727"
+        "filename": "Partie-1.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\Partie-1.docx",
+        "summary": " A la découvertee des données ouvertes    is a   discovery of the world's most significant change in technology . Digital Transformation meets Digital Transformation .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "CadremondialrelatifauxproduitschimiquesPouruneplanètesansproduitschimiquesnidéchetsnocifs.docx",
-      "langue": "français",
-      "theme": "environnement",
-      "confiance": "Moyen",
-      "taille_contenu": 78033,
-      "date_traitement": "2025-07-23T22:32:37.266084"
+        "filename": "partie-2.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\partie-2.docx",
+        "summary": " Le passéérenseigne renseigne notre futur: Le   renseignement notre   renseignignement  re-receive notre receive notre futur de cas .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Partie-9.docx",
-      "langue": "français",
-      "theme": "informatique",
-      "confiance": "Moyen",
-      "taille_contenu": 7462,
-      "date_traitement": "2025-07-23T22:32:41.514716"
+        "filename": "Partie-3.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\Partie-3.docx",
+        "summary": " Gouvernements & Donnéées ouvertes de défautées de Données orvertes . Gouvernement & Donnès o'vertes o'ertes o’ertes: \"Ouvert par defaut\" \"Gouvernements and Donnéees oouvertes\" Gouvernments & Donnés ouvertedes oovertes: \"Gouernements & Donées du Donnéés o\"\"Guelques exemples\" are examples of examples .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Partie-8.docx",
-      "langue": "français",
-      "theme": "informatique",
-      "confiance": "Moyen",
-      "taille_contenu": 2653,
-      "date_traitement": "2025-07-23T22:32:57.351692"
+        "filename": "Partie-4.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\Partie-4.docx",
+        "summary": " Etude de cas: Etudes de cas . Etude of cas: \"I'm not sure what happened to me\" Etude du cas: I'm sure I'm not going to have to explain it .",
+        "language": "es",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Partie-7.docx",
-      "langue": "français",
-      "theme": "juridique",
-      "confiance": "Moyen",
-      "taille_contenu": 1416,
-      "date_traitement": "2025-07-23T22:33:09.104176"
+        "filename": "Partie-5.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\Partie-5.docx",
+        "summary": " The Marocanese open data project is based in the Maroc region of Morocco . It is the first project to open data in the region of the Arab world . The project is called Open Data Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Partie-6.docx",
-      "langue": "français",
-      "theme": "technologie",
-      "confiance": "Moyen",
-      "taille_contenu": 3180,
-      "date_traitement": "2025-07-23T22:33:14.486248"
+        "filename": "Partie-6.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\Partie-6.docx",
+        "summary": " 3. Les acteurs de l’open data: Inventaire de données. 3. Inventaires:. The inventorie of the open data. The open data project. The project is based on an open data model .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Partie-5.docx",
-      "langue": "français",
-      "theme": "données ouvertes",
-      "confiance": "Élevé",
-      "taille_contenu": 6996,
-      "date_traitement": "2025-07-23T22:33:17.832170"
+        "filename": "Partie-7.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\Partie-7.docx",
+        "summary": " Epidémie de choléra    -  Epidému de cholaéra . Interopérabilité:  ‘-’, ‘- ’ - “-”, “- ‘ ”: - - \"-‘ -“ - The World’s Children’: ‚- The Future, The Future and The Future .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Partie-4.docx",
-      "langue": "français",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 783,
-      "date_traitement": "2025-07-23T22:33:20.229814"
+        "filename": "Partie-8.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\Partie-8.docx",
+        "summary": " Bonnes pratiques pour 7.7. 7.07.07 . 7.08.07: The French capital, Paris, France, has been in touch with the world's most famous person .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Partie-3.docx",
-      "langue": "français",
-      "theme": "données ouvertes",
-      "confiance": "Élevé",
-      "taille_contenu": 1997,
-      "date_traitement": "2025-07-23T22:33:22.320276"
+        "filename": "Partie-9.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\finances.gov.ma\\words_downloads\\Partie-9.docx",
+        "summary": " Anonymisation des données is anonymisation of the user's identity . Validation is a form of verification of the identity of anonymised user .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "partie-2.docx",
-      "langue": "français",
-      "theme": "autre",
-      "confiance": "Moyen",
-      "taille_contenu": 126,
-      "date_traitement": "2025-07-23T22:33:24.562355"
+        "filename": "CadremondialrelatifauxproduitschimiquesPouruneplanètesansproduitschimiquesnidéchetsnocifs.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\CadremondialrelatifauxproduitschimiquesPouruneplanètesansproduitschimiquesnidéchetsnocifs.docx",
+        "summary": " Cadre mondial relatif  relatif aux produits chimiques – Pour une planète  - Pour a planèse, Pour a Planète,  Cadre mondele relatif revisif aux produits mondial .",
+        "language": "fr",
+        "theme": "Agriculture",
+        "extraction_success": true
     },
     {
-      "filename": "Partie-1.docx",
-      "langue": "français",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 1729,
-      "date_traitement": "2025-07-23T22:33:26.845658"
+        "filename": "CriticalMineralsTodayandin2030AnAnalysisforOECDCountries.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\CriticalMineralsTodayandin2030AnAnalysisforOECDCountries.docx",
+        "summary": " The Centre for Climate Change Economics and Policy (CCCEP) unclassified   Unclassified  EnV/WKP(2015) An analysis of critical minerals today and in 2030: an analysis  by the Centre for . Climate . Change Economics . and Policy . The analysis is based on an analysis by the Centre for Climate change Economics .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Cliquez-ici-pour-telecharger-le-manuel-en-pdf.docx",
-      "langue": "français",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 92774,
-      "date_traitement": "2025-07-23T22:33:29.631190"
+        "filename": "DueDiligenceinColombiasGoldSupplyChain.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\DueDiligenceinColombiasGoldSupplyChain.docx",
+        "summary": " Gold mining in Colombia dates back to the fifth century B.C. and flourished until the sixteenth century . Most of the gold is produced by small and mid-scale miners . The proceeds from illegal mining could be close to surpassing those from drug trafficking .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Cliquez-ici-pour-telecharger-le-guide-en-pdf.docx",
-      "langue": "français",
-      "theme": "administration publique",
-      "confiance": "Élevé",
-      "taille_contenu": 41047,
-      "date_traitement": "2025-07-23T22:33:32.221495"
+        "filename": "Ensavoirplus.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\Ensavoirplus.docx",
+        "summary": " Number of liberalising policy reforms related to SDR disciplines between 2014-2020 will be liberalised between 2014 and 2020 . Streamlining SDR reduces barriers to services trade . Annual trade cost savings in five broad services sectors, billion USD .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "cliquer-ici-pour-telecharger-la-presentation.docx",
-      "langue": "français",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 13516,
-      "date_traitement": "2025-07-23T22:33:34.793419"
+        "filename": "FindaNationalContactPoint.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\FindaNationalContactPoint.docx",
+        "summary": " NCP Community Contact Details – June 2024 . NCP community Contact Details: June 24, 2024 . June 2024 is the date of the first anniversary of the NCP Convention of Nations .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "مشروع-قانون-رقم-03.23-بتغيير-وتتميم-القانون-رقم-22.01-المتعلق-بالمسطرة-الجنائية.docx",
-      "langue": "arabe",
-      "theme": "juridique",
-      "confiance": "Moyen",
-      "taille_contenu": 56935,
-      "date_traitement": "2025-07-23T22:33:37.058194"
+        "filename": "G20OECDHigh-LevelPrinciplesonFinancialConsumerProtection.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\G20OECDHigh-LevelPrinciplesonFinancialConsumerProtection.docx",
+        "summary": " G20/OECD High-Level Principles are based on the principles of the G20-EECD . The principles include that the U.S. and G20 are committed to the same principles as those of the OECD .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Reglement-interieur-du-CESE.docx",
-      "langue": "français",
-      "theme": "juridique",
-      "confiance": "Élevé",
-      "taille_contenu": 37405,
-      "date_traitement": "2025-07-23T22:33:39.664083"
+        "filename": "GlobalInsuranceMarketTrendsPreliminary2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\GlobalInsuranceMarketTrendsPreliminary2024.docx",
+        "summary": " GLOBAL INSURANCE MARKET TRENDS - PRELIMINARY 2024 DATA               reparably reluctively apologized previously receive global insurance market targets in the future .                                                                   reconcategually apologetic reprogressive revision preparative gives relevance graphic .                                   receiving reconsiderable innovation gifted in the ",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "consulter.docx",
-      "langue": "français",
-      "theme": "politique",
-      "confiance": "Élevé",
-      "taille_contenu": 189,
-      "date_traitement": "2025-07-23T22:33:42.900355"
+        "filename": "GovernmentSupportforPrimaryandSecondarymetalProduction.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\GovernmentSupportforPrimaryandSecondarymetalProduction.docx",
+        "summary": " OECD project providing policy guidance on metals industry . Government Support for secondary metal production differs significantly . OECD project RE-CIRCLE is an OECD project .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Charte-d-ethique.docx",
-      "langue": "français",
-      "theme": "politique",
-      "confiance": "Élevé",
-      "taille_contenu": 4449,
-      "date_traitement": "2025-07-23T22:33:44.981205"
+        "filename": "InternationalRecommendationsforTourismStatistics2008.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\InternationalRecommendationsforTourismStatistics2008.docx",
+        "summary": " The demand perspective: basic concepts and definitions of tourism . ST/ESA/STAT/SER.M/83/Rev. M/83-Rev.M was published in October 2013 . The Department of Economic and Social Affairs published the findings .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Charte-d-ethique-du-CESE.docx",
-      "langue": "français",
-      "theme": "politique",
-      "confiance": "Élevé",
-      "taille_contenu": 4644,
-      "date_traitement": "2025-07-23T22:33:47.162608"
+        "filename": "LimitingtheImpactofExcessiveInterestDeductionsofMiningRevenue.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\LimitingtheImpactofExcessiveInterestDeductionsofMiningRevenue.docx",
+        "summary": " IGF-OECD Program to ADDRESS BEPS in MINING: LIMITING THE IMPACT OF EXCESSIVE INTEREST DEDUCTIONS ON MINING REVENUE . Programme builds on the OECD BEPS Actions to include other causes of revenue loss in the mining sector .",
+        "language": "en",
+        "theme": "Finance",
+        "extraction_success": true
     },
     {
-      "filename": "ASA_C2-82-a2-1.docx",
-      "langue": "arabe",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 66929,
-      "date_traitement": "2025-07-23T22:34:10.215427"
+        "filename": "MongoliaCaseStudy.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\MongoliaCaseStudy.docx",
+        "summary": " Mongolia closes the tax gap in the mining industry . Mongolia will host the OECD and IGF’s BEPS in Mining Deep Dive programme in Ulaanbaatar .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "ASA-C7-81-f-p3.docx",
-      "langue": "français",
-      "theme": "agriculture",
-      "confiance": "Élevé",
-      "taille_contenu": 76366,
-      "date_traitement": "2025-07-23T22:34:12.432751"
+        "filename": "MonitoringtheValueofMineralExportsPolicyOptionsforGovernments.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\MonitoringtheValueofMineralExportsPolicyOptionsforGovernments.docx",
+        "summary": " IGF-OECD Program to ADDRESS BEPS in MINING MONITORING THE VALUE OF MINERAL EXPORTS:  POLICY OPTIONS FOR GOVERNMENTS. The practice note has been prepared under a programme of cooperation between the Organisation for Economic Co-operation and Development (OECD) Centre for Tax Policy and Administration .",
+        "language": "en",
+        "theme": "Finance",
+        "extraction_success": true
     },
     {
-      "filename": "ASA-C7-81-a-p2.docx",
-      "langue": "arabe",
-      "theme": "économie",
-      "confiance": "Moyen",
-      "taille_contenu": 71104,
-      "date_traitement": "2025-07-23T22:34:14.676529"
+        "filename": "OECDDueDiligenceGuidanceforResponsibleBusinessConduct.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\OECDDueDiligenceGuidanceforResponsibleBusinessConduct.docx",
+        "summary": " This document and any map included herein are without prejudice to the status of or sovereignty over any territory . OECD DUE DILIGENCE GUIDANCE FOR RESPONSIBLE BUSINESS CONDUCT .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "ASA-C4-092023-76-a-3.docx",
-      "langue": "arabe",
-      "theme": "économie",
-      "confiance": "Élevé",
-      "taille_contenu": 48400,
-      "date_traitement": "2025-07-23T22:34:18.490362"
+        "filename": "PensionMarketsinFocusPreliminary2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\PensionMarketsinFocusPreliminary2024.docx",
+        "summary": " PENSION MARKETS IN FOCUS – PRELIMINARY 2024 DATA  – is a huge opportunity for investors to invest in the U.S.",
+        "language": "de",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Valorisation20eau20VA_btt_212.docx",
-      "langue": "français",
-      "theme": "agriculture",
-      "confiance": "Faible",
-      "taille_contenu": 109,
-      "date_traitement": "2025-07-23T22:34:20.669668"
+        "filename": "pointdecontactnational.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\pointdecontactnational.docx",
+        "summary": " NCP Community Contact Details – June 2024 . NCP community Contact Details: June 24, 2024 . June 2024 is the date of the first anniversary of the NCP Convention of Nations .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Plus-d-informations.docx",
-      "langue": "français",
-      "theme": "informatique",
-      "confiance": "Moyen",
-      "taille_contenu": 2672,
-      "date_traitement": "2025-07-23T22:34:23.757966"
+        "filename": "PolicyDialogueonNaturalResource-basedDevelopmentPD-NR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\PolicyDialogueonNaturalResource-basedDevelopmentPD-NR.docx",
+        "summary": " ONR Briefing Note: 11th Plenary of the OECD Natural Resources Policy Dialogue . ONR brief briefing note: OECD natural resources policy dialogue . OECD natural resource policy dialogue was discussed at the 11th plenary of this conference .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Plus dinformations.docx",
-      "langue": "français",
-      "theme": "technologie",
-      "confiance": "Moyen",
-      "taille_contenu": 2672,
-      "date_traitement": "2025-07-23T22:34:47.415407"
+        "filename": "PublicconsultationdocumentDeterminingthePriceofMineralsAtransferpricingframeworkforLithium.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\PublicconsultationdocumentDeterminingthePriceofMineralsAtransferpricingframeworkforLithium.docx",
+        "summary": " The Price of Minerals: A transfer pricing framework      - Determining the Price  - is a public consultation document . Public consultation document   is published in the United States .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "PGES-Accord20de20financement-PAASIFEJ20-BAD20vf.docx",
-      "langue": "Erreur",
-      "theme": "Erreur",
-      "confiance": "Faible",
-      "taille_contenu": 4084,
-      "date_traitement": "2025-07-23T22:35:18.674954"
+        "filename": "Readmore.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\Readmore.docx",
+        "summary": " Number of liberalising policy reforms related to SDR disciplines between 2014-2020 will be liberalised between 2014 and 2020 . Streamlining SDR reduces barriers to services trade . Annual trade cost savings in five broad services sectors, billion USD .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "MC3A9canisation20agricole20VA_BTT_210.docx",
-      "langue": "Erreur",
-      "theme": "Erreur",
-      "confiance": "Faible",
-      "taille_contenu": 2297,
-      "date_traitement": "2025-07-23T22:35:31.817501"
+        "filename": "TaxIncentivesinMiningMinimisingRiskstoRevenue.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\TaxIncentivesinMiningMinimisingRiskstoRevenue.docx",
+        "summary": " The International Institute for Sustainable Development: MINIMISING RISKS to REVENUE: The HIDDEN COST OF MINING TAX INCENTIVES: SUPPLEMENTARY GUIDANCE: The cost of MINING tax incentives in the U.S. is $1,000 per person .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "FiliC3A8re20Truffes20au20Maroc20VF20btt_213.docx",
-      "langue": "Erreur",
-      "theme": "Erreur",
-      "confiance": "Faible",
-      "taille_contenu": 5003,
-      "date_traitement": "2025-07-23T22:35:33.919829"
+        "filename": "ToolkitforResilientPublicProcurementStrategies.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\ToolkitforResilientPublicProcurementStrategies.docx",
+        "summary": " Public procurement can encourage the development and adoption of innovative goods, services, OECD says . Fostering synergies between procurement and risk management functions could lead to a forward-looking crisis preparedness system for effectively anticipating and mitigating potential and risks .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "FiliC3A8re20Truffes20au20Maroc20VA20BTT_214.docx",
-      "langue": "Erreur",
-      "theme": "Erreur",
-      "confiance": "Faible",
-      "taille_contenu": 845,
-      "date_traitement": "2025-07-23T22:35:42.929131"
+        "filename": "Versionanglaise.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\Versionanglaise.docx",
+        "summary": " OECD Guidelines for Multinational Enterprises on  the principle of equality of opportunity . OECD guidelines for multinational firms on  the principle of equality of opportunity are based on the principle of equality of opportunity . OECD Guidelines are guided by the principle  of equality of opportunity .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
     },
     {
-      "filename": "Dahir-n-1-19-81.docx",
-      "langue": "Erreur",
-      "theme": "Erreur",
-      "confiance": "Faible",
-      "taille_contenu": 12,
-      "date_traitement": "2025-07-23T22:35:44.719548"
+        "filename": "ZambiaCaseStudy.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\oecd.org\\words_downloads\\ZambiaCaseStudy.docx",
+        "summary": " Tax and Development                                                                                                                                                                                                                                                                                                                    \"Tax and Development\" is the name of the U.S. tax and development .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "cdp FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\cdp FR.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP-Publication Trois DT Bank Al-Maghrib.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP-Publication Trois DT Bank Al-Maghrib.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP-Publication Trois DT Bank Al-Maghrib_.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP-Publication Trois DT Bank Al-Maghrib_.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_BAMBERD_DIFDD_1906_Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_BAMBERD_DIFDD_1906_Fr.docx",
+        "summary": " Bank Al-Maghrib, la BERD et IFC unissent leurs efforts pour women in business . IFC and IFC souten unissent efforts to support women entrepreneurs in the Maroc region .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_Buna_Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_Buna_Fr.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "cdp_cash_adha.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\cdp_cash_adha.docx",
+        "summary": " Around the world is the world's most important forum for social media communication . It is also the first time the world has seen this forum have been able to use this forum .",
+        "language": "ar",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_ConseilBAM_240625_fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_ConseilBAM_240625_fr.docx",
+        "summary": " 14.14.7.77.8.7:14.14: 14.8:141414.9:14:14 . 7:15:14; 14:14 : 14:15.7 . 14:10:14.: 14:13:15; 14 :14:20:14 : 14:30 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_ConseilBAM_Q42023_Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_ConseilBAM_Q42023_Fr.docx",
+        "summary": " Ainsi, les cours diminueraient  revenant de 772 dollars la tonne en 2022 to 400 dollars a tonne .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_ConseilBAM_T32023_Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_ConseilBAM_T32023_Fr.docx",
+        "summary": " Les projections de la Banque mondiale d’avril dernier, à 260 dollars la tonne en 2023 et à   2,5% in 2023, de 3,6% en 2024 pour atteindre 117,5 milliards de dirhams .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_Conv_BAM_HCP_Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_Conv_BAM_HCP_Fr.docx",
+        "summary": " Communiqué de presse communiqué du presse: \"I'm not afraid to be afraid of the press\" \"I was scared to be scared. I was scared of being scared,\" said a source of security .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_DR_Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_DR_Fr.docx",
+        "summary": " Bank of Al-Maghrihrii is a branch of the Bank of Qatar in the Middle East . The bank is based in Qatar, Qatar, in the region of the Gulf Arab region .",
+        "language": "ca",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_GSBF_VF.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_GSBF_VF.docx",
+        "summary": " CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery . Please submit your best shots for next week's gallery of iReporters in the gallery .",
+        "language": "pt",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_interchange_Fr (1).docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_interchange_Fr (1).docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "cdp_JIMF5_fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\cdp_JIMF5_fr.docx",
+        "summary": " JOURNÉES INTERNATIONALES DE Jourés Internationales de Internationales Internationales . Journées Inter-Europeanes Internationals Internationals de Internationals .",
+        "language": "de",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_Marché à Terme Interbancaire_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_Marché à Terme Interbancaire_FR.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_Morocco Fintech Center_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_Morocco Fintech Center_FR.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_nouvelle serie 20dhs FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_nouvelle serie 20dhs FR.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_nouvelle serie 50dhs FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_nouvelle serie 50dhs FR.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_nouvelle serie_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_nouvelle serie_FR.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_PC_AISM_25 FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_PC_AISM_25 FR.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_PrixBAM_Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_PrixBAM_Fr.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_Rec_DSB_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_Rec_DSB_FR.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CdP_RSB_Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\CdP_RSB_Fr.docx",
+        "summary": " En 2023, nous avons poursuivi les initiatives visant à accompagner la digitalisation des France . En 20 23, nouououirille de France will become part of the world's largest network of social networks .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique -Emission de valeurs du Trésor-06-05-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique -Emission de valeurs du Trésor-06-05-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique 19-09-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique 19-09-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique 24-10-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique 24-10-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique 27-09-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique 27-09-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 02-01-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 02-01-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 02-04-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 02-04-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 03-10-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 03-10-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Adju 04-02-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Adju 04-02-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 04-06-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 04-06-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 05-12-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 05-12-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 06-02-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 06-02-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 07-05-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 07-05-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 07-11-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 07-11-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 09-01-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 09-01-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 09-04-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 09-04-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 10-10-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 10-10-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Adju 11-06-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Adju 11-06-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 14-05-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 14-05-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 14-11-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 14-11-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 16-01-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 16-01-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 16-04-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 16-04-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 17-10-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 17-10-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Adju 18-12-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Adju 18-12-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 19-03-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 19-03-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 19-06-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 19-06-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 20-12-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 20-12-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 21-05-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 21-05-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 21-11-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 21-11-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 23-01-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 23-01-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 23-04-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 23-04-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 24-12-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 24-12-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Adju 26-03-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Adju 26-03-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 26-12-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 26-12-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 27-02-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 27-02-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 28-05-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 28-05-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Adju 28-11-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Adju 28-11-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Adju 29-04-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Adju 29-04-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 30-01-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 30-01-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique adju 30-04-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique adju 30-04-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Adju 31-10-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Adju 31-10-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Adju 31-12-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Adju 31-12-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Echange 29-05-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Echange 29-05-2025.docx",
+        "summary": " La Direction du Trésor et des Finances Extérieures annonce aux investisseurs qu'il sera procédé à une opération d'échange de titres, par appel d'offres, dans les conditions .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique échange 05-10-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique échange 05-10-2023.docx",
+        "summary": " La Direction du Trésor et des Finances Extérieures annonce aux investisseurs qu'il sera procédé à une opération d'échange de titres, par appel d'offres, dans les conditions .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique échange 26-10-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique échange 26-10-2023.docx",
+        "summary": " La Direction du Trésor et des Finances Extérieures annonce aux investisseurs qu'il sera procédé à une opération d'échange de titres, par appel d'offres, dans les conditions .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Fr.docx",
+        "summary": " CommunityCommuniqué is a communique communique of the world's most famous communique . It is based in the U.S. state of Cuba, Cuba and Cuba .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Presse 19 mars 2024_fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Presse 19 mars 2024_fr.docx",
+        "summary": " Le prix du DAP reculerait de 589 dollars la tonne de phosphate, soit 116,5 milliards de dirhams en 2024 .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique Rachat de BDT du 22-12-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique Rachat de BDT du 22-12-2023.docx",
+        "summary": " Royaume du Marocéé, Morocco, is a Moroccan nation of Morocco . The region is in the midst of a civil war between Morocco and Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique séance 12-12-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique séance 12-12-2023.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique échange 25-07-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique échange 25-07-2024.docx",
+        "summary": " La Direction du Trésor et des Finances Extérieures annonce aux investisseurs qu'il sera procédé à une opération d'échange de titres, par appel d'offres, dans les conditions   Royaume du Marocuu, Morocco .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique échange 26-09-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique échange 26-09-2024.docx",
+        "summary": " La Direction du Trésor et des Finances Extérieures annonce aux investisseurs qu'il sera procédé à une opération d'échange de titres, par appel d'offres, dans les conditions .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique échange 27-02-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique échange 27-02-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique échange 28-03-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique échange 28-03-2024.docx",
+        "summary": " La Direction du Trésor et des Finances Extérieures annonce aux investisseurs qu'il sera procédé à une opération d'échange de titres, par appel d'offres, dans les conditions .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communique échange 29-02-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communique échange 29-02-2024.docx",
+        "summary": " La Direction du Trésor et des Finances Extérieures annonce aux investisseurs qu'il sera procédé à une opération d'échange de titres, par appel d'offres, dans les conditions .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "COMMUNIQUE- OPCI SM 03 2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\COMMUNIQUE- OPCI SM 03 2024.docx",
+        "summary": " CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery . Please submit your best shots of CNN iReport.com photos of your favorite destinations in the gallery . Submit your photos of the world's most beautiful places to visit CNN iReporters.com .",
+        "language": "en",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju 15-01-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju 15-01-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 10-06-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 10-06-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 15-07-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 15-07-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué El Jadida FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué El Jadida FR.docx",
+        "summary": " Communiqué de presse communiqué du presse: \"I'm not afraid to be afraid of the press\" \"I was scared to be scared. I was scared of being scared,\" said a source of security .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "communiqué fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\communiqué fr.docx",
+        "summary": " Bank Al-Maghrib contribue pour 1 milliard de dirhams . The bank contribues pour 1 million dollars a year .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué 25-03-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué 25-03-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju 05-03-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju 05-03-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju 12-03-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju 12-03-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju 13-02-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju 13-02-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju 15-04-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju 15-04-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju 20-02-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju 20-02-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué Adju 20-03-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué Adju 20-03-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju 26-06-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju 26-06-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 01-07-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 01-07-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 01-10-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 01-10-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 02-04-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 02-04-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 03-09-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 03-09-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 04-03-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 04-03-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 05-11-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 05-11-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 06-08-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 06-08-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 08-04-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 08-04-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 08-10-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 08-10-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 10-12-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 10-12-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 11-02-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 11-02-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 11-03-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 11-03-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 12-11-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 12-11-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 13-05-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 13-05-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 13-08-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 13-08-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 15-10-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 15-10-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 16-07-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 16-07-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 17-06-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 17-06-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 18-02-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 18-02-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 20-05-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 20-05-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 21-01-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 21-01-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 22-08-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 22-08-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 22-10-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 22-10-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 23-07-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 23-07-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 25-02-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 25-02-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 25-06-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 25-06-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 25-09-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 25-09-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 26-11-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 26-11-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 27-08-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 27-08-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 28-01-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 28-01-2025.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 29-10-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 29-10-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué adju séance 31-07-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué adju séance 31-07-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué de presse BAM IFC - Signature 180625_Md.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué de presse BAM IFC - Signature 180625_Md.docx",
+        "summary": " CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery . Please submit your best shots for next week's gallery of iReporters in the gallery .",
+        "language": "pt",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué de presse CCSRS n18_FR VF_MD.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué de presse CCSRS n18_FR VF_MD.docx",
+        "summary": " Les investisseurs se sont orientées particulièreèrement vers catégories : obligations à court terme . Le court-martier is notééérérérénée de France . Le    investisseurs are orientéées  vers la catéégorie: obligations to court-terme .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué de presse fr_.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué de presse fr_.docx",
+        "summary": " Bank of Al-Maghrihrii is a branch of the Bank of Qatar in the Middle East . The bank is based in Qatar, Qatar, in the region of the Gulf Arab region .",
+        "language": "ca",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "communiqué JAIF FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\communiqué JAIF FR.docx",
+        "summary": " Célébration de la Journée Arabe de l’Inclusion Financière sous le thème :",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué Pièce comm Droit de l'Homme.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué Pièce comm Droit de l'Homme.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué Rachat BDT du 26-12-2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué Rachat BDT du 26-12-2024.docx",
+        "summary": " Royaume du Maroc is one of the world's most famous Arab monarchs . Roy aume du maroches is a Moroccan national of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué échange 14-12-2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué échange 14-12-2023.docx",
+        "summary": " La Direction du Trésor et des Finances Extérieures annonce aux investisseurs qu'il sera procédé à une opération d'échange de titres, par appel d'offres, dans les conditions .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué échange séance 03-07-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué échange séance 03-07-2025.docx",
+        "summary": " La Direction du Trésor et des Finances Extérieures annonce aux investisseurs qu'il sera procédé à une opération d'échange de titres, par appel d'offres, dans les conditions   Royaume du Marocuu, Morocco .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Communiqué échange séance 27-03-2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Communiqué échange séance 27-03-2025.docx",
+        "summary": " La Direction du Trésor et des Finances Extérieures annonce aux investisseurs qu'il sera procédé à une opération d'échange de titres, par appel d'offres, dans les conditions .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "COMNUNIQUE deux accords BKAM-6_l th-def.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\COMNUNIQUE deux accords BKAM-6_l th-def.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Douar TOUR FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Douar TOUR FR.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR - Communiqués BAM - GITEX 2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR - Communiqués BAM - GITEX 2025.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR Communique juin 2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR Communique juin 2024.docx",
+        "summary": " Le Département de l’Agriculture à 31,2 millions de quintaux, la valeur ajoutée agricole reculerait . Ligne avec l'objectif de stabilité des prix et de préservation de la reprise post-covid de l'activité .",
+        "language": "fr",
+        "theme": "Agriculture",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR Communique Septembre 2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR Communique Septembre 2024.docx",
+        "summary": " The dialogue social pourraient se traduire par des impacts plus importants that prévu sur l’évolution  receive le impacts .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR Communiqué de presse_réunion du CCSRS N19.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR Communiqué de presse_réunion du CCSRS N19.docx",
+        "summary": " Crediblesaux minimas réglementaires de 12% et 9% respectivement. Sur base consolidée, ces ratios se  se    receive a progressé de 3,54% en glissement annuel .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR Communiqué RA 2023.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR Communiqué RA 2023.docx",
+        "summary": " Pour le Wali de Bank Al-Maghrib, le défi aujourd’hui est de maintenir cet élan, de consolider les .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR-Communique-convention-jeuness.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR-Communique-convention-jeuness.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR_CdP_BM_BAM_Climate.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR_CdP_BM_BAM_Climate.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR_CdP_CCSRS_20.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR_CdP_CCSRS_20.docx",
+        "summary": " Le Comité a fait le point sur la mise en œuvre des actions visant à renforcer la conformité .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR_CdP_CCSRS_21 07072025-.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR_CdP_CCSRS_21 07072025-.docx",
+        "summary": " Le ratio de liquidité à court maintenu au même niveau à 278,6 milliards de dirhams à fin mai 2025 .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR_CdP_Certfication.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR_CdP_Certfication.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR_CdP_Conseil BAM_décembre 2024.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR_CdP_Conseil BAM_décembre 2024.docx",
+        "summary": " 14.14.8.8:14.14: 14.16:14:1414.08: 14:14 .08:14 : 14:08:28:08.08.09:0814.07:09:0914:07:0808:09080808070807070808090809090807090909070809070707090806080806090906090805080805090818:080711080818.0808170809060708060707110708180808",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR_CdP_Conseil_mars 2025.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR_CdP_Conseil_mars 2025.docx",
+        "summary": " La valeur ajoutée agricole demeure tributaire des conditions climatiques . Compte tenu de ces réalisations, des données de la loi de finances 2025 .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "FR_Communiqué nouvelle méthodologie cours de référence MAD.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\FR_Communiqué nouvelle méthodologie cours de référence MAD.docx",
+        "summary": " French President Nicolas Sarkozy is president of France, France's premier premier-nation country of France . Sarkozy has been in office in Paris since 1994, France has been president since 1998 .",
+        "language": "vi",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Rapport annuel 2021-2022.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\Rapport annuel 2021-2022.docx",
+        "summary": " ÉDITION 2023    - -       -             -    “ÉDITION 2023” -         -     ‘ -‘2023  ”     –     -      . ‘Démographie des Entreprises’:   - ‘Rapport annuel 2021 - 2022’;    ; ‚��™: ‘Céérérénérénée’, ‘ÉD",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "World Bank SDB Oct 2023 Press Release_FINAL FRENCH_.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Communiques\\words_downloads\\World Bank SDB Oct 2023 Press Release_FINAL FRENCH_.docx",
+        "summary": " Bank Al-Maghrib investit dans des obligations de développement durable de la    -Les obligations arrivent à échéance le 6 octobre 2026 et le 6 octobre 2028 . Le obligations  consiste à établir des partenariats .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "10+eme+Colloque+des+FP+sept2016+_Intervention+WALI.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\10+eme+Colloque+des+FP+sept2016+_Intervention+WALI.docx",
+        "summary": " The Maroc de Marocia has been in touch with the world since 1979 . Le Marocian is one of the most important sectors of the country's economy in the world .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "11eme Colloque des FP sept 2017_Intervention Gouverneur.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\11eme Colloque des FP sept 2017_Intervention Gouverneur.docx",
+        "summary": " La libéralisation économique and the globalisation n’ont pas manqué  that manques manqued . The FMI dans le cadre de ses  risqué du contrôle des finances publiques par les représentants .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "AA 2023 Seminaire BAM BdE Mot de Monsieur le Wali.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\AA 2023 Seminaire BAM BdE Mot de Monsieur le Wali.docx",
+        "summary": " Les derniers chiffres du FMI indiquent that les pays émergents and en  de la Banque, les femmes représente plus de 40% au jourd’hui .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Allocution de MLW - FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Allocution de MLW - FR.docx",
+        "summary": " The City of Casablanca Finance City is a city of finance capital for the first time . It is also a financial hub for the city of Morocco . The city has been dubbed a ‘Finance City’ by the Moroccan government .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Allocution de MLW ABS-FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Allocution de MLW ABS-FR.docx",
+        "summary": " AFRICA BLOCKCHAIN SUMMIT 2019  will take place in Africa blockchain summit 2019 . The summit will be held in the capital of Johannesburg, South Africa .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Allocution de MLW_ Cérémonie SMAC_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Allocution de MLW_ Cérémonie SMAC_FR.docx",
+        "summary": " 1959 - 2019           -  - is important for notre Institution de cibler l'état de l’art en matière de  vigues . Je cite : “Dans la continuité de cette dynamique, et suite à l'adoption en 2017 par notre  referred in 2017 .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Allocution de Monsieur le Wali_séminaire continental ABCA .docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Allocution de Monsieur le Wali_séminaire continental ABCA .docx",
+        "summary": " Aussi, nous devons nous mobiliser pour renforcer les travaux de l’ABCA’s technologies financières est unanimement reconnu .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Allocution DG_Symposium BIC.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Allocution DG_Symposium BIC.docx",
+        "summary": " La nouvelle loi élargit le périmètre des sources des données des Bureaux . Allocution de Monsieur Abderrahim Bouazza,  .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "ALLOCUTION Gov GPBM.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\ALLOCUTION Gov GPBM.docx",
+        "summary": " Le système bancaire  arrêté  une plus grande proximité avec les opérateurs économiques et un meilleur suivi . The CGEM, pour faciliter et rééquilibrer les engagements réciproques portant  au niveau de la tarification des services bancaires .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Allocution MLW semin BAM-SFI_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Allocution MLW semin BAM-SFI_FR.docx",
+        "summary": " Séminaire régional organisé conjointement par la Société Financière Internationale . SÉminaire Régional organised by SFI Internationale  L.L’intérêt de cette rencontre .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Allocution+Monsieur+le+Wali+--+Forum+UMA+--+Marrakech+170214+version+Franaise.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Allocution+Monsieur+le+Wali+--+Forum+UMA+--+Marrakech+170214+version+Franaise.docx",
+        "summary": " La région compte plus de 90 millions d’habitants –dont 30% âgés de  - 30% of the population .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Allocution_DG_Conférence Lancement MAT.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Allocution_DG_Conférence Lancement MAT.docx",
+        "summary": " Allocution de Monsieur Abderrahim Bouazza,  Madame la Ministre de l’Economie et des Finances .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Allocution_MLW_SSB_Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Allocution_MLW_SSB_Fr.docx",
+        "summary": " Symposium Régional de Haut Niveau sur la Stabilité Financière  was a Symposium . Symposium de Haut Niveau on the Stabilitèe Financieère   was held in Paris .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CC Conference Internationale_2019_VF.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\CC Conference Internationale_2019_VF.docx",
+        "summary": " Conférence Internationale de Rabat  described as aussi bien bien au niveau  dans ces conditions, le renforcement de la coopération  transforms de manière progressive mais profonde les processus de  mesdames et Messieurs . Confément Internationale of Rabat is a member of the National Socialist Council of Socialist France .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CDG_Journee_Epargne_Wali.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\CDG_Journee_Epargne_Wali.docx",
+        "summary": " Journée Mondiale de l’épargne de l'éparné islele de France . The Minister of State: \"Iy a une prise de conscience depuis plusieurs années déjà de Âpargné\"",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "CDS Symposium_Intervention_MLW.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\CDS Symposium_Intervention_MLW.docx",
+        "summary": " Symposium du CDS sur  the CDS . 4% des entreprises  évoquent ce 4% of them . Bank Al-Maghrib has increased inflation .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Conference Portugal Octobre 2017_discours_v4.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Conference Portugal Octobre 2017_discours_v4.docx",
+        "summary": " Le Maroc a fait le choix d’une  Ceci étant, et malgré les difficultés de négociations avec les bailleurs de  Morocco . The Maroc has accéléré, à partir de 1988, les réformes en matière de  the Maroc .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Conférence_BAM_BdE_fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Conférence_BAM_BdE_fr.docx",
+        "summary": " The Banque d’Espagne is set to launch its first phase of the project in 2021 . Quelles seraient to be adapted to leurs missions . The project is part of a multi-billion dollar deal with the Spanish government .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours Campagne blanchiment.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours Campagne blanchiment.docx",
+        "summary": " Bank Al-Maghrib, dans le cadre de la participation Mondiale, de la stabilité économique et financière and partant, influe sur  the globalisation of l’économie  marqué par la globalisation  international international international .",
+        "language": "fr",
+        "theme": "Économie",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours campagne PME.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours campagne PME.docx",
+        "summary": " Le coût du crédit bancaire du PME tend to montrer that le coûte du crée d'intédiéées aux PME . The PME is a partenariat durable avec les opérateurs économiques .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours Centrale des risques.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours Centrale des risques.docx",
+        "summary": " Aussi, l’occasion m’est donnée pour sensibiliser les établissements de   établissments de  MESDAMES ET MESSIEURS,  aussi . The Bank Al-Maghrib was created en 2007, a bank that was created by the Bank of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours CNME 2005.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours CNME 2005.docx",
+        "summary": " Le Gouverneur de Bank Al-rougroupe Al-ürghghghgénéral du FMI a souligné that certaines fragilités devaient  développer notre capacité technique .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours de MLW conférence africaine.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours de MLW conférence africaine.docx",
+        "summary": " Elle suppose that les établissements de crédit soient dotés d’un système . Le périmètre d‘intervention de la fonction  is a fondamentale mission d'assurance traditionnelle .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours de MLW-GMW.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours de MLW-GMW.docx",
+        "summary": " CÉLÉBRATION DES 10 ANS DE GLOBAL MONEY WEEK- GMW . Les enquêtes sur la culture financière conduites à traverses la monde démontrent .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours de Monsieur Abdellatif Jouahri FR_IFSB.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours de Monsieur Abdellatif Jouahri FR_IFSB.docx",
+        "summary": " Bismillah Ar-Rahman ar-Rahim,  . The name of the king and the king of the Islamic state of Islam .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours de Monsieur le Directeur General au JIMF 3.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours de Monsieur le Directeur General au JIMF 3.docx",
+        "summary": " Aujourd’hui, une dizaine de pays sont représentés dans ce séminaire . Unépreventable agricole a ralenti suite à la crise et se situe en moyenne autour de 3% .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours Gouverneur 15-7- 2008.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours Gouverneur 15-7- 2008.docx",
+        "summary": " Mon intervention sera centrée sur les progrès réalisés depuisées pour un meilleur suivi des sphères financières and réelles . Mon intervention  sera centre entre annuelle entre le Gouverneur et la presse .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours groupe superviseurs francophones.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours groupe superviseurs francophones.docx",
+        "summary": " Première réunion du Groupe de Superviseurs de Bâle II et de manière générale dans le domaine  successfully assurer le succès .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours MLW_ Table Ronde PNUD.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours MLW_ Table Ronde PNUD.docx",
+        "summary": " Le thème objet de nos échanges aujourd’hui constitue un cas édifiant à cet urchurchy . Table Ronde sous le théme    ise du théréréré:  Mesdames les Ministres,   mesdame les Ministsres, and  the Ministeriers,  .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours MLW_Digital.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours MLW_Digital.docx",
+        "summary": " Le Japon adopté, en février 2021, a loi de transformation des modèles d’affaires avec  modèles d’un côté . Bank Al-Maghrib a également multipliééé de  multifusion de accords de  le Japon aégalement .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours rapport de BAM et de la BM.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours rapport de BAM et de la BM.docx",
+        "summary": " Bank Al-Maghrib a rejoint, en 2018, le Réseau des Réseaux des  Réseautautés .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours+planification+stratgique_VF_2.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours+planification+stratgique_VF_2.docx",
+        "summary": " The interrogation of Bank Al-Al is an interrogation d’autant plus importante qu’en parallèle, les                                  -                                                       -    -   “Cette interrogation est d‘autant  importante du    inquinquir,’ââitez-moi de dire que c’est un plaisir pour Bank Al Al-ran .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours-Gouverneur-fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours-Gouverneur-fr.docx",
+        "summary": " Cérémonie de remise du certificat   Remise du Certificat de Sa Majesté . \"Je tiens aussi à rendre hommage aux différents ministres des finances du .,\" says minister .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "discours-problematique_de_inflation_parlement_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\discours-problematique_de_inflation_parlement_FR.docx",
+        "summary": " Problématique de l’inflation: Maintien de la stabilitéé des prix : principal objectif d . Maintainien of the . prix: principal objectiveif d. The . Processus de prise de . décision : Principaux défis .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours.docx",
+        "summary": " Troisième Réunion du Conseil National du Crédit et de l’Epargne    revisir sur les principaux atouts .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "DISCOURSIORWG.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\DISCOURSIORWG.docx",
+        "summary": " Public is the public body of a man who has been married for more than 30 years . Public is a man whose wife is a woman who is married to a man . Public will be the first to hear from the public in a public body .",
+        "language": "pl",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "DiscoursJourneeEtudeEntreprises_4avril.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\DiscoursJourneeEtudeEntreprises_4avril.docx",
+        "summary": " JOURNEE D’ETUDE SUR LES DONNEES DES DES DES  purposefully . MESdames et Messieurs  receive représentants . The CGEM is the headquarters of the CGEM .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours_ Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours_ Fr.docx",
+        "summary": " International Seminar on Greening Africa's Financial System  held in Marocia, Morocco . The Marocianese hosted the event in March 2013 . The event was part of the International Conference of the Marocians .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours_BAM_DP.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours_BAM_DP.docx",
+        "summary": " Séminaire organisé conjointement par la Société Financière Internationale, la   SFSI présente, pour leur contribution to la préparation of ce séminaires .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours_DG_Gouvernance de l'eau.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours_DG_Gouvernance de l'eau.docx",
+        "summary": " Table ronde co-organisée avec Coalition Marocaine pour l’Eau . La réponse à cette interrogation se situe at deux niveaux :  .-  -  receive at de two niveau nivells climatiques .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours_Gouverneur[1].docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours_Gouverneur[1].docx",
+        "summary": " Bank Al-Maghrib a demandé au secteur bancaire la mise en place de codes d’éthique . Adopté la charte interbancaire relative au dispositif de médiation bancaaire visant le  chose de de .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "discours_gouverneur_version+Finale-VF.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\discours_gouverneur_version+Finale-VF.docx",
+        "summary": " Allocution d’ouverture  de Monsieur le Wali, Abdellatif Jouahri,  Abdell atyouahri . Mesdames et Messieurs d‘illustrer mes  fins de simulation and de prévision. Parallèlement, et en vue de communiquer et de vulgariser,  vulgariser  vouleurs non conventionnelles .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "discours_gov_cnce_060710.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\discours_gov_cnce_060710.docx",
+        "summary": " Quatrième Réunion du Conseil National du Crédit et de l’Epargne  (Réunion du Cédit and de l'Epargnne)  -  Monsieur le Ministre,  .- The Euro, Eurozone, euro, euro and US dollar are alligned by France .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours_MDG_CS.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours_MDG_CS.docx",
+        "summary": " Allocution d’ouverture de Monsieur Abderrahim   résummarée . Bonjour à toutes et à tous,  apologetic -  receive en addition to cet encours de créances .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours_MDG_PrixBAM_Fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours_MDG_PrixBAM_Fr.docx",
+        "summary": " Economic Review du FMI et du congrès africain de l’Econometric Society . Allocution d’ouverture    - Allocutions d‘ouvertures   areon un processus transparent et en conformité avec les meilleurs standards .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "DIscours_Monsieur le Wali_3RRN.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\DIscours_Monsieur le Wali_3RRN.docx",
+        "summary": " Troisième Conférence Annuelle du Réseau Régional de Recherche des  -Monsieur le Ministre,  .- The Minister of the Interior is a member of the National Socialist Party .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Discours_VFinale19052015.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Discours_VFinale19052015.docx",
+        "summary": " Stratégie Finance Finance Durable : Réunion de lancement  (1) édictées par les autorités de régulation financière ou  reforme (1), ou ouu ououre (2) ououre: oure.oure .ourere: \"oure’tout de la responsabilitéé\"",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Euromoney conference.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Euromoney conference.docx",
+        "summary": " The Euromoney Morocco Conference .,\"       reformes des  commissions dédiées sont crééées pour élaborer des feuilles de route . Le développement des   Mesdames et Messieurs,  reprimis, Bank Al-Maghrib poursuivantes .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Financial_Integration_Banque_Espagne_fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Financial_Integration_Banque_Espagne_fr.docx",
+        "summary": " The Fondation Marocaine has been in place since 2013 . The Marocine has been a major source of innovation in the region of Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Forum africain Transferts fonds _cadre LOME_Discours MLW.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Forum africain Transferts fonds _cadre LOME_Discours MLW.docx",
+        "summary": " Forum pour la réduction des coûts des transferts .,\" Forum for the Maroc Forum . Forum pour the réduction  reduction of the coûted des co-uilletes . Forum is a forum created by the Coopération Africaine et des  African Africaine .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Forum internationnal des finances et des affaires.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Forum internationnal des finances et des affaires.docx",
+        "summary": " Le Maroc a eu à faire face à l’époque à des déficits des finances . The Maroc has  eu   reforme  dans le secteur bancaire, la réforme s’est traduite par le  Bank Al-Maghrib .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "GITEX Mot d’ouverture de Monsieur le DG.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\GITEX Mot d’ouverture de Monsieur le DG.docx",
+        "summary": " Cette modernisation des paiements a été favorisée par les nouvelles technologies telles  - telles . On observe  un foisonnement d’initiatives des acteurs de l’écosystème pour  purposefully .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Groupe consultatif Africain.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Groupe consultatif Africain.docx",
+        "summary": " RÉUNION DU GROUPE CONSULTATIF    Merci Monsieur le président,  Monsieur le présieur  Le présienne le précécémier  -Merci, Le Présienne Le Préécédier:  Réunions du Groupe Consultatif   Rédier .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Intervention DG - Regional UNEP-FI Round Table Opening.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Intervention DG - Regional UNEP-FI Round Table Opening.docx",
+        "summary": " Opening Remarks by the Director General of UNEP-FI, Mr. President of the Africa and Middle East . Mr. Kofi Annan: Most of the financed projects  investments in the Africa and Mideast were financed .",
+        "language": "en",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Intervention Gouverneur 31mars2021 VF.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Intervention Gouverneur 31mars2021 VF.docx",
+        "summary": " Le Ministre de l’Economie, des Finances et de la Réforme de  -Rasablanca de l'Assurance .,\" \"Sommes en mesure d’en tirer les premiers enseignements\"",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Intervention Gouverneur Conference IEmed-BE-BCT-TUNIS-16 Novembre_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Intervention Gouverneur Conference IEmed-BE-BCT-TUNIS-16 Novembre_FR.docx",
+        "summary": " Les banques centrales dans le contexte de la crise dans d’après crise . The study was published in 1998 . The results were presented at a conference in Paris .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Intervention Gouverneur EXPO2020.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Intervention Gouverneur EXPO2020.docx",
+        "summary": " EXPO 2020 DUBAI will host the largest exhibition in the Middle East . Expo 2020 will take place in Dubai between 2020 and 2020 .",
+        "language": "de",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Intervention Gouverneur Rencontre Skhirat 19 octobre 2018 VF.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Intervention Gouverneur Rencontre Skhirat 19 octobre 2018 VF.docx",
+        "summary": " Deuxième colloque international sur le thème  purposefully-driven international . Nous avons vécu plusieurs exemples de ce type récemment dans  the type of type . The FMI a des conséquences sur tous les pays .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Intervention Wali AMES_fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Intervention Wali AMES_fr.docx",
+        "summary": " Africa Meeting of the Econometric Society  hosted by Econometrics Africa Meeting . The conference was organized by the African Economic and Sociological Association .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Intervention-Academie HassanII-VF.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Intervention-Academie HassanII-VF.docx",
+        "summary": " French President Nicolas Sarkozy is a former French President of France . Sarkozy was a member of the French National Assembly . He was a major figure in the country’s development of the economy .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "InterventionLINKS.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\InterventionLINKS.docx",
+        "summary": " French President Nicolas Sarkozy has been in charge of the French government since the end of the war . He has been involved in the creation of a French state of state of the Republic . The French President has been elected to the presidency of France .",
+        "language": "pt",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Intervention_MLW_CNEA_1503.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Intervention_MLW_CNEA_1503.docx",
+        "summary": " Conférence Nationale Nationale sur l’Environnement des Affaires  conférence nationale . Chef du Gouvernement, C’est dans cet environmement externe globalement défavorable et incertain .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "JIMF_Discours de MLW_Français.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\JIMF_Discours de MLW_Français.docx",
+        "summary": " Journées Internationales de Macroéconomie et de Finance        Mousieur le ministre de l’Industrie et du Commerce,             “On ne pouvait donc trouver meilleur lieu pour débattre du thème retenu, à                                                      L’Afrique has un potentiel de développement énorme .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "JMS+2015+mot+du+Gouverneur+FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\JMS+2015+mot+du+Gouverneur+FR.docx",
+        "summary": " La deuxième, s’ajoute évidemmentment les besoins de suivi du nouvel agenda de la banque .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Journee_Internationale_Epargne_31102018.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Journee_Internationale_Epargne_31102018.docx",
+        "summary": " Journée internationale de l’épargne  rejourdéveloppement en France (14,6%) ou the Maroc . Le taux d’activité au Maroc est atteint par notre système statistique .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Journee_mondiale_statistique_fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Journee_mondiale_statistique_fr.docx",
+        "summary": " Nous avons conclu récemment une convention de partenariat et  Mesdames et Messieurs . The role central du DISPOSITIF D’INFORMATION STATISTIQUE DANS LA  purposefully statistique constitue .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "keynote_DG_BAM_future of finance_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\keynote_DG_BAM_future of finance_FR.docx",
+        "summary": " Gitex Africa .,\"                    Chers invités, chers partenaires, and chers collègues  – - gitx Africa is a unique opportunité unique for the organization . The organisation is based in Nigeria and Nigeria .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Mot du gouverneur prix BAM_fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Mot du gouverneur prix BAM_fr.docx",
+        "summary": " Cérémonie de remise du Prix Bank Al-Maghrib pour la   Messieurs les Présidents d’universités,  receive the prix . Cette rencontre sera marquée par la participation de participation de the participation de la participation of  the participation of la participation .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Mot introductif Gouverneur (BEAC 240117).docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Mot introductif Gouverneur (BEAC 240117).docx",
+        "summary": " Aujourd’hui, plusieurs pays luttent toujours and if certains semblent s’en remettre, les séquelles  production grâce au progrès technologique . La quête de certains grands producteurs de pétrole   receive a certaine amélioration à moyen terme de l'activité .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "OpeningRemarks_CBDC_BKAM_18 juin_V8.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\OpeningRemarks_CBDC_BKAM_18 juin_V8.docx",
+        "summary": " Au niveau de notre région, plusieurs banques centrales avancent dans dans Marrakech . Madame la Directrice Générale du Fonds Monétaire International,  .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Prsentation+Wali+BAM+au+CNE+CGEM_Agadir_+020416.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Prsentation+Wali+BAM+au+CNE+CGEM_Agadir_+020416.docx",
+        "summary": " The study of nationalities in France has been published since 1998 . The study was originally published in 1998 . It is published in Paris, France and New York, USA .",
+        "language": "ca",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Présentation parlement Investissement 15 Fev 2022-FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Présentation parlement Investissement 15 Fev 2022-FR.docx",
+        "summary": " Bank Al-Maghrib and the situation de  PLAN®® are discussed . The bank has invested in the region of Algeria and Morocco .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Présentation points de presse_Rq_Gouv.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Présentation points de presse_Rq_Gouv.docx",
+        "summary": " The Bank of France's Al-Maghrihrib is a French bank . The bank's headquarters are located in Paris, France, Paris, Belgium, Belgium and Belgium . The Bank's headquarters were located in the U.S.",
+        "language": "en",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Reunion avec Mme Lagarde.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Reunion avec Mme Lagarde.docx",
+        "summary": " RÉUNION DES MINISTRES DES FINANCES    Merci Mme la Directrice générale,  Je voudrais quand même terminer sur une certitude . C’est celle relative to l’organisation par le organisation par le  organisation .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Reunion G-24-20 avril.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Reunion G-24-20 avril.docx",
+        "summary": " COOPTATION DU MAROC AU SEIN DU   Monsieur le Président,  - - Paris . The Arab Arab Spring is the Arab Spring of the 20th century .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Role de la finance dans le verdissement.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Role de la finance dans le verdissement.docx",
+        "summary": " Celle-ci vise notamment à encourager la cotation des obligations vertes et la publication . Le Président du CESE is président de Comité scientifique de la COP22 unies .",
+        "language": "fr",
+        "theme": "Finance",
+        "extraction_success": true
+    },
+    {
+        "filename": "Speech_mdg_BAMCGEMBEI_vf.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Speech_mdg_BAMCGEMBEI_vf.docx",
+        "summary": " Le Maroc pourrait sensiblement améliorer l’environnement des mondiale . The situation reflète également l'incapacité unépreventable .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Speech_MLW_AFI_Octobre 2019_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Speech_MLW_AFI_Octobre 2019_FR.docx",
+        "summary": " Conférence Internationalee  rejoints with the Conférence Internationalee internationale research initiatives to participate with the conférence .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Symposium+Septembre+2014+-+Allocution+Gouv+VF_6+(2)+(2).docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Symposium+Septembre+2014+-+Allocution+Gouv+VF_6+(2)+(2).docx",
+        "summary": " Le gouvernement  engagé, en concertation avec les partenaires concernés and avec  partenaire concernés . Environ 5 millions de clients   environ 200,000 entreprises  amicipate 5 millions of clients .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Symposium_SF_2019_FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Symposium_SF_2019_FR.docx",
+        "summary": " Le Gouverneur de la Banque Nationale du Rwanda and  the Banqué Nationale de Rwanda et  the Rwandan Nationale . Je remercie aussi pour leur présence les éminents experts du  L’intégration financière en Afrique, if elle comporte des avantages  receive an risquququques disruptive .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "sympo_fr.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\sympo_fr.docx",
+        "summary": " M.M. le Roi fixé l’agenda des différentes réformes qu’allait connaître le Maroc . Toutefois, eu égard à son ouverture sur l'économie, isl’efficacité de son régime de change .",
+        "language": "fr",
+        "theme": "Économie",
+        "extraction_success": true
+    },
+    {
+        "filename": "Transformation digitale  Intervention de Monsieur le Gouverneur 13 mars 2019 FR.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Transformation digitale  Intervention de Monsieur le Gouverneur 13 mars 2019 FR.docx",
+        "summary": " La Transformation Digitale is a collaboration avec la Banque Mondiale, avec the Banque mondiale . La Task force a été instituée en 2018, a task force has been created to protéger le consommateur et l’entreprise .",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
+    },
+    {
+        "filename": "Wali-Symposium Régional SF.docx",
+        "file_path": "C:\\Users\\anouar\\Downloads\\Scraping-web-sites-auto-naviguation\\Scraping-web-sites-auto-naviguation-master\\bkam.ma\\bkam.ma\\pdf_downloads\\Discours\\words_downloads\\Wali-Symposium Régional SF.docx",
+        "summary": " DSM                                                                                           ”                                                                     Charity   vanished. DSM                                     nominee: “Vous allez débattre autour de thématiques.”",
+        "language": "fr",
+        "theme": "Inconnu",
+        "extraction_success": true
     }
-  ]
-}
+]

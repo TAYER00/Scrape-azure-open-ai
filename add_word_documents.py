@@ -21,10 +21,13 @@ def add_word_documents_to_db():
     """
     # Répertoires à scanner
     directories = [
-        'agriculture.gov.ma/words_downloads',
-        'cese.ma/words_downloads', 
-        'finances.gov.ma/words_downloads',
-        'oecd.org/words_downloads'
+        r'agriculture.gov.ma/words_downloads',
+        r'cese.ma/words_downloads', 
+        r'finances.gov.ma/words_downloads',
+        r'oecd.org/words_downloads',
+        r'bkam.ma/bkam.ma/pdf_downloads/Communiques/words_downloads',
+        r'bkam.ma/bkam.ma/pdf_downloads/Discours/words_downloads'
+
     ]
     
     total_added = 0

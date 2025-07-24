@@ -53,7 +53,18 @@ def main():
         {
             "pdf": r"C:\Users\anouar\Downloads\Scraping-web-sites-auto-naviguation\Scraping-web-sites-auto-naviguation-master\oecd.org\pdf_downloads",
             "word": r"C:\Users\anouar\Downloads\Scraping-web-sites-auto-naviguation\Scraping-web-sites-auto-naviguation-master\oecd.org\words_downloads"
+        },
+        {
+            "pdf": r'C:\Users\anouar\Downloads\Scraping-web-sites-auto-naviguation\Scraping-web-sites-auto-naviguation-master\bkam.ma\bkam.ma\pdf_downloads\Communiques\pdf_scraper',
+            "word": r'C:\Users\anouar\Downloads\Scraping-web-sites-auto-naviguation\Scraping-web-sites-auto-naviguation-master\bkam.ma\bkam.ma\pdf_downloads\Communiques\words_downloads',
+        },
+
+        {
+            "pdf": r'C:\Users\anouar\Downloads\Scraping-web-sites-auto-naviguation\Scraping-web-sites-auto-naviguation-master\bkam.ma\bkam.ma\pdf_downloads\Discours\pdf_scraper',
+            "word": r'C:\Users\anouar\Downloads\Scraping-web-sites-auto-naviguation\Scraping-web-sites-auto-naviguation-master\bkam.ma\bkam.ma\pdf_downloads\Discours\words_downloads',
         }
+
+
     ]
     
     total_folders = len(folders)
