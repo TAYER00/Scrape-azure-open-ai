@@ -1,0 +1,1077 @@
+2025-07-25 11:56:52,083 - INFO - 🚀 Démarrage de l'analyse des PDFs depuis la base de données
+2025-07-25 11:56:52,084 - INFO - ✅ Connexion à la base de données établie
+2025-07-25 11:56:52,084 - INFO - 
+=== Étape 1: Nettoyage de la table scraper_wordsdocument ===
+2025-07-25 11:56:52,092 - INFO - ✅ Table scraper_wordsdocument nettoyée: 328 enregistrements supprimés
+2025-07-25 11:56:52,092 - INFO - 
+=== Étape 2: Mise à jour du champ site_web ===
+2025-07-25 11:56:52,098 - INFO - ✅ Champ site_web mis à jour pour 351 enregistrements
+2025-07-25 11:56:52,098 - INFO - 
+=== Étape 3: Récupération des PDFs ===
+2025-07-25 11:56:52,100 - INFO - 📊 351 PDFs trouvés dans la base de données
+2025-07-25 11:56:52,100 - INFO - 
+=== Étape 4: Analyse de 351 PDFs ===
+2025-07-25 11:56:52,100 - INFO - 
+📄 [1/351] Analyse: PolicyDialogueonNaturalResource-basedDevelopmentPD-NR.pdf
+2025-07-25 11:56:56,383 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Économie
+2025-07-25 11:56:56,383 - INFO - 
+📄 [2/351] Analyse: PublicconsultationdocumentDeterminingthePriceofMineralsAtransferpricingframeworkforLithium.pdf
+2025-07-25 11:56:58,507 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance
+2025-07-25 11:56:58,507 - INFO - 
+📄 [3/351] Analyse: Readmore.pdf
+2025-07-25 11:57:01,368 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Commerce/Économie
+2025-07-25 11:57:01,368 - INFO - 
+📄 [4/351] Analyse: TaxIncentivesinMiningMinimisingRiskstoRevenue.pdf
+2025-07-25 11:57:05,326 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance
+2025-07-25 11:57:05,328 - INFO - 
+📄 [5/351] Analyse: ToolkitforResilientPublicProcurementStrategies.pdf
+2025-07-25 11:57:07,886 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Gouvernance
+2025-07-25 11:57:07,887 - INFO - 
+📄 [6/351] Analyse: Versionanglaise.pdf
+2025-07-25 11:57:11,084 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Gouvernance/Finance/Autre
+2025-07-25 11:57:11,084 - INFO - 
+📄 [7/351] Analyse: ZambiaCaseStudy.pdf
+2025-07-25 11:57:13,984 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance
+2025-07-25 11:57:13,984 - INFO - 
+📄 [8/351] Analyse: Howtoaddressbriberyandcorruptionrisksinmineralsupplychains.pdf
+2025-07-25 11:57:16,707 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Gouvernance
+2025-07-25 11:57:16,707 - INFO - 
+📄 [9/351] Analyse: InternationalRecommendationsforTourismStatistics2008.pdf
+2025-07-25 11:57:19,295 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Économie
+2025-07-25 11:57:19,296 - INFO - 
+📄 [10/351] Analyse: LimitingtheImpactofExcessiveInterestDeductionsofMiningRevenue.pdf
+2025-07-25 11:57:21,748 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance
+2025-07-25 11:57:21,748 - INFO - 
+📄 [11/351] Analyse: MongoliaCaseStudy.pdf
+2025-07-25 11:57:24,155 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance
+2025-07-25 11:57:24,155 - INFO - 
+📄 [12/351] Analyse: MonitoringtheValueofMineralExportsPolicyOptionsforGovernments.pdf
+2025-07-25 11:57:26,760 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance
+2025-07-25 11:57:26,761 - INFO - 
+📄 [13/351] Analyse: OECDDueDiligenceGuidanceforResponsibleBusinessConduct.pdf
+2025-07-25 11:57:28,639 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Économie
+2025-07-25 11:57:28,640 - INFO - 
+📄 [14/351] Analyse: PensionMarketsinFocusPreliminary2024.pdf
+2025-07-25 11:57:31,153 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance
+2025-07-25 11:57:31,154 - INFO - 
+📄 [15/351] Analyse: pointdecontactnational.pdf
+2025-07-25 11:57:33,150 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Gouvernance
+2025-07-25 11:57:33,151 - INFO - 
+📄 [16/351] Analyse: CriticalMineralsTodayandin2030AnAnalysisforOECDCountries.pdf
+2025-07-25 11:57:35,421 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Environnement
+2025-07-25 11:57:35,421 - INFO - 
+📄 [17/351] Analyse: DueDiligenceinColombiasGoldSupplyChain.pdf
+2025-07-25 11:57:37,747 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance
+2025-07-25 11:57:37,747 - INFO - 
+📄 [18/351] Analyse: Ensavoirplus.pdf
+2025-07-25 11:57:40,140 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Commerce/Économie
+2025-07-25 11:57:40,140 - INFO - 
+📄 [19/351] Analyse: FindaNationalContactPoint.pdf
+2025-07-25 11:57:42,301 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Gouvernance
+2025-07-25 11:57:42,301 - INFO - 
+📄 [20/351] Analyse: G20OECDHigh-LevelPrinciplesonFinancialConsumerProtection.pdf
+2025-07-25 11:57:44,638 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance
+2025-07-25 11:57:44,638 - INFO - 
+📄 [21/351] Analyse: GlobalInsuranceMarketTrendsPreliminary2024.pdf
+2025-07-25 11:57:46,999 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance
+2025-07-25 11:57:47,000 - INFO - 
+📄 [22/351] Analyse: GovernmentSupportforPrimaryandSecondarymetalProduction.pdf
+2025-07-25 11:57:49,443 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Environnement
+2025-07-25 11:57:49,443 - INFO - 
+📄 [23/351] Analyse: Partie-6.pdf
+2025-07-25 11:57:51,644 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 11:57:51,644 - INFO - 
+📄 [24/351] Analyse: Partie-7.pdf
+2025-07-25 11:57:54,874 - INFO - ⛔ PDF non pertinent
+2025-07-25 11:57:54,874 - INFO - 
+📄 [25/351] Analyse: Partie-8.pdf
+2025-07-25 11:58:00,795 - INFO - ⛔ PDF non pertinent
+2025-07-25 11:58:00,796 - INFO - 
+📄 [26/351] Analyse: Partie-9.pdf
+2025-07-25 11:58:04,410 - INFO - ⛔ PDF non pertinent
+2025-07-25 11:58:04,410 - INFO - 
+📄 [27/351] Analyse: CadremondialrelatifauxproduitschimiquesPouruneplanètesansproduitschimiquesnidéchetsnocifs.pdf
+2025-07-25 11:58:07,530 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Environnement
+2025-07-25 11:58:07,531 - INFO - 
+📄 [28/351] Analyse: Cliquez-ici-pour-telecharger-le-manuel-en-pdf.pdf
+2025-07-25 11:58:10,030 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 11:58:10,031 - INFO - 
+📄 [29/351] Analyse: Partie-1.pdf
+2025-07-25 11:58:12,601 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 11:58:12,601 - INFO - 
+📄 [30/351] Analyse: partie-2.pdf
+2025-07-25 11:58:15,404 - INFO - ⛔ PDF non pertinent
+2025-07-25 11:58:15,405 - INFO - 
+📄 [31/351] Analyse: Partie-3.pdf
+2025-07-25 11:58:17,929 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 11:58:17,929 - INFO - 
+📄 [32/351] Analyse: Partie-4.pdf
+2025-07-25 11:58:20,110 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Économie
+2025-07-25 11:58:20,111 - INFO - 
+📄 [33/351] Analyse: Partie-5.pdf
+2025-07-25 11:58:22,386 - INFO - ⛔ PDF non pertinent
+2025-07-25 11:58:22,386 - INFO - 
+📄 [34/351] Analyse: cliquer-ici-pour-telecharger-la-presentation.pdf
+2025-07-25 11:58:24,610 - INFO - ⛔ PDF non pertinent
+2025-07-25 11:58:24,611 - INFO - 
+📄 [35/351] Analyse: Cliquez-ici-pour-telecharger-le-guide-en-pdf.pdf
+2025-07-25 11:58:27,086 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 11:58:27,087 - INFO - 
+📄 [36/351] Analyse: synthese-de-lavis-sur-les-formes-atypiques-de-lemploi-VF.pdf
+2025-07-25 11:58:29,612 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Travail/Emploi/Économie
+2025-07-25 11:58:29,612 - INFO - 
+📄 [37/351] Analyse: Synthese-PMAF-VA.pdf
+2025-07-25 11:58:32,285 - INFO - ✅ PDF pertinent - Langue: Arabe, Thème: Agriculture
+2025-07-25 11:58:32,286 - INFO - 
+📄 [38/351] Analyse: Synthese-PMAF-VF.pdf
+2025-07-25 11:58:34,651 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Agriculture
+2025-07-25 11:58:34,652 - INFO - 
+📄 [39/351] Analyse: مشروع-قانون-رقم-03.23-بتغيير-وتتميم-القانون-رقم-22.01-المتعلق-بالمسطرة-الجنائية.pdf
+2025-07-25 11:58:36,652 - INFO - ✅ PDF pertinent - Langue: Arabe, Thème: Gouvernance
+2025-07-25 11:58:36,652 - INFO - 
+📄 [40/351] Analyse: Reglement-interieur-du-CESE.pdf
+2025-07-25 11:58:39,361 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie/Environnement
+2025-07-25 11:58:39,361 - INFO - 
+📄 [41/351] Analyse: Reglement-interieur-VA-swi.pdf
+2025-07-25 11:58:43,314 - INFO - ✅ PDF pertinent - Langue: Arabe, Thème: Gouvernance
+2025-07-25 11:58:43,314 - INFO - 
+📄 [42/351] Analyse: Synthese-ASA-C4-092023-76-f.pdf
+2025-07-25 11:58:47,108 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Environnement
+2025-07-25 11:58:47,109 - INFO - 
+📄 [43/351] Analyse: synthese-de-lavis-sur-les-formes-atypiques-de-lemploi-VA.pdf
+2025-07-25 11:58:51,864 - INFO - ✅ PDF pertinent - Langue: Arabe, Thème: Travail/Économie
+2025-07-25 11:58:51,864 - INFO - 
+📄 [44/351] Analyse: 02122020liste-des-retenus-definitivement-chef-de-Service-Ressources-Humaines.pdf
+2025-07-25 11:58:51,867 - WARNING - ⚠️ Impossible d'extraire le texte de 02122020liste-des-retenus-definitivement-chef-de-Service-Ressources-Humaines.pdf
+2025-07-25 11:58:51,867 - INFO - 
+📄 [45/351] Analyse: ASA-C4-092023-76-a-3.pdf
+2025-07-25 11:58:58,050 - INFO - ✅ PDF pertinent - Langue: Arabe, Thème: Environnement
+2025-07-25 11:58:58,050 - INFO - 
+📄 [46/351] Analyse: ASA-C7-81-a-p2.pdf
+2025-07-25 11:59:01,305 - INFO - ✅ PDF pertinent - Langue: Arabe, Thème: Développement/Environnement
+2025-07-25 11:59:01,305 - INFO - 
+📄 [47/351] Analyse: ASA-C7-81-f-p3.pdf
+2025-07-25 11:59:03,306 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Agriculture
+2025-07-25 11:59:03,306 - INFO - 
+📄 [48/351] Analyse: ASA_C2-82-a2-1.pdf
+2025-07-25 11:59:05,347 - INFO - ✅ PDF pertinent - Langue: Arabe, Thème: Économie
+2025-07-25 11:59:05,347 - INFO - 
+📄 [49/351] Analyse: Charte-d-ethique-du-CESE.pdf
+2025-07-25 11:59:07,792 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 11:59:07,792 - INFO - 
+📄 [50/351] Analyse: Charte-d-ethique.pdf
+2025-07-25 11:59:10,380 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 11:59:10,380 - INFO - 
+📄 [51/351] Analyse: consulter.pdf
+2025-07-25 11:59:12,903 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Environnement
+2025-07-25 11:59:12,904 - INFO - 
+📄 [52/351] Analyse: Loi-organique-n128-12-relative-au-Conseil-Economique-Social-et-Environnemental.pdf
+2025-07-25 11:59:15,452 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 11:59:15,453 - INFO - 
+📄 [53/351] Analyse: Speech_MLW_AFI_Octobre 2019_FR.pdf
+2025-07-25 11:59:28,089 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Environnement
+2025-07-25 11:59:28,089 - INFO - 
+📄 [54/351] Analyse: Symposium+Septembre+2014+-+Allocution+Gouv+VF_6+(2)+(2).pdf
+2025-07-25 11:59:31,430 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 11:59:31,430 - INFO - 
+📄 [55/351] Analyse: Symposium_SF_2019_FR.pdf
+2025-07-25 11:59:33,951 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 11:59:33,951 - INFO - 
+📄 [56/351] Analyse: sympo_fr.pdf
+2025-07-25 11:59:36,309 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 11:59:36,310 - INFO - 
+📄 [57/351] Analyse: Transformation digitale  Intervention de Monsieur le Gouverneur 13 mars 2019 FR.pdf
+2025-07-25 11:59:40,794 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 11:59:40,794 - INFO - 
+📄 [58/351] Analyse: Wali-Symposium Régional SF.pdf
+2025-07-25 11:59:42,968 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 11:59:42,968 - INFO - 
+📄 [59/351] Analyse: Reunion G-24-20 avril.pdf
+2025-07-25 11:59:45,262 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 11:59:45,263 - INFO - 
+📄 [60/351] Analyse: Role de la finance dans le verdissement.pdf
+2025-07-25 11:59:47,841 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Environnement
+2025-07-25 11:59:47,841 - INFO - 
+📄 [61/351] Analyse: Speech_mdg_BAMCGEMBEI_vf.pdf
+2025-07-25 11:59:50,461 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 11:59:50,462 - INFO - 
+📄 [62/351] Analyse: JMS+2015+mot+du+Gouverneur+FR.pdf
+2025-07-25 11:59:52,894 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 11:59:52,895 - INFO - 
+📄 [63/351] Analyse: Journee_Internationale_Epargne_31102018.pdf
+2025-07-25 11:59:55,397 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 11:59:55,398 - INFO - 
+📄 [64/351] Analyse: Journee_mondiale_statistique_fr.pdf
+2025-07-25 11:59:57,669 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 11:59:57,669 - INFO - 
+📄 [65/351] Analyse: keynote_DG_BAM_future of finance_FR.pdf
+2025-07-25 12:00:00,920 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:00:00,920 - INFO - 
+📄 [66/351] Analyse: message+de+sa+Majest_FR.pdf
+2025-07-25 12:00:00,924 - WARNING - ⚠️ Impossible d'extraire le texte de message+de+sa+Majest_FR.pdf
+2025-07-25 12:00:00,924 - INFO - 
+📄 [67/351] Analyse: Mot du gouverneur prix BAM_fr.pdf
+2025-07-25 12:00:04,222 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:04,223 - INFO - 
+📄 [68/351] Analyse: Mot introductif Gouverneur (BEAC 240117).pdf
+2025-07-25 12:00:07,549 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:07,549 - INFO - 
+📄 [69/351] Analyse: OpeningRemarks_CBDC_BKAM_18 juin_V8.pdf
+2025-07-25 12:00:09,695 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:00:09,695 - INFO - 
+📄 [70/351] Analyse: Prsentation+Wali+BAM+au+CNE+CGEM_Agadir_+020416.pdf
+2025-07-25 12:00:12,109 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:12,110 - INFO - 
+📄 [71/351] Analyse: Présentation parlement Investissement 15 Fev 2022-FR.pdf
+2025-07-25 12:00:14,465 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:14,466 - INFO - 
+📄 [72/351] Analyse: Présentation points de presse_Rq_Gouv.pdf
+2025-07-25 12:00:17,662 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:17,662 - INFO - 
+📄 [73/351] Analyse: Reunion avec Mme Lagarde.pdf
+2025-07-25 12:00:21,112 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:00:21,112 - INFO - 
+📄 [74/351] Analyse: Intervention Wali AMES_fr.pdf
+2025-07-25 12:00:23,276 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:23,276 - INFO - 
+📄 [75/351] Analyse: Intervention-Academie HassanII-VF.pdf
+2025-07-25 12:00:25,562 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:25,562 - INFO - 
+📄 [76/351] Analyse: InterventionLINKS.pdf
+2025-07-25 12:00:27,904 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:27,905 - INFO - 
+📄 [77/351] Analyse: Intervention_MLW_CNEA_1503.pdf
+2025-07-25 12:00:30,317 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:30,317 - INFO - 
+📄 [78/351] Analyse: JIMF_Discours de MLW_Français.pdf
+2025-07-25 12:00:32,891 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:32,891 - INFO - 
+📄 [79/351] Analyse: Intervention Gouverneur 31mars2021 VF.pdf
+2025-07-25 12:00:35,187 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:00:35,188 - INFO - 
+📄 [80/351] Analyse: Intervention Gouverneur Conference IEmed-BE-BCT-TUNIS-16 Novembre_FR.pdf
+2025-07-25 12:00:37,524 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:37,524 - INFO - 
+📄 [81/351] Analyse: Intervention Gouverneur EXPO2020.pdf
+2025-07-25 12:00:39,741 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 12:00:39,742 - INFO - 
+📄 [82/351] Analyse: Intervention Gouverneur Rencontre Skhirat 19 octobre 2018 VF.pdf
+2025-07-25 12:00:42,175 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:00:42,176 - INFO - 
+📄 [83/351] Analyse: Intervention DG - Regional UNEP-FI Round Table Opening.pdf
+2025-07-25 12:00:44,651 - INFO - ✅ PDF pertinent - Langue: Anglais, Thème: Finance/Environnement
+2025-07-25 12:00:44,651 - INFO - 
+📄 [84/351] Analyse: Discours_5+juin_VD--.pdf
+2025-07-25 12:00:47,237 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Environnement
+2025-07-25 12:00:47,239 - INFO - 
+📄 [85/351] Analyse: Discours_BAM_DP.pdf
+2025-07-25 12:00:50,241 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:00:50,241 - INFO - 
+📄 [86/351] Analyse: Discours_DG_Gouvernance de l'eau.pdf
+2025-07-25 12:00:53,447 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance/Environnement/Finance
+2025-07-25 12:00:53,447 - INFO - 
+📄 [87/351] Analyse: discours_dg_marrakech.pdf
+2025-07-25 12:00:53,449 - WARNING - ⚠️ Impossible d'extraire le texte de discours_dg_marrakech.pdf
+2025-07-25 12:00:53,449 - INFO - 
+📄 [88/351] Analyse: Discours_Gouverneur[1].pdf
+2025-07-25 12:00:55,778 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:00:55,779 - INFO - 
+📄 [89/351] Analyse: discours_gouverneur_version+Finale-VF.pdf
+2025-07-25 12:00:57,968 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:00:57,969 - INFO - 
+📄 [90/351] Analyse: discours_gov_cnce_060710.pdf
+2025-07-25 12:01:00,159 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:00,160 - INFO - 
+📄 [91/351] Analyse: Discours_MDG_CS.pdf
+2025-07-25 12:01:02,199 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:02,200 - INFO - 
+📄 [92/351] Analyse: Discours_MDG_PrixBAM_Fr.pdf
+2025-07-25 12:01:04,974 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:01:04,975 - INFO - 
+📄 [93/351] Analyse: DIscours_Monsieur le Wali_3RRN.pdf
+2025-07-25 12:01:07,661 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:01:07,662 - INFO - 
+📄 [94/351] Analyse: Discours_VFinale19052015.pdf
+2025-07-25 12:01:09,881 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Environnement/Développement durable
+2025-07-25 12:01:09,882 - INFO - 
+📄 [95/351] Analyse: Euromoney conference.pdf
+2025-07-25 12:01:12,180 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:01:12,181 - INFO - 
+📄 [96/351] Analyse: Financial_Integration_Banque_Espagne_fr.pdf
+2025-07-25 12:01:14,542 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:14,543 - INFO - 
+📄 [97/351] Analyse: Forum africain Transferts fonds _cadre LOME_Discours MLW.pdf
+2025-07-25 12:01:17,101 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:01:17,102 - INFO - 
+📄 [98/351] Analyse: Forum internationnal des finances et des affaires.pdf
+2025-07-25 12:01:19,352 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:19,353 - INFO - 
+📄 [99/351] Analyse: GITEX Mot d’ouverture de Monsieur le DG.pdf
+2025-07-25 12:01:21,670 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:21,671 - INFO - 
+📄 [100/351] Analyse: Groupe consultatif Africain.pdf
+2025-07-25 12:01:24,031 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:01:24,031 - INFO - 
+📄 [101/351] Analyse: Discours rapport de BAM et de la BM.pdf
+2025-07-25 12:01:26,281 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Environnement
+2025-07-25 12:01:26,281 - INFO - 
+📄 [102/351] Analyse: Discours+planification+stratgique_VF_2.pdf
+2025-07-25 12:01:28,540 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:28,541 - INFO - 
+📄 [103/351] Analyse: Discours-Gouverneur-fr.pdf
+2025-07-25 12:01:30,751 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:30,752 - INFO - 
+📄 [104/351] Analyse: discours-problematique_de_inflation_parlement_FR.pdf
+2025-07-25 12:01:33,165 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:33,166 - INFO - 
+📄 [105/351] Analyse: discours-Royal-franais.pdf
+2025-07-25 12:01:33,167 - WARNING - ⚠️ Impossible d'extraire le texte de discours-Royal-franais.pdf
+2025-07-25 12:01:33,167 - INFO - 
+📄 [106/351] Analyse: Discours.pdf
+2025-07-25 12:01:35,371 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:35,371 - INFO - 
+📄 [107/351] Analyse: DISCOURSIORWG.pdf
+2025-07-25 12:01:37,526 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Gouvernance
+2025-07-25 12:01:37,526 - INFO - 
+📄 [108/351] Analyse: DiscoursJourneeEtudeEntreprises_4avril.pdf
+2025-07-25 12:01:40,482 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:40,482 - INFO - 
+📄 [109/351] Analyse: Discours_ Fr.pdf
+2025-07-25 12:01:42,704 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Environnement
+2025-07-25 12:01:42,704 - INFO - 
+📄 [110/351] Analyse: Allocution de MLW_ Cérémonie SMAC_FR.pdf
+2025-07-25 12:01:45,026 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 12:01:45,027 - INFO - 
+📄 [111/351] Analyse: Allocution de Monsieur le Wali_séminaire continental ABCA .pdf
+2025-07-25 12:01:47,242 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:47,242 - INFO - 
+📄 [112/351] Analyse: Allocution DG_Symposium BIC.pdf
+2025-07-25 12:01:49,791 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:49,791 - INFO - 
+📄 [113/351] Analyse: ALLOCUTION Gov GPBM.pdf
+2025-07-25 12:01:53,325 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:01:53,326 - INFO - 
+📄 [114/351] Analyse: Allocution MLW semin BAM-SFI_FR.pdf
+2025-07-25 12:01:57,512 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:01:57,513 - INFO - 
+📄 [115/351] Analyse: Allocution+Monsieur+le+Wali+--+Forum+UMA+--+Marrakech+170214+version+Franaise.pdf
+2025-07-25 12:01:59,785 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:01:59,785 - INFO - 
+📄 [116/351] Analyse: Allocution_DG_Conférence Lancement MAT.pdf
+2025-07-25 12:02:01,901 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:01,901 - INFO - 
+📄 [117/351] Analyse: Allocution_MLW_SSB_Fr.pdf
+2025-07-25 12:02:04,346 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:04,347 - INFO - 
+📄 [118/351] Analyse: CC Conference Internationale_2019_VF.pdf
+2025-07-25 12:02:06,487 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 12:02:06,488 - INFO - 
+📄 [119/351] Analyse: CDG_Journee_Epargne_Wali.pdf
+2025-07-25 12:02:08,701 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:08,701 - INFO - 
+📄 [120/351] Analyse: CDS Symposium_Intervention_MLW.pdf
+2025-07-25 12:02:10,943 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:02:10,943 - INFO - 
+📄 [121/351] Analyse: Conference Portugal Octobre 2017_discours_v4.pdf
+2025-07-25 12:02:13,249 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:13,250 - INFO - 
+📄 [122/351] Analyse: Conférence_BAM_BdE_fr.pdf
+2025-07-25 12:02:15,670 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Environnement
+2025-07-25 12:02:15,671 - INFO - 
+📄 [123/351] Analyse: Discours Campagne blanchiment.pdf
+2025-07-25 12:02:18,029 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:18,030 - INFO - 
+📄 [124/351] Analyse: Discours campagne PME.pdf
+2025-07-25 12:02:20,228 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:20,228 - INFO - 
+📄 [125/351] Analyse: Discours Centrale des risques.pdf
+2025-07-25 12:02:22,322 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:22,323 - INFO - 
+📄 [126/351] Analyse: Discours CNME 2005.pdf
+2025-07-25 12:02:24,653 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:24,653 - INFO - 
+📄 [127/351] Analyse: Discours de MLW conférence africaine.pdf
+2025-07-25 12:02:27,330 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance/Finance
+2025-07-25 12:02:27,330 - INFO - 
+📄 [128/351] Analyse: Discours de MLW-GMW.pdf
+2025-07-25 12:02:29,403 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Éducation/Finance
+2025-07-25 12:02:29,403 - INFO - 
+📄 [129/351] Analyse: Discours de Monsieur Abdellatif Jouahri FR_IFSB.pdf
+2025-07-25 12:02:31,743 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:31,743 - INFO - 
+📄 [130/351] Analyse: Discours de Monsieur le Directeur General au JIMF 3.pdf
+2025-07-25 12:02:33,989 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:33,991 - INFO - 
+📄 [131/351] Analyse: Discours Gouverneur 15-7- 2008.pdf
+2025-07-25 12:02:36,622 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:36,623 - INFO - 
+📄 [132/351] Analyse: Discours groupe superviseurs francophones.pdf
+2025-07-25 12:02:39,106 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:39,107 - INFO - 
+📄 [133/351] Analyse: Discours MLW_ Table Ronde PNUD.pdf
+2025-07-25 12:02:41,454 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Développement durable/Inclusion financière
+2025-07-25 12:02:41,455 - INFO - 
+📄 [134/351] Analyse: Discours MLW_Digital.pdf
+2025-07-25 12:02:43,852 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:02:43,853 - INFO - 
+📄 [135/351] Analyse: 10+eme+Colloque+des+FP+sept2016+_Intervention+WALI.pdf
+2025-07-25 12:02:46,028 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:46,029 - INFO - 
+📄 [136/351] Analyse: 11eme Colloque des FP sept 2017_Intervention Gouverneur.pdf
+2025-07-25 12:02:48,348 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:48,348 - INFO - 
+📄 [137/351] Analyse: AA 2023 Seminaire BAM BdE Mot de Monsieur le Wali.pdf
+2025-07-25 12:02:50,943 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Égalité des genres
+2025-07-25 12:02:50,943 - INFO - 
+📄 [138/351] Analyse: Allocution de MLW - FR.pdf
+2025-07-25 12:02:53,289 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Environnement/Développement durable
+2025-07-25 12:02:53,289 - INFO - 
+📄 [139/351] Analyse: Allocution de MLW ABS-FR.pdf
+2025-07-25 12:02:55,431 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:55,432 - INFO - 
+📄 [140/351] Analyse: FR Communiqué de presse_réunion du CCSRS N19.pdf
+2025-07-25 12:02:57,912 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:02:57,912 - INFO - 
+📄 [141/351] Analyse: FR Communiqué RA 2023.pdf
+2025-07-25 12:03:00,794 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:03:00,795 - INFO - 
+📄 [142/351] Analyse: FR-Communique-convention-jeuness.pdf
+2025-07-25 12:03:03,165 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Jeunesse/Culture/Communication/Éducation/Finance
+2025-07-25 12:03:03,166 - INFO - 
+📄 [143/351] Analyse: FR_CdP_BM_BAM_Climate.pdf
+2025-07-25 12:03:05,432 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Environnement
+2025-07-25 12:03:05,432 - INFO - 
+📄 [144/351] Analyse: FR_CdP_CCSRS_20.pdf
+2025-07-25 12:03:07,993 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:07,993 - INFO - 
+📄 [145/351] Analyse: FR_CdP_CCSRS_21 07072025-.pdf
+2025-07-25 12:03:10,125 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:10,126 - INFO - 
+📄 [146/351] Analyse: FR_CdP_Certfication.pdf
+2025-07-25 12:03:12,494 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:12,494 - INFO - 
+📄 [147/351] Analyse: FR_CdP_Conseil BAM_décembre 2024.pdf
+2025-07-25 12:03:15,023 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:03:15,023 - INFO - 
+📄 [148/351] Analyse: FR_CdP_Conseil_mars 2025.pdf
+2025-07-25 12:03:17,247 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:03:17,247 - INFO - 
+📄 [149/351] Analyse: FR_CdP_SCAF.pdf
+2025-07-25 12:03:19,840 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 12:03:19,840 - INFO - 
+📄 [150/351] Analyse: FR_Communiqué nouvelle méthodologie cours de référence MAD.pdf
+2025-07-25 12:03:22,031 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:22,031 - INFO - 
+📄 [151/351] Analyse: Rapport annuel 2021-2022.pdf
+2025-07-25 12:03:22,044 - WARNING - ⚠️ Impossible d'extraire le texte de Rapport annuel 2021-2022.pdf
+2025-07-25 12:03:22,044 - INFO - 
+📄 [152/351] Analyse: World Bank SDB Oct 2023 Press Release_FINAL FRENCH_.pdf
+2025-07-25 12:03:24,304 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Environnement
+2025-07-25 12:03:24,306 - INFO - 
+📄 [153/351] Analyse: FR - Communiqués BAM - GITEX 2025.pdf
+2025-07-25 12:03:26,546 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:26,547 - INFO - 
+📄 [154/351] Analyse: FR Communique juin 2024.pdf
+2025-07-25 12:03:28,870 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:28,870 - INFO - 
+📄 [155/351] Analyse: FR Communique Septembre 2024.pdf
+2025-07-25 12:03:31,119 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:03:31,120 - INFO - 
+📄 [156/351] Analyse: Communiqué adju séance 29-10-2024.pdf
+2025-07-25 12:03:34,386 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:34,386 - INFO - 
+📄 [157/351] Analyse: Communiqué adju séance 31-07-2024.pdf
+2025-07-25 12:03:36,865 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:36,866 - INFO - 
+📄 [158/351] Analyse: Communiqué de presse BAM IFC - Signature 180625_Md.pdf
+2025-07-25 12:03:39,389 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance/Agriculture
+2025-07-25 12:03:39,390 - INFO - 
+📄 [159/351] Analyse: Communiqué de presse CCSRS n18_FR VF_MD.pdf
+2025-07-25 12:03:42,051 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:42,052 - INFO - 
+📄 [160/351] Analyse: Communiqué de presse fr_.pdf
+2025-07-25 12:03:44,523 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:03:44,523 - INFO - 
+📄 [161/351] Analyse: communiqué JAIF FR.pdf
+2025-07-25 12:03:46,947 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:46,948 - INFO - 
+📄 [162/351] Analyse: Communiqué Pièce comm Droit de l'Homme.pdf
+2025-07-25 12:03:50,146 - INFO - ✅ PDF pertinent - Langue: Français/Mixte, Thème: Finance
+2025-07-25 12:03:50,147 - INFO - 
+📄 [163/351] Analyse: Communiqué Rachat BDT du 26-12-2024.pdf
+2025-07-25 12:03:53,017 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:53,017 - INFO - 
+📄 [164/351] Analyse: Communiqué relatif au taux directeur 18-03-2025.pdf
+2025-07-25 12:03:53,019 - WARNING - ⚠️ Impossible d'extraire le texte de Communiqué relatif au taux directeur 18-03-2025.pdf
+2025-07-25 12:03:53,019 - INFO - 
+📄 [165/351] Analyse: Communiqué relatif au taux directeur 19-12-2024.pdf
+2025-07-25 12:03:53,020 - WARNING - ⚠️ Impossible d'extraire le texte de Communiqué relatif au taux directeur 19-12-2024.pdf
+2025-07-25 12:03:53,020 - INFO - 
+📄 [166/351] Analyse: Communiqué relatif au taux directeur 25-06-2024.pdf
+2025-07-25 12:03:53,022 - WARNING - ⚠️ Impossible d'extraire le texte de Communiqué relatif au taux directeur 25-06-2024.pdf
+2025-07-25 12:03:53,022 - INFO - 
+📄 [167/351] Analyse: Communiqué échange 14-12-2023.pdf
+2025-07-25 12:03:56,241 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:56,241 - INFO - 
+📄 [168/351] Analyse: Communiqué échange séance 03-07-2025.pdf
+2025-07-25 12:03:59,415 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:03:59,416 - INFO - 
+📄 [169/351] Analyse: Communiqué échange séance 27-03-2025.pdf
+2025-07-25 12:04:02,045 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:02,045 - INFO - 
+📄 [170/351] Analyse: COMNUNIQUE deux accords BKAM-6_l th-def.pdf
+2025-07-25 12:04:04,184 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 12:04:04,185 - INFO - 
+📄 [171/351] Analyse: Douar TOUR FR.pdf
+2025-07-25 12:04:06,438 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:06,438 - INFO - 
+📄 [172/351] Analyse: FR - Bank Al-Maghrib et le Secrétariat d’Etat suisse à l’Economie.pdf
+2025-07-25 12:04:08,803 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:08,804 - INFO - 
+📄 [173/351] Analyse: Communiqué adju séance 27-08-2024.pdf
+2025-07-25 12:04:11,312 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:11,313 - INFO - 
+📄 [174/351] Analyse: Communiqué adju séance 28-01-2025.pdf
+2025-07-25 12:04:13,513 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:13,514 - INFO - 
+📄 [175/351] Analyse: Communiqué adju séance 26-11-2024.pdf
+2025-07-25 12:04:16,369 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:16,369 - INFO - 
+📄 [176/351] Analyse: Communiqué adju séance 12-11-2024.pdf
+2025-07-25 12:04:18,781 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:18,781 - INFO - 
+📄 [177/351] Analyse: Communiqué adju séance 13-05-2025.pdf
+2025-07-25 12:04:21,546 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:21,546 - INFO - 
+📄 [178/351] Analyse: Communiqué adju séance 13-08-2024.pdf
+2025-07-25 12:04:24,247 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:24,247 - INFO - 
+📄 [179/351] Analyse: Communiqué adju séance 15-10-2024.pdf
+2025-07-25 12:04:27,481 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:27,482 - INFO - 
+📄 [180/351] Analyse: Communiqué adju séance 16-07-2024.pdf
+2025-07-25 12:04:29,877 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:29,877 - INFO - 
+📄 [181/351] Analyse: Communiqué adju séance 17-06-2025.pdf
+2025-07-25 12:04:32,488 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:32,489 - INFO - 
+📄 [182/351] Analyse: Communiqué adju séance 18-02-2025.pdf
+2025-07-25 12:04:37,199 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:37,199 - INFO - 
+📄 [183/351] Analyse: Communiqué adju séance 20-05-2025.pdf
+2025-07-25 12:04:39,470 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:39,471 - INFO - 
+📄 [184/351] Analyse: Communiqué adju séance 21-01-2025.pdf
+2025-07-25 12:04:41,795 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:41,795 - INFO - 
+📄 [185/351] Analyse: Communiqué adju séance 22-08-2024.pdf
+2025-07-25 12:04:43,965 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:43,966 - INFO - 
+📄 [186/351] Analyse: Communiqué adju séance 22-10-2024.pdf
+2025-07-25 12:04:46,605 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:46,606 - INFO - 
+📄 [187/351] Analyse: Communiqué adju séance 23-07-2024.pdf
+2025-07-25 12:04:48,865 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:48,865 - INFO - 
+📄 [188/351] Analyse: Communiqué adju séance 25-02-2025.pdf
+2025-07-25 12:04:51,364 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:51,364 - INFO - 
+📄 [189/351] Analyse: Communiqué adju séance 25-06-2025.pdf
+2025-07-25 12:04:53,828 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:53,829 - INFO - 
+📄 [190/351] Analyse: Communiqué adju séance 25-09-2024.pdf
+2025-07-25 12:04:56,247 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:56,248 - INFO - 
+📄 [191/351] Analyse: Communiqué adju séance 10-12-2024.pdf
+2025-07-25 12:04:58,484 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:04:58,485 - INFO - 
+📄 [192/351] Analyse: Communiqué adju séance 11-02-2025.pdf
+2025-07-25 12:05:00,673 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:00,673 - INFO - 
+📄 [193/351] Analyse: Communiqué adju séance 11-03-2025.pdf
+2025-07-25 12:05:03,171 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:03,172 - INFO - 
+📄 [194/351] Analyse: Communiqué adju 20-02-2024.pdf
+2025-07-25 12:05:05,673 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:05,673 - INFO - 
+📄 [195/351] Analyse: Communiqué Adju 20-03-2024.pdf
+2025-07-25 12:05:07,812 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:07,813 - INFO - 
+📄 [196/351] Analyse: Communiqué adju 26-06-2024.pdf
+2025-07-25 12:05:10,307 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:10,307 - INFO - 
+📄 [197/351] Analyse: Communiqué adju séance 01-07-2025.pdf
+2025-07-25 12:05:12,929 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:12,929 - INFO - 
+📄 [198/351] Analyse: Communiqué adju séance 01-10-2024.pdf
+2025-07-25 12:05:15,313 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:15,314 - INFO - 
+📄 [199/351] Analyse: Communiqué adju séance 02-04-2025.pdf
+2025-07-25 12:05:17,628 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:17,628 - INFO - 
+📄 [200/351] Analyse: Communiqué adju séance 03-09-2024.pdf
+2025-07-25 12:05:19,848 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:19,848 - INFO - 
+📄 [201/351] Analyse: Communiqué adju séance 04-03-2025.pdf
+2025-07-25 12:05:22,096 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:22,096 - INFO - 
+📄 [202/351] Analyse: Communiqué adju séance 05-11-2024.pdf
+2025-07-25 12:05:24,532 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:24,532 - INFO - 
+📄 [203/351] Analyse: Communiqué adju séance 06-08-2024.pdf
+2025-07-25 12:05:26,870 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:26,870 - INFO - 
+📄 [204/351] Analyse: Communiqué adju séance 08-04-2025.pdf
+2025-07-25 12:05:29,347 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:29,347 - INFO - 
+📄 [205/351] Analyse: Communiqué adju séance 08-10-2024.pdf
+2025-07-25 12:05:31,627 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:31,627 - INFO - 
+📄 [206/351] Analyse: Communiqué El Jadida FR.pdf
+2025-07-25 12:05:34,267 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:34,267 - INFO - 
+📄 [207/351] Analyse: communiqué fr.pdf
+2025-07-25 12:05:36,408 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:36,408 - INFO - 
+📄 [208/351] Analyse: Communiqué 25-03-2025.pdf
+2025-07-25 12:05:38,829 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:38,829 - INFO - 
+📄 [209/351] Analyse: Communiqué adju 05-03-2024.pdf
+2025-07-25 12:05:41,031 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:41,032 - INFO - 
+📄 [210/351] Analyse: Communiqué adju 12-03-2024.pdf
+2025-07-25 12:05:43,587 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:43,587 - INFO - 
+📄 [211/351] Analyse: Communiqué adju 13-02-2024.pdf
+2025-07-25 12:05:45,827 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:45,828 - INFO - 
+📄 [212/351] Analyse: Communiqué adju 15-04-2025.pdf
+2025-07-25 12:05:48,292 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:48,292 - INFO - 
+📄 [213/351] Analyse: Communiqué adju 15-01-2025.pdf
+2025-07-25 12:05:51,287 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:51,287 - INFO - 
+📄 [214/351] Analyse: Communiqué adju séance 10-06-2025.pdf
+2025-07-25 12:05:54,398 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:54,398 - INFO - 
+📄 [215/351] Analyse: Communiqué adju séance 15-07-2025.pdf
+2025-07-25 12:05:56,962 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:56,962 - INFO - 
+📄 [216/351] Analyse: Communique échange 25-07-2024.pdf
+2025-07-25 12:05:59,327 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:05:59,329 - INFO - 
+📄 [217/351] Analyse: Communique échange 26-09-2024.pdf
+2025-07-25 12:06:01,664 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:01,664 - INFO - 
+📄 [218/351] Analyse: Communique échange 27-02-2025.pdf
+2025-07-25 12:06:04,087 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:04,087 - INFO - 
+📄 [219/351] Analyse: Communique échange 28-03-2024.pdf
+2025-07-25 12:06:06,444 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:06,444 - INFO - 
+📄 [220/351] Analyse: Communique échange 29-02-2024.pdf
+2025-07-25 12:06:08,661 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:08,661 - INFO - 
+📄 [221/351] Analyse: COMMUNIQUE- OPCI SM 03 2024.pdf
+2025-07-25 12:06:10,929 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:10,929 - INFO - 
+📄 [222/351] Analyse: Communique Fr.pdf
+2025-07-25 12:06:13,091 - INFO - ⛔ PDF non pertinent
+2025-07-25 12:06:13,092 - INFO - 
+📄 [223/351] Analyse: Communique Presse 19 mars 2024_fr.pdf
+2025-07-25 12:06:15,554 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:06:15,554 - INFO - 
+📄 [224/351] Analyse: Communique Rachat de BDT du 22-12-2023.pdf
+2025-07-25 12:06:17,724 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:17,725 - INFO - 
+📄 [225/351] Analyse: Communique séance 12-12-2023.pdf
+2025-07-25 12:06:19,961 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:19,961 - INFO - 
+📄 [226/351] Analyse: Communique adju 30-01-2024.pdf
+2025-07-25 12:06:22,348 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:22,348 - INFO - 
+📄 [227/351] Analyse: Communique adju 30-04-2024.pdf
+2025-07-25 12:06:25,361 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:25,361 - INFO - 
+📄 [228/351] Analyse: Communique Adju 31-10-2023.pdf
+2025-07-25 12:06:27,917 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:27,917 - INFO - 
+📄 [229/351] Analyse: Communique Adju 31-12-2024.pdf
+2025-07-25 12:06:30,512 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:30,512 - INFO - 
+📄 [230/351] Analyse: Communique Echange 29-05-2025.pdf
+2025-07-25 12:06:33,170 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:33,170 - INFO - 
+📄 [231/351] Analyse: Communique échange 05-10-2023.pdf
+2025-07-25 12:06:35,902 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:35,902 - INFO - 
+📄 [232/351] Analyse: Communique échange 26-10-2023.pdf
+2025-07-25 12:06:38,632 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:38,632 - INFO - 
+📄 [233/351] Analyse: Communique adju 24-12-2024.pdf
+2025-07-25 12:06:42,115 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:42,115 - INFO - 
+📄 [234/351] Analyse: Communique Adju 26-03-2024.pdf
+2025-07-25 12:06:44,987 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:44,988 - INFO - 
+📄 [235/351] Analyse: Communique adju 26-12-2023.pdf
+2025-07-25 12:06:47,697 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:47,697 - INFO - 
+📄 [236/351] Analyse: Communique adju 27-02-2024.pdf
+2025-07-25 12:06:50,306 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:50,306 - INFO - 
+📄 [237/351] Analyse: Communique adju 28-05-2024.pdf
+2025-07-25 12:06:52,688 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:52,689 - INFO - 
+📄 [238/351] Analyse: Communique Adju 28-11-2023.pdf
+2025-07-25 12:06:55,032 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:55,032 - INFO - 
+📄 [239/351] Analyse: Communique Adju 29-04-2025.pdf
+2025-07-25 12:06:58,072 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:06:58,072 - INFO - 
+📄 [240/351] Analyse: Communique adju 23-04-2024.pdf
+2025-07-25 12:07:00,259 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:00,260 - INFO - 
+📄 [241/351] Analyse: Communique adju 21-05-2024.pdf
+2025-07-25 12:07:02,578 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:02,578 - INFO - 
+📄 [242/351] Analyse: Communique adju 21-11-2023.pdf
+2025-07-25 12:07:04,793 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:04,794 - INFO - 
+📄 [243/351] Analyse: Communique adju 23-01-2024.pdf
+2025-07-25 12:07:07,113 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:07,113 - INFO - 
+📄 [244/351] Analyse: Communique adju 07-11-2023.pdf
+2025-07-25 12:07:09,410 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:09,410 - INFO - 
+📄 [245/351] Analyse: Communique adju 09-01-2024.pdf
+2025-07-25 12:07:11,987 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:11,988 - INFO - 
+📄 [246/351] Analyse: Communique adju 09-04-2024.pdf
+2025-07-25 12:07:14,316 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:14,316 - INFO - 
+📄 [247/351] Analyse: Communique adju 10-10-2023.pdf
+2025-07-25 12:07:16,591 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:16,591 - INFO - 
+📄 [248/351] Analyse: Communique Adju 11-06-2024.pdf
+2025-07-25 12:07:19,298 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:19,298 - INFO - 
+📄 [249/351] Analyse: Communique adju 14-05-2024.pdf
+2025-07-25 12:07:22,156 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:22,156 - INFO - 
+📄 [250/351] Analyse: Communique adju 14-11-2023.pdf
+2025-07-25 12:07:24,744 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:24,745 - INFO - 
+📄 [251/351] Analyse: Communique adju 16-01-2024.pdf
+2025-07-25 12:07:27,105 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:27,105 - INFO - 
+📄 [252/351] Analyse: Communique adju 16-04-2024.pdf
+2025-07-25 12:07:29,891 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:29,892 - INFO - 
+📄 [253/351] Analyse: Communique adju 17-10-2023.pdf
+2025-07-25 12:07:32,209 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:32,210 - INFO - 
+📄 [254/351] Analyse: Communique Adju 18-12-2024.pdf
+2025-07-25 12:07:34,703 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:34,704 - INFO - 
+📄 [255/351] Analyse: Communique adju 19-03-2025.pdf
+2025-07-25 12:07:37,103 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:37,104 - INFO - 
+📄 [256/351] Analyse: Communique adju 19-06-2024.pdf
+2025-07-25 12:07:39,971 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:39,971 - INFO - 
+📄 [257/351] Analyse: Communique adju 20-12-2023.pdf
+2025-07-25 12:07:42,102 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:42,103 - INFO - 
+📄 [258/351] Analyse: Communique Adju 04-02-2025.pdf
+2025-07-25 12:07:44,330 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:44,331 - INFO - 
+📄 [259/351] Analyse: Communique adju 04-06-2024.pdf
+2025-07-25 12:07:46,687 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:46,687 - INFO - 
+📄 [260/351] Analyse: Communique adju 05-12-2023.pdf
+2025-07-25 12:07:48,991 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:48,992 - INFO - 
+📄 [261/351] Analyse: Communique adju 06-02-2024.pdf
+2025-07-25 12:07:51,436 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:51,436 - INFO - 
+📄 [262/351] Analyse: Communique adju 07-05-2024.pdf
+2025-07-25 12:07:53,654 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:07:53,654 - INFO - 
+📄 [263/351] Analyse: com exercices d’évacuation Casablanca.pdf
+2025-07-25 12:07:55,844 - INFO - ✅ PDF pertinent - Langue: Français/Mixte, Thème: Sécurité/Protection Civile
+2025-07-25 12:07:55,845 - INFO - 
+📄 [264/351] Analyse: com exercices d’évacuation Laayoune.pdf
+2025-07-25 12:07:57,913 - INFO - ✅ PDF pertinent - Langue: Français/Mixte, Thème: Sécurité/Protection Civile
+2025-07-25 12:07:57,914 - INFO - 
+📄 [265/351] Analyse: com exercices d’évacuation Marrakech.pdf
+2025-07-25 12:07:59,969 - INFO - ✅ PDF pertinent - Langue: Français/Mixte, Thème: Sécurité/Protection Civile
+2025-07-25 12:07:59,969 - INFO - 
+📄 [266/351] Analyse: com exercices d’évacuation OUJDA.pdf
+2025-07-25 12:08:02,146 - INFO - ✅ PDF pertinent - Langue: Français/Mixte, Thème: Sécurité/Protection Civile
+2025-07-25 12:08:02,147 - INFO - 
+📄 [267/351] Analyse: com exercices d’évacuation Rabat.pdf
+2025-07-25 12:08:04,364 - INFO - ✅ PDF pertinent - Langue: Français/Arabe, Thème: Sécurité/Protection Civile
+2025-07-25 12:08:04,364 - INFO - 
+📄 [268/351] Analyse: com exercices d’évacuation safi.pdf
+2025-07-25 12:08:06,392 - INFO - ✅ PDF pertinent - Langue: Français/Arabe, Thème: Sécurité/Protection Civile
+2025-07-25 12:08:06,392 - INFO - 
+📄 [269/351] Analyse: com exercices d’évacuation Settat.pdf
+2025-07-25 12:08:08,429 - INFO - ✅ PDF pertinent - Langue: Français/Mixte, Thème: Sécurité/Protection Civile
+2025-07-25 12:08:08,429 - INFO - 
+📄 [270/351] Analyse: com exercices d’évacuation Tanger.pdf
+2025-07-25 12:08:10,571 - INFO - ✅ PDF pertinent - Langue: Français/Mixte, Thème: Sécurité/Protection Civile
+2025-07-25 12:08:10,572 - INFO - 
+📄 [271/351] Analyse: com exercices d’évacuation Tétouan.pdf
+2025-07-25 12:08:12,872 - INFO - ✅ PDF pertinent - Langue: Français/Mixte, Thème: Sécurité/Finance
+2025-07-25 12:08:12,873 - INFO - 
+📄 [272/351] Analyse: Communique -Emission de valeurs du Trésor-06-05-2025.pdf
+2025-07-25 12:08:15,186 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:15,186 - INFO - 
+📄 [273/351] Analyse: Communique 19-09-2023.pdf
+2025-07-25 12:08:17,352 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:17,353 - INFO - 
+📄 [274/351] Analyse: Communique 24-10-2023.pdf
+2025-07-25 12:08:19,588 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:19,588 - INFO - 
+📄 [275/351] Analyse: Communique 27-09-2023.pdf
+2025-07-25 12:08:21,891 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:21,892 - INFO - 
+📄 [276/351] Analyse: Communique adju 02-01-2024.pdf
+2025-07-25 12:08:24,215 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:24,215 - INFO - 
+📄 [277/351] Analyse: Communique adju 02-04-2024.pdf
+2025-07-25 12:08:26,466 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:26,466 - INFO - 
+📄 [278/351] Analyse: Communique adju 03-10-2023.pdf
+2025-07-25 12:08:28,650 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:28,651 - INFO - 
+📄 [279/351] Analyse: CdP_nouvelle serie_FR.pdf
+2025-07-25 12:08:30,794 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:30,795 - INFO - 
+📄 [280/351] Analyse: CdP_PC_AISM_25 FR.pdf
+2025-07-25 12:08:33,026 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:33,027 - INFO - 
+📄 [281/351] Analyse: CdP_PrixBAM_Fr.pdf
+2025-07-25 12:08:35,678 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie/Finance/Environnement
+2025-07-25 12:08:35,678 - INFO - 
+📄 [282/351] Analyse: CdP_Rec_DSB_FR.pdf
+2025-07-25 12:08:37,802 - INFO - ✅ PDF pertinent - Langue: Français/Arabe, Thème: Finance
+2025-07-25 12:08:37,802 - INFO - 
+📄 [283/351] Analyse: CdP_RSB_Fr.pdf
+2025-07-25 12:08:40,257 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:40,259 - INFO - 
+📄 [284/351] Analyse: com exercices dévacuation hoceima_meknes.pdf
+2025-07-25 12:08:42,418 - INFO - ✅ PDF pertinent - Langue: Français/Mixte, Thème: Sécurité/Protection Civile
+2025-07-25 12:08:42,419 - INFO - 
+📄 [285/351] Analyse: com exercices d’évacuation Larache.pdf
+2025-07-25 12:08:44,531 - INFO - ✅ PDF pertinent - Langue: Mixte, Thème: Gouvernance
+2025-07-25 12:08:44,532 - INFO - 
+📄 [286/351] Analyse: com exercices d’évacuation Agadir.pdf
+2025-07-25 12:08:46,689 - INFO - ✅ PDF pertinent - Langue: Mixte, Thème: Sécurité/Protection Civile
+2025-07-25 12:08:46,690 - INFO - 
+📄 [287/351] Analyse: com exercices d’évacuation Al Hoceima.pdf
+2025-07-25 12:08:48,820 - INFO - ✅ PDF pertinent - Langue: Français/Arabe, Thème: Sécurité/Protection Civile
+2025-07-25 12:08:48,820 - INFO - 
+📄 [288/351] Analyse: com exercices d’évacuation Benimellal.pdf
+2025-07-25 12:08:50,946 - INFO - ✅ PDF pertinent - Langue: Français/Mixte, Thème: Sécurité/Protection Civile
+2025-07-25 12:08:50,947 - INFO - 
+📄 [289/351] Analyse: CdP_interchange_Fr (1).pdf
+2025-07-25 12:08:53,318 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:53,318 - INFO - 
+📄 [290/351] Analyse: cdp_JIMF5_fr.pdf
+2025-07-25 12:08:55,776 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:08:55,776 - INFO - 
+📄 [291/351] Analyse: CdP_Marché à Terme Interbancaire_FR.pdf
+2025-07-25 12:08:58,369 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:08:58,369 - INFO - 
+📄 [292/351] Analyse: CdP_Morocco Fintech Center_FR.pdf
+2025-07-25 12:09:00,546 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:09:00,546 - INFO - 
+📄 [293/351] Analyse: CdP_nouvelle serie 20dhs FR.pdf
+2025-07-25 12:09:02,843 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:09:02,844 - INFO - 
+📄 [294/351] Analyse: CdP_nouvelle serie 50dhs FR.pdf
+2025-07-25 12:09:05,095 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:09:05,095 - INFO - 
+📄 [295/351] Analyse: CdP_ConseilBAM_T32023_Fr.pdf
+2025-07-25 12:09:07,425 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:09:07,425 - INFO - 
+📄 [296/351] Analyse: CdP_Conv_BAM_HCP_Fr.pdf
+2025-07-25 12:09:09,592 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:09:09,593 - INFO - 
+📄 [297/351] Analyse: CdP_DR_Fr.pdf
+2025-07-25 12:09:12,078 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:09:12,078 - INFO - 
+📄 [298/351] Analyse: CdP_GSBF_VF.pdf
+2025-07-25 12:09:14,423 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:09:14,423 - INFO - 
+📄 [299/351] Analyse: CdP-Publication Trois DT Bank Al-Maghrib_.pdf
+2025-07-25 12:09:16,527 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:09:16,527 - INFO - 
+📄 [300/351] Analyse: CdP_APSF.pdf
+2025-07-25 12:09:18,788 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:09:18,789 - INFO - 
+📄 [301/351] Analyse: CdP_BAMBERD_DIFDD_1906_Fr.pdf
+2025-07-25 12:09:21,228 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:09:21,228 - INFO - 
+📄 [302/351] Analyse: CdP_Buna_Fr.pdf
+2025-07-25 12:09:23,424 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:09:23,425 - INFO - 
+📄 [303/351] Analyse: cdp_cash_adha.pdf
+2025-07-25 12:09:25,506 - INFO - ✅ PDF pertinent - Langue: Arabe, Thème: Finance
+2025-07-25 12:09:25,507 - INFO - 
+📄 [304/351] Analyse: CdP_ConseilBAM_240625_fr.pdf
+2025-07-25 12:09:27,748 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:09:27,748 - INFO - 
+📄 [305/351] Analyse: CdP_ConseilBAM_Q42023_Fr.pdf
+2025-07-25 12:09:30,751 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Finance
+2025-07-25 12:09:30,751 - INFO - 
+📄 [306/351] Analyse: cdp FR.pdf
+2025-07-25 12:09:33,750 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:09:33,751 - INFO - 
+📄 [307/351] Analyse: CdP-Publication Trois DT Bank Al-Maghrib.pdf
+2025-07-25 12:09:36,714 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Économie
+2025-07-25 12:09:36,715 - INFO - 
+📄 [308/351] Analyse: LISTE-NOMINATIVE-DES-RETENUS-DES-INGENIEURS-D-ETAT-1er-GRADE-REMPLISSANT-LES-CONDITIONS-REQUISES-POU.pdf
+2025-07-25 12:09:36,716 - WARNING - ⚠️ Impossible d'extraire le texte de LISTE-NOMINATIVE-DES-RETENUS-DES-INGENIEURS-D-ETAT-1er-GRADE-REMPLISSANT-LES-CONDITIONS-REQUISES-POU.pdf
+2025-07-25 12:09:36,717 - INFO - 
+📄 [309/351] Analyse: LISTE-NOMINATIVE-DES-RETENUS-DES-INGENIEURS-D-ETAT-GRADE-PRINCIPAL-REMPLISSANT-LES-CONDITIONS-REQUIS.pdf
+2025-07-25 12:09:36,718 - WARNING - ⚠️ Impossible d'extraire le texte de LISTE-NOMINATIVE-DES-RETENUS-DES-INGENIEURS-D-ETAT-GRADE-PRINCIPAL-REMPLISSANT-LES-CONDITIONS-REQUIS.pdf
+2025-07-25 12:09:36,718 - INFO - 
+📄 [310/351] Analyse: LISTE-NOMINATIVE-DES-RETENUS-DES-INGENIEURS-EN-CHEF-1ER-GRADE-REMPLISSANT-LES-CONDITIONS-REQUISES-PO.pdf
+2025-07-25 12:09:36,720 - WARNING - ⚠️ Impossible d'extraire le texte de LISTE-NOMINATIVE-DES-RETENUS-DES-INGENIEURS-EN-CHEF-1ER-GRADE-REMPLISSANT-LES-CONDITIONS-REQUISES-PO.pdf
+2025-07-25 12:09:36,720 - INFO - 
+📄 [311/351] Analyse: LISTE-NOMINATIVE-DES-RETENUS-DES-TECHNICIENS-DE-4eme-GRADE-REMPLISSSANT-LES-CONDITIONS-REQUISES-POUR.pdf
+2025-07-25 12:09:36,721 - WARNING - ⚠️ Impossible d'extraire le texte de LISTE-NOMINATIVE-DES-RETENUS-DES-TECHNICIENS-DE-4eme-GRADE-REMPLISSSANT-LES-CONDITIONS-REQUISES-POUR.pdf
+2025-07-25 12:09:36,722 - INFO - 
+📄 [312/351] Analyse: MC3A9canisation20agricole20VA_BTT_210.pdf
+2025-07-25 12:09:39,543 - INFO - ✅ PDF pertinent - Langue: Arabe, Thème: Agriculture
+2025-07-25 12:09:39,543 - INFO - 
+📄 [313/351] Analyse: Organigramme des Directions Régionales.pdf
+2025-07-25 12:09:41,570 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Agriculture/Éducation
+2025-07-25 12:09:41,571 - INFO - 
+📄 [314/351] Analyse: Organigramme-des-Directions-Regionales.pdf
+2025-07-25 12:09:43,707 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Agriculture/Éducation
+2025-07-25 12:09:43,708 - INFO - 
+📄 [315/351] Analyse: PGES-Accord20de20financement-PAASIFEJ20-BAD20vf.pdf
+2025-07-25 12:09:46,367 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Agriculture/Environnement
+2025-07-25 12:09:46,367 - INFO - 
+📄 [316/351] Analyse: Plus dinformations.pdf
+2025-07-25 12:09:48,970 - INFO - ⛔ PDF non pertinent
+2025-07-25 12:09:48,970 - INFO - 
+📄 [317/351] Analyse: Plus-d-informations.pdf
+2025-07-25 12:09:51,145 - INFO - ⛔ PDF non pertinent
+2025-07-25 12:09:51,146 - INFO - 
+📄 [318/351] Analyse: Valorisation20eau20VA_btt_212.pdf
+2025-07-25 12:09:53,761 - INFO - ⛔ PDF non pertinent
+2025-07-25 12:09:53,761 - INFO - 
+📄 [319/351] Analyse: Dahir-n-1-18-66.pdf
+2025-07-25 12:09:53,764 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-18-66.pdf
+2025-07-25 12:09:53,765 - INFO - 
+📄 [320/351] Analyse: Dahir-n-1-19-81.pdf
+2025-07-25 12:09:53,871 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-19-81.pdf
+2025-07-25 12:09:53,871 - INFO - 
+📄 [321/351] Analyse: Dahir-n1-12-14.pdf
+2025-07-25 12:09:53,872 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n1-12-14.pdf
+2025-07-25 12:09:53,873 - INFO - 
+📄 [322/351] Analyse: Dahir-n1-14-128.pdf
+2025-07-25 12:09:53,874 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n1-14-128.pdf
+2025-07-25 12:09:53,874 - INFO - 
+📄 [323/351] Analyse: Dahir-n1-15-93.pdf
+2025-07-25 12:09:53,876 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n1-15-93.pdf
+2025-07-25 12:09:53,876 - INFO - 
+📄 [324/351] Analyse: FICHES20DE20POSTES_1.pd.pdf
+2025-07-25 12:09:56,227 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Agriculture
+2025-07-25 12:09:56,228 - INFO - 
+📄 [325/351] Analyse: fiches20de20postes_3.pd.pdf
+2025-07-25 12:09:58,371 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gestion des ressources matérielles et financières
+2025-07-25 12:09:58,372 - INFO - 
+📄 [326/351] Analyse: FiliC3A8re20Truffes20au20Maroc20VA20BTT_214.pdf
+2025-07-25 12:10:00,754 - INFO - ⛔ PDF non pertinent
+2025-07-25 12:10:00,755 - INFO - 
+📄 [327/351] Analyse: FiliC3A8re20Truffes20au20Maroc20VF20btt_213.pdf
+2025-07-25 12:10:03,673 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Agriculture
+2025-07-25 12:10:03,674 - INFO - 
+📄 [328/351] Analyse: FP.pdf.pdf
+2025-07-25 12:10:06,223 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Agriculture
+2025-07-25 12:10:06,223 - INFO - 
+📄 [329/351] Analyse: LES20FICHES20DE20POSTE.pdf
+2025-07-25 12:10:09,196 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gestion/Logistique/Administration
+2025-07-25 12:10:09,198 - INFO - 
+📄 [330/351] Analyse: Dahir-n-1-10-187.pdf
+2025-07-25 12:10:09,201 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-10-187.pdf
+2025-07-25 12:10:09,201 - INFO - 
+📄 [331/351] Analyse: Dahir-n-1-11-177.pdf
+2025-07-25 12:10:09,206 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-11-177.pdf
+2025-07-25 12:10:09,206 - INFO - 
+📄 [332/351] Analyse: Dahir-n-1-12-15.pdf
+2025-07-25 12:10:09,209 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-12-15.pdf
+2025-07-25 12:10:09,209 - INFO - 
+📄 [333/351] Analyse: Dahir-n-1-12-66.pdf
+2025-07-25 12:10:09,212 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-12-66.pdf
+2025-07-25 12:10:09,212 - INFO - 
+📄 [334/351] Analyse: Dahir-n-1-12-67.pdf
+2025-07-25 12:10:09,215 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-12-67.pdf
+2025-07-25 12:10:09,216 - INFO - 
+📄 [335/351] Analyse: Dahir-n-1-13-116.pdf
+2025-07-25 12:10:09,217 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-13-116.pdf
+2025-07-25 12:10:09,218 - INFO - 
+📄 [336/351] Analyse: Dahir-n-1-13-70.pdf
+2025-07-25 12:10:09,220 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-13-70.pdf
+2025-07-25 12:10:09,221 - INFO - 
+📄 [337/351] Analyse: Dahir-n-1-14-94.pdf
+2025-07-25 12:10:11,436 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Éducation
+2025-07-25 12:10:11,437 - INFO - 
+📄 [338/351] Analyse: Dahir-n-1-16-17.pdf
+2025-07-25 12:10:11,438 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-16-17.pdf
+2025-07-25 12:10:11,438 - INFO - 
+📄 [339/351] Analyse: Dahir-n-1-16-53.pdf
+2025-07-25 12:10:11,440 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-16-53.pdf
+2025-07-25 12:10:11,440 - INFO - 
+📄 [340/351] Analyse: Dahir-n-1-09-20.pdf
+2025-07-25 12:10:14,190 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 12:10:14,190 - INFO - 
+📄 [341/351] Analyse: Dahir-n-1-09-21.pdf
+2025-07-25 12:10:16,477 - INFO - ✅ PDF pertinent - Langue: Mixte, Thème: Gouvernance
+2025-07-25 12:10:16,477 - INFO - 
+📄 [342/351] Analyse: Dahir-n-1-10-08.pdf
+2025-07-25 12:10:16,481 - WARNING - ⚠️ Impossible d'extraire le texte de Dahir-n-1-10-08.pdf
+2025-07-25 12:10:16,481 - INFO - 
+📄 [343/351] Analyse: AC20DRA20FM.pdf.pdf
+2025-07-25 12:10:16,491 - WARNING - ⚠️ Impossible d'extraire le texte de AC20DRA20FM.pdf.pdf
+2025-07-25 12:10:16,492 - INFO - 
+📄 [344/351] Analyse: ACPR20DRA20BMK.pdf.pdf
+2025-07-25 12:10:16,495 - WARNING - ⚠️ Impossible d'extraire le texte de ACPR20DRA20BMK.pdf.pdf
+2025-07-25 12:10:16,496 - INFO - 
+📄 [345/351] Analyse: ACPR20DRA20RSK.pdf.pdf
+2025-07-25 12:10:16,499 - WARNING - ⚠️ Impossible d'extraire le texte de ACPR20DRA20RSK.pdf.pdf
+2025-07-25 12:10:16,499 - INFO - 
+📄 [346/351] Analyse: Avis dorganisation des examens daptitude professionnelle et des concours professionnel au titre de lannée 2025.pdf
+2025-07-25 12:10:16,501 - WARNING - ⚠️ Impossible d'extraire le texte de Avis dorganisation des examens daptitude professionnelle et des concours professionnel au titre de lannée 2025.pdf
+2025-07-25 12:10:16,501 - INFO - 
+📄 [347/351] Analyse: Avis-d-organisation-des-examens-d-aptitude-professionnelle-et-des-concours-professionnel-au-titre-de.pdf
+2025-07-25 12:10:16,503 - WARNING - ⚠️ Impossible d'extraire le texte de Avis-d-organisation-des-examens-d-aptitude-professionnelle-et-des-concours-professionnel-au-titre-de.pdf
+2025-07-25 12:10:16,503 - INFO - 
+📄 [348/351] Analyse: Dahir-n-1-08-56.pdf
+2025-07-25 12:10:18,917 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 12:10:18,918 - INFO - 
+📄 [349/351] Analyse: Dahir-n-1-08-85.pdf
+2025-07-25 12:10:21,383 - INFO - ✅ PDF pertinent - Langue: Français, Thème: Gouvernance
+2025-07-25 12:10:21,384 - INFO - 
+📄 [350/351] Analyse: Dahir-n-1-09-16.pdf
+2025-07-25 12:10:23,465 - INFO - ⛔ PDF non pertinent
+2025-07-25 12:10:23,465 - INFO - 
+📄 [351/351] Analyse: AC20DRA20DAKHLA.pdf.pdf
+2025-07-25 12:10:23,467 - WARNING - ⚠️ Impossible d'extraire le texte de AC20DRA20DAKHLA.pdf.pdf
+2025-07-25 12:10:23,467 - INFO - 
+=== Étape 5: Sauvegarde des résultats ===
+2025-07-25 12:10:23,478 - INFO - ✅ Résultats sauvegardés dans pdf_analysis_results.json
+2025-07-25 12:10:23,479 - INFO - 
+=== RÉSUMÉ ===
+2025-07-25 12:10:23,479 - INFO - 📊 PDFs traités: 318
+2025-07-25 12:10:23,479 - INFO - ✅ PDFs pertinents: 306
+2025-07-25 12:10:23,479 - INFO - ⛔ PDFs non pertinents: 12
+2025-07-25 12:10:23,480 - INFO - ❌ Erreurs: 33
+2025-07-25 12:10:23,480 - INFO - 📁 Résultats sauvegardés dans: pdf_analysis_results.json
+2025-07-25 12:10:23,480 - INFO - 🔒 Connexion à la base de données fermée

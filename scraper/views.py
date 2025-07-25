@@ -1,7 +1,10 @@
 import os
+import json
 from django.shortcuts import render
 from django.conf import settings
-from django.http import HttpResponse, Http404
+from django.http import HttpResponse, Http404, JsonResponse
+from django.views.decorators.http import require_GET
+from django.views.decorators.csrf import csrf_exempt
 
 def get_pdf_files(directory):
     """Récupère tous les fichiers PDF d'un répertoire avec leurs métadonnées."""
@@ -154,3 +157,50 @@ def oecd_documents(request):
         'documents': word_documents
     }
     return render(request, 'scraper/documents.html', context)
+
+# Nouvelles vues pour l'analyse PDF
+def pdf_analysis_view(request):
+    """
+    Vue principale pour afficher l'interface d'analyse des PDFs
+    """
+    return render(request, 'scraper/pdf_analysis.html')
+
+@require_GET
+def pdf_analysis_api(request):
+    """
+    API pour récupérer les données d'analyse des PDFs au format JSON
+    """
+    try:
+        # Chemin vers le fichier JSON
+        json_file_path = os.path.join(
+            settings.BASE_DIR, 
+            'scraper', 
+            'static', 
+            'data', 
+            'pdf_analysis_results.json'
+        )
+        
+        # Vérifier si le fichier existe
+        if not os.path.exists(json_file_path):
+            return JsonResponse({
+                'error': 'Fichier de données non trouvé',
+                'message': 'Le fichier scraper/static/data/pdf_analysis_results.json n\'existe pas.'
+            }, status=404)
+        
+        # Lire et retourner les données JSON
+        with open(json_file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        return JsonResponse(data, safe=False)
+        
+    except json.JSONDecodeError as e:
+        return JsonResponse({
+            'error': 'Erreur de format JSON',
+            'message': f'Le fichier JSON est mal formaté: {str(e)}'
+        }, status=400)
+        
+    except Exception as e:
+        return JsonResponse({
+            'error': 'Erreur serveur',
+            'message': f'Une erreur inattendue s\'est produite: {str(e)}'
+        }, status=500)

@@ -34,4 +34,8 @@ urlpatterns = [
     path('api/pdf-stats/', pdf_analysis_views.pdf_stats_api, name='pdf_stats_api'),
     path('export/pdf-data/', pdf_analysis_views.export_pdf_data, name='export_pdf_data'),
     path('search/pdf-content/', pdf_analysis_views.search_pdf_content, name='search_pdf_content'),
+    
+    # Nouvelles routes pour l'interface d'analyse PDF moderne
+    path('pdf-analysis/', views.pdf_analysis_view, name='pdf_analysis'),
+    path('api/pdf-analysis-data/', views.pdf_analysis_api, name='pdf_analysis_api'),
 ]

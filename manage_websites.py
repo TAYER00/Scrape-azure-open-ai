@@ -15,12 +15,6 @@ def get_db_connection():
         return None
     return sqlite3.connect(db_path)
 
-def get_file_size(file_path):
-    try:
-        return os.path.getsize(file_path)
-    except:
-        return 0
-
 def extract_site_name_from_path(file_path):
     """Extrait le nom du site à partir du chemin du fichier"""
     site_path_map = {
@@ -99,86 +93,17 @@ def get_website_id_map(conn):
     cursor.execute("SELECT id, name FROM scraper_website")
     return {name: id for id, name in cursor.fetchall()}
 
-def add_pdf_files(conn):
-    """Ajoute les fichiers PDF dans la table scraper_scrapedpdf avec relations website_id"""
-    sources = {
-        "agriculture.gov.ma": r"agriculture.gov.ma\pdf_downloads",
-        "bkam.ma": [
-            r"bkam.ma\bkam.ma\pdf_downloads\Communiques\pdf_scraper",
-            r"bkam.ma\bkam.ma\pdf_downloads\Discours\pdf_scraper"
-        ],
-        "cese.ma": r"cese.ma\pdf_downloads",
-        "finances.gov.ma": r"finances.gov.ma\pdf_downloads",
-        "oecd.org": r"oecd.org\pdf_downloads"
-    }
-
-    cursor = conn.cursor()
-    added_count = 0
-    skipped_count = 0
-
-    # Récupérer le mapping des sites web
-    website_map = get_website_id_map(conn)
-    logger.info(f"Sites web disponibles : {list(website_map.keys())}")
-
-    # Vérifie les fichiers existants (par file_path)
-    cursor.execute("SELECT file_path FROM scraper_scrapedpdf")
-    existing_paths = {row[0] for row in cursor.fetchall()}
-
-    for site, paths in sources.items():
-        if isinstance(paths, str):
-            paths = [paths]
-
-        # Récupérer l'ID du site web
-        website_id = website_map.get(site)
-        if not website_id:
-            logger.warning(f"Site web non trouvé dans la base : {site}")
-            continue
-
-        for path in paths:
-            if not os.path.exists(path):
-                logger.warning(f"Dossier introuvable : {path}")
-                continue
-
-            for root, _, files in os.walk(path):
-                for file in files:
-                    if file.lower().endswith('.pdf'):
-                        full_path = os.path.join(root, file)
-
-                        if full_path in existing_paths:
-                            skipped_count += 1
-                            continue
-
-                        try:
-                            cursor.execute("""
-                                INSERT INTO scraper_scrapedpdf (
-                                    title, url, file_path, downloaded_at, website_id
-                                ) VALUES (?, ?, ?, ?, ?)
-                            """, (
-                                file,  # title
-                                "",    # url (vide)
-                                full_path,
-                                datetime.now().isoformat(),
-                                website_id  # website_id correctement assigné
-                            ))
-                            added_count += 1
-                            existing_paths.add(full_path)
-                            logger.info(f"✅ PDF ajouté : {file} (site: {site}, ID: {website_id})")
-                        except Exception as e:
-                            logger.error(f"Erreur lors de l'insertion de {file} : {e}")
-
-    conn.commit()
-    logger.info(f"\n=== Résumé ===\nAjoutés : {added_count}\nIgnorés (doublons) : {skipped_count}")
-
-def update_existing_website_ids(conn):
-    """Met à jour les website_id manquants dans les enregistrements existants"""
+def update_website_ids(conn):
+    """Met à jour les website_id dans scraper_scrapedpdf en fonction des file_path"""
     cursor = conn.cursor()
     
     # Récupérer le mapping des sites
     website_map = get_website_id_map(conn)
+    logger.info(f"Sites web disponibles : {list(website_map.keys())}")
     
     # Récupérer tous les enregistrements sans website_id
     cursor.execute("""
-        SELECT id, file_path 
+        SELECT id, file_path, site_web 
         FROM scraper_scrapedpdf 
         WHERE website_id IS NULL
     """)
@@ -187,8 +112,9 @@ def update_existing_website_ids(conn):
     updated_count = 0
     error_count = 0
     
-    for record_id, file_path in records:
-        site_name = extract_site_name_from_path(file_path)
+    for record_id, file_path, site_web in records:
+        # Essayer d'abord avec le champ site_web s'il existe
+        site_name = site_web if site_web else extract_site_name_from_path(file_path)
         
         if site_name and site_name in website_map:
             website_id = website_map[site_name]
@@ -208,12 +134,11 @@ def update_existing_website_ids(conn):
             error_count += 1
     
     conn.commit()
-    logger.info(f"\n=== Mises à jour des relations ===\nMis à jour : {updated_count}\nErreurs : {error_count}")
+    logger.info(f"\n=== Résumé des mises à jour ===\nMis à jour : {updated_count}\nErreurs : {error_count}")
     return updated_count, error_count
 
-
 def main():
-    logger.info("🚀 Démarrage du remplissage de la table scraper_scrapedpdf avec gestion des sites web")
+    logger.info("🚀 Démarrage de la gestion des sites web et relations")
     conn = get_db_connection()
     if not conn:
         return
@@ -223,13 +148,9 @@ def main():
         logger.info("\n=== Étape 1: Création des sites web ===")
         ensure_websites_exist(conn)
         
-        # 2. Ajouter les nouveaux fichiers PDF
-        logger.info("\n=== Étape 2: Ajout des fichiers PDF ===")
-        add_pdf_files(conn)
-        
-        # 3. Mettre à jour les relations manquantes
-        logger.info("\n=== Étape 3: Mise à jour des relations existantes ===")
-        update_existing_website_ids(conn)
+        # 2. Mettre à jour les relations website_id
+        logger.info("\n=== Étape 2: Mise à jour des relations ===")
+        update_website_ids(conn)
         
         logger.info("\n✅ Traitement terminé avec succès")
         

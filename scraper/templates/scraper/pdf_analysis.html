@@ -1,0 +1,616 @@
+{% extends 'scraper/base.html' %}
+{% load static %}
+
+{% block title %}Analyse des PDFs - Documents PDF{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- En-tête avec statistiques -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h1 class="h2 mb-0">
+                    <i class="fas fa-chart-line text-primary me-2"></i>
+                    Analyse des Documents PDF
+                </h1>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-outline-primary" id="refreshData">
+                        <i class="fas fa-sync-alt me-1"></i>Actualiser
+                    </button>
+                    <button class="btn btn-success" id="exportData">
+                        <i class="fas fa-download me-1"></i>Exporter
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Cartes de statistiques -->
+            <div class="row g-3 mb-4">
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <div class="text-primary mb-2">
+                                <i class="fas fa-file-pdf fa-2x"></i>
+                            </div>
+                            <h3 class="h4 mb-1" id="totalPdfs">-</h3>
+                            <p class="text-muted mb-0">Total PDFs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <div class="text-success mb-2">
+                                <i class="fas fa-check-circle fa-2x"></i>
+                            </div>
+                            <h3 class="h4 mb-1" id="pertinentPdfs">-</h3>
+                            <p class="text-muted mb-0">Pertinents</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <div class="text-info mb-2">
+                                <i class="fas fa-globe fa-2x"></i>
+                            </div>
+                            <h3 class="h4 mb-1" id="languageCount">-</h3>
+                            <p class="text-muted mb-0">Langues</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <div class="text-warning mb-2">
+                                <i class="fas fa-tags fa-2x"></i>
+                            </div>
+                            <h3 class="h4 mb-1" id="themeCount">-</h3>
+                            <p class="text-muted mb-0">Thématiques</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filtres -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">
+                        <i class="fas fa-filter me-2"></i>Filtres
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <label for="pertinenceFilter" class="form-label">Pertinence</label>
+                            <select class="form-select" id="pertinenceFilter">
+                                <option value="">Tous</option>
+                                <option value="true">Pertinents</option>
+                                <option value="false">Non pertinents</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="languageFilter" class="form-label">Langue</label>
+                            <select class="form-select" id="languageFilter">
+                                <option value="">Toutes les langues</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="themeFilter" class="form-label">Thématique</label>
+                            <select class="form-select" id="themeFilter">
+                                <option value="">Toutes les thématiques</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="siteFilter" class="form-label">Site web</label>
+                            <select class="form-select" id="siteFilter">
+                                <option value="">Tous les sites</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <button class="btn btn-outline-secondary" id="clearFilters">
+                                <i class="fas fa-times me-1"></i>Effacer les filtres
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tableau des données -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">
+                        <i class="fas fa-table me-2"></i>Résultats d'analyse
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table id="pdfAnalysisTable" class="table table-hover" style="width:100%">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Titre</th>
+                                    <th>Site</th>
+                                    <th>Langue</th>
+                                    <th>Thématique</th>
+                                    <th>Pertinent</th>
+                                    <th>Confiance</th>
+                                    <th>Résumé</th>
+                                    <th>Date d'analyse</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Les données seront chargées dynamiquement -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal pour afficher le résumé complet -->
+<div class="modal fade" id="resumeModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Résumé du document</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <h6 id="modalTitle" class="text-primary mb-3"></h6>
+                <p id="modalResume"></p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <strong>Langue:</strong> <span id="modalLangue"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Thématique:</strong> <span id="modalThematique"></span>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6">
+                        <strong>Confiance:</strong> <span id="modalConfiance"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <strong>Site:</strong> <span id="modalSite"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                <a href="#" id="modalPdfLink" class="btn btn-primary" target="_blank">
+                    <i class="fas fa-external-link-alt me-1"></i>Ouvrir le PDF
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Loading overlay -->
+<!-- <div id="loadingOverlay" class="position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center" style="background: rgba(255,255,255,0.9); z-index: 9999;">
+    <div class="text-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+            <span class="visually-hidden">Chargement...</span>
+        </div>
+        <p class="mt-3 fw-bold">Chargement des données d'analyse PDF...</p>
+        <p class="text-muted">Veuillez patienter quelques instants</p>
+    </div>
+</div> -->
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.bootstrap5.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.bootstrap5.min.css">
+
+<!-- DataTables JS -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.5.0/js/responsive.bootstrap5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.bootstrap5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    let pdfData = [];
+    let dataTable;
+    
+    // Fonction pour afficher le loading
+    function showLoading() {
+        $('#loadingOverlay').addClass('show');
+    }
+    
+    // Fonction pour masquer le loading
+    function hideLoading() {
+        $('#loadingOverlay').removeClass('show');
+    }
+    
+    // Fonction pour charger les données JSON
+    function loadPdfData() {
+        showLoading();
+        
+        $.getJSON('{% url "scraper:pdf_analysis_api" %}')
+            .done(function(data) {
+                console.log('Données chargées avec succès:', data.length + ' PDFs');
+                pdfData = data;
+                updateStatistics();
+                populateFilters();
+                initializeDataTable();
+                hideLoading();
+            })
+            .fail(function(jqXHR, textStatus, errorThrown) {
+                console.error('Erreur lors du chargement des données:', {
+                    status: jqXHR.status,
+                    statusText: jqXHR.statusText,
+                    responseText: jqXHR.responseText,
+                    textStatus: textStatus,
+                    errorThrown: errorThrown
+                });
+                hideLoading();
+                
+                let errorMessage = 'Erreur lors du chargement des données.';
+                if (jqXHR.status === 404) {
+                    errorMessage = 'Fichier de données non trouvé. Veuillez vérifier que l\'analyse a été effectuée.';
+                } else if (jqXHR.status === 500) {
+                    errorMessage = 'Erreur serveur. Veuillez contacter l\'administrateur.';
+                } else if (jqXHR.status === 0) {
+                    errorMessage = 'Impossible de se connecter au serveur. Vérifiez votre connexion.';
+                }
+                
+                $('#pdfAnalysisTable_wrapper').html(`
+                    <div class="alert alert-danger" role="alert">
+                        <h4 class="alert-heading"><i class="fas fa-exclamation-triangle"></i> Erreur de chargement</h4>
+                        <p>${errorMessage}</p>
+                        <hr>
+                        <p class="mb-0">
+                            <button class="btn btn-outline-danger" onclick="loadPdfData()">
+                                <i class="fas fa-redo"></i> Réessayer
+                            </button>
+                        </p>
+                    </div>
+                `);
+            });
+    }
+    
+    // Fonction pour mettre à jour les statistiques
+    function updateStatistics() {
+        const total = pdfData.length;
+        const pertinents = pdfData.filter(pdf => pdf.analysis.pertinent).length;
+        const langues = new Set(pdfData.map(pdf => pdf.analysis.langue)).size;
+        const themes = new Set(pdfData.map(pdf => pdf.analysis.thematique)).size;
+        
+        $('#totalPdfs').text(total);
+        $('#pertinentPdfs').text(pertinents);
+        $('#languageCount').text(langues);
+        $('#themeCount').text(themes);
+    }
+    
+    // Fonction pour peupler les filtres
+    function populateFilters() {
+        // Langues
+        const langues = [...new Set(pdfData.map(pdf => pdf.analysis.langue))].sort();
+        const languageSelect = $('#languageFilter');
+        languageSelect.find('option:not(:first)').remove();
+        langues.forEach(langue => {
+            languageSelect.append(`<option value="${langue}">${langue}</option>`);
+        });
+        
+        // Thématiques
+        const themes = [...new Set(pdfData.map(pdf => pdf.analysis.thematique))].sort();
+        const themeSelect = $('#themeFilter');
+        themeSelect.find('option:not(:first)').remove();
+        themes.forEach(theme => {
+            themeSelect.append(`<option value="${theme}">${theme}</option>`);
+        });
+        
+        // Sites
+        const sites = [...new Set(pdfData.map(pdf => pdf.site_web).filter(site => site))].sort();
+        const siteSelect = $('#siteFilter');
+        siteSelect.find('option:not(:first)').remove();
+        sites.forEach(site => {
+            siteSelect.append(`<option value="${site}">${site}</option>`);
+        });
+    }
+    
+    // Fonction pour initialiser DataTable
+    function initializeDataTable() {
+        if (dataTable) {
+            dataTable.destroy();
+        }
+        
+        dataTable = $('#pdfAnalysisTable').DataTable({
+            data: pdfData,
+            responsive: true,
+            pageLength: 25,
+            order: [[8, 'desc']], // Trier par date d'analyse
+            language: {
+                url: 'https://cdn.datatables.net/plug-ins/1.13.7/i18n/fr-FR.json'
+            },
+            dom: 'Bfrtip',
+            buttons: [
+                {
+                    extend: 'excel',
+                    text: '<i class="fas fa-file-excel"></i> Excel',
+                    className: 'btn btn-success btn-sm'
+                },
+                {
+                    extend: 'csv',
+                    text: '<i class="fas fa-file-csv"></i> CSV',
+                    className: 'btn btn-info btn-sm'
+                },
+                {
+                    extend: 'print',
+                    text: '<i class="fas fa-print"></i> Imprimer',
+                    className: 'btn btn-secondary btn-sm'
+                }
+            ],
+            columns: [
+                { 
+                    data: 'id',
+                    width: '5%'
+                },
+                { 
+                    data: 'title',
+                    width: '25%',
+                    render: function(data, type, row) {
+                        if (type === 'display') {
+                            const shortTitle = data.length > 50 ? data.substring(0, 50) + '...' : data;
+                            return `<span title="${data}">${shortTitle}</span>`;
+                        }
+                        return data;
+                    }
+                },
+                { 
+                    data: 'site_web',
+                    width: '10%',
+                    render: function(data, type, row) {
+                        return data || 'N/A';
+                    }
+                },
+                { 
+                    data: 'analysis.langue',
+                    width: '8%'
+                },
+                { 
+                    data: 'analysis.thematique',
+                    width: '12%'
+                },
+                { 
+                    data: 'analysis.pertinent',
+                    width: '8%',
+                    render: function(data, type, row) {
+                        if (type === 'display') {
+                            return data ? 
+                                '<span class="badge bg-success"><i class="fas fa-check"></i> Oui</span>' : 
+                                '<span class="badge bg-danger"><i class="fas fa-times"></i> Non</span>';
+                        }
+                        return data ? 'Oui' : 'Non';
+                    }
+                },
+                { 
+                    data: 'analysis.confiance',
+                    width: '8%',
+                    render: function(data, type, row) {
+                        if (type === 'display') {
+                            let badgeClass = 'bg-secondary';
+                            if (data === 'Élevée') badgeClass = 'bg-success';
+                            else if (data === 'Moyenne') badgeClass = 'bg-warning';
+                            else if (data === 'Faible') badgeClass = 'bg-danger';
+                            return `<span class="badge ${badgeClass}">${data}</span>`;
+                        }
+                        return data;
+                    }
+                },
+                { 
+                    data: 'analysis.resume',
+                    width: '15%',
+                    render: function(data, type, row) {
+                        if (type === 'display') {
+                            const shortResume = data.length > 80 ? data.substring(0, 80) + '...' : data;
+                            return `<span title="${data}">${shortResume}</span>`;
+                        }
+                        return data;
+                    }
+                },
+                { 
+                    data: 'analyzed_at',
+                    width: '10%',
+                    render: function(data, type, row) {
+                        if (type === 'display') {
+                            const date = new Date(data);
+                            return date.toLocaleDateString('fr-FR') + '<br><small>' + date.toLocaleTimeString('fr-FR') + '</small>';
+                        }
+                        return data;
+                    }
+                },
+                { 
+                    data: null,
+                    width: '10%',
+                    orderable: false,
+                    render: function(data, type, row) {
+                        // Construire l'URL correcte pour le PDF
+                        const pdfUrl = `/${row.file_path.replace(/\\/g, '/')}`;
+                        return `
+                            <div class="btn-group btn-group-sm" role="group">
+                                <button class="btn btn-outline-primary btn-sm" onclick="showResume(${row.id})" title="Voir le résumé">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <a href="${pdfUrl}" class="btn btn-outline-success btn-sm" target="_blank" title="Ouvrir le PDF">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        `;
+                    }
+                }
+            ]
+        });
+        
+        // Appliquer les filtres
+        applyFilters();
+    }
+    
+    // Fonction pour appliquer les filtres
+    function applyFilters() {
+        if (!dataTable) return;
+        
+        const pertinenceFilter = $('#pertinenceFilter').val();
+        const languageFilter = $('#languageFilter').val();
+        const themeFilter = $('#themeFilter').val();
+        const siteFilter = $('#siteFilter').val();
+        
+        dataTable.columns().search('');
+        
+        if (pertinenceFilter) {
+            const searchValue = pertinenceFilter === 'true' ? 'Oui' : 'Non';
+            dataTable.column(5).search(searchValue);
+        }
+        
+        if (languageFilter) {
+            dataTable.column(3).search(languageFilter);
+        }
+        
+        if (themeFilter) {
+            dataTable.column(4).search(themeFilter);
+        }
+        
+        if (siteFilter) {
+            dataTable.column(2).search(siteFilter);
+        }
+        
+        dataTable.draw();
+    }
+    
+    // Fonction pour afficher le résumé dans une modal
+    window.showResume = function(id) {
+        const pdf = pdfData.find(p => p.id === id);
+        if (pdf) {
+            $('#modalTitle').text(pdf.title);
+            $('#modalResume').text(pdf.analysis.resume);
+            $('#modalLangue').text(pdf.analysis.langue);
+            $('#modalThematique').text(pdf.analysis.thematique);
+            $('#modalConfiance').text(pdf.analysis.confiance);
+            $('#modalSite').text(pdf.site_web || 'N/A');
+            // Construire l'URL correcte pour le PDF
+            const pdfUrl = `/${pdf.file_path.replace(/\\/g, '/')}`;
+            $('#modalPdfLink').attr('href', pdfUrl);
+            $('#resumeModal').modal('show');
+        }
+    };
+    
+    // Event listeners pour les filtres
+    $('#pertinenceFilter, #languageFilter, #themeFilter, #siteFilter').on('change', applyFilters);
+    
+    // Bouton pour effacer les filtres
+    $('#clearFilters').on('click', function() {
+        $('#pertinenceFilter, #languageFilter, #themeFilter, #siteFilter').val('');
+        applyFilters();
+    });
+    
+    // Bouton pour actualiser les données
+    $('#refreshData').on('click', function() {
+        loadPdfData();
+    });
+    
+    // Bouton pour exporter les données
+    $('#exportData').on('click', function() {
+        const dataStr = JSON.stringify(pdfData, null, 2);
+        const dataBlob = new Blob([dataStr], {type: 'application/json'});
+        const url = URL.createObjectURL(dataBlob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'pdf_analysis_export.json';
+        link.click();
+        URL.revokeObjectURL(url);
+    });
+    
+    // Charger les données au démarrage
+    loadPdfData();
+});
+</script>
+
+<style>
+/* Styles personnalisés pour le tableau */
+.table th {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.table td {
+    vertical-align: middle;
+    border-color: #e9ecef;
+    font-size: 0.9rem;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Styles pour les badges */
+.badge {
+    font-size: 0.75rem;
+}
+
+/* Styles pour les boutons DataTables */
+.dt-buttons {
+    margin-bottom: 1rem;
+}
+
+.dt-button {
+    margin-right: 0.5rem !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table-responsive {
+        font-size: 0.8rem;
+    }
+    
+    .btn-group-sm .btn {
+        padding: 0.25rem 0.4rem;
+        font-size: 0.7rem;
+    }
+}
+
+/* Loading overlay */
+#loadingOverlay {
+    backdrop-filter: blur(2px);
+    display: none;
+}
+
+#loadingOverlay.show {
+    display: flex !important;
+}
+
+/* Modal customizations */
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+</style>
+{% endblock %}
