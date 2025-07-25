@@ -1,0 +1,180 @@
+2025-07-25 17:13:42,006 - INFO - 
+==================================================
+2025-07-25 17:13:42,007 - INFO - 🔄 ÉTAPE 1: SCRAPING INTELLIGENT
+2025-07-25 17:13:42,007 - INFO - ==================================================
+2025-07-25 17:13:42,008 - INFO - 
+🔍 VÉRIFICATION DE LA NÉCESSITÉ DU SCRAPING
+2025-07-25 17:13:42,008 - INFO - --------------------------------------------------
+2025-07-25 17:13:42,011 - INFO - 📊 351 fichiers déjà présents dans la base de données
+2025-07-25 17:13:42,012 - INFO - ✅ Aucun nouveau fichier pour agriculture.gov.ma
+2025-07-25 17:13:42,016 - INFO - ✅ Aucun nouveau fichier pour bkam.ma
+2025-07-25 17:13:42,016 - INFO - ✅ Aucun nouveau fichier pour cese.ma
+2025-07-25 17:13:42,017 - INFO - ✅ Aucun nouveau fichier pour finances.gov.ma
+2025-07-25 17:13:42,017 - INFO - ✅ Aucun nouveau fichier pour oecd.org
+2025-07-25 17:13:42,017 - INFO - ✅ Aucun nouveau fichier détecté - scraping ignoré
+2025-07-25 17:13:42,018 - INFO - ✅ Étape 1 terminée avec succès
+2025-07-25 17:13:44,019 - INFO - 
+==================================================
+2025-07-25 17:13:44,019 - INFO - 🔄 ÉTAPE 2: RÉORGANISATION DE LA BASE DE DONNÉES
+2025-07-25 17:13:44,019 - INFO - ==================================================
+2025-07-25 17:13:44,019 - INFO - 🚀 Démarrage de la réorganisation de la base de données...
+2025-07-25 17:13:44,116 - INFO - ✅ Réorganisation de la base de données terminée avec succès
+2025-07-25 17:13:44,117 - INFO - ✅ Étape 2 terminée avec succès
+2025-07-25 17:13:46,117 - INFO - 
+==================================================
+2025-07-25 17:13:46,117 - INFO - 🔄 ÉTAPE 3: ANALYSE INTELLIGENTE DES PDFs
+2025-07-25 17:13:46,118 - INFO - ==================================================
+2025-07-25 17:13:46,118 - INFO - 
+🔍 VÉRIFICATION DE LA NÉCESSITÉ DE L'ANALYSE
+2025-07-25 17:13:46,118 - INFO - --------------------------------------------------
+2025-07-25 17:13:46,123 - INFO - 📊 318 PDFs déjà analysés
+2025-07-25 17:13:46,123 - INFO - 📊 PDFs en base de données: 351
+2025-07-25 17:13:46,123 - INFO - 📊 PDFs déjà analysés: 318
+2025-07-25 17:13:46,124 - INFO - 📊 PDFs à analyser: 33
+2025-07-25 17:13:46,124 - INFO - 🚀 Démarrage de l'analyse intelligente des PDFs...
+2025-07-25 17:13:46,804 - INFO - ✅ Analyse intelligente des PDFs terminée avec succès
+2025-07-25 17:13:46,804 - INFO -    2025-07-25 17:13:46,566 - INFO - 
+2025-07-25 17:13:46,805 - INFO -    === Étape 2: Mise à jour du champ site_web ===
+2025-07-25 17:13:46,805 - INFO -    2025-07-25 17:13:46,567 - INFO - 
+2025-07-25 17:13:46,805 - INFO -    === Étape 3: Récupération des PDFs ===
+2025-07-25 17:13:46,805 - INFO -    2025-07-25 17:13:46,575 - INFO - 
+2025-07-25 17:13:46,805 - INFO -    === Étape 4: Analyse de 33 PDFs ===
+2025-07-25 17:13:46,806 - INFO -    2025-07-25 17:13:46,745 - INFO - 
+2025-07-25 17:13:46,806 - INFO -    === Étape 5: Sauvegarde des résultats ===
+2025-07-25 17:13:46,806 - INFO -    2025-07-25 17:13:46,758 - INFO - 
+2025-07-25 17:13:46,806 - INFO -    === RÉSUMÉ ===
+2025-07-25 17:13:46,806 - INFO - ✅ Étape 3 terminée avec succès
+2025-07-25 17:13:48,808 - INFO - 
+==================================================
+2025-07-25 17:13:48,808 - INFO - 🔄 ÉTAPE 4: DÉMARRAGE DU SERVEUR DJANGO
+2025-07-25 17:13:48,809 - INFO - ==================================================
+2025-07-25 17:13:48,809 - INFO - 🚀 Démarrage du serveur Django...
+2025-07-25 17:13:51,814 - INFO - ✅ Serveur Django démarré avec succès !
+2025-07-25 17:13:51,815 - INFO - 🌐 Le serveur est maintenant actif.
+2025-07-25 17:13:51,816 - INFO - 🔗 Vous pouvez accéder à l'interface à : http://127.0.0.1:8000/
+2025-07-25 17:13:51,817 - INFO - ⚠️  Utilisez Ctrl+C pour arrêter le serveur.
+2025-07-25 17:16:36,065 - INFO - 
+⏹️  Arrêt du serveur Django demandé par l'utilisateur...
+2025-07-25 17:16:36,065 - INFO - ✅ Serveur Django arrêté
+2025-07-25 17:16:36,065 - INFO - ✅ Étape 4 terminée avec succès
+2025-07-25 17:16:36,066 - INFO - 
+============================================================
+2025-07-25 17:16:36,066 - INFO - 📊 RÉSUMÉ DU PIPELINE INTELLIGENT
+2025-07-25 17:16:36,066 - INFO - ============================================================
+2025-07-25 17:16:36,066 - INFO - ✅ Étapes réussies : 4/4
+2025-07-25 17:16:36,067 - INFO - ⏰ Durée totale : 0:02:54.059275
+2025-07-25 17:16:36,067 - INFO - 🎉 PIPELINE TERMINÉ AVEC SUCCÈS !
+2025-07-25 17:16:36,067 - INFO -    Tous les traitements ont été effectués intelligemment.
+2025-07-25 17:16:36,067 - INFO - 
+⏰ Pipeline terminé à 17:16:36
+2025-07-25 17:16:36,068 - INFO - ============================================================
+2025-07-25 17:16:38,191 - INFO - 
+==================================================
+2025-07-25 17:16:38,191 - INFO - 🔄 ÉTAPE 1: SCRAPING INTELLIGENT
+2025-07-25 17:16:38,191 - INFO - ==================================================
+2025-07-25 17:16:38,191 - INFO - 
+🔍 VÉRIFICATION DE LA NÉCESSITÉ DU SCRAPING
+2025-07-25 17:16:38,192 - INFO - --------------------------------------------------
+2025-07-25 17:16:38,194 - INFO - 📊 351 fichiers déjà présents dans la base de données
+2025-07-25 17:16:38,195 - INFO - ✅ Aucun nouveau fichier pour agriculture.gov.ma
+2025-07-25 17:16:38,195 - INFO - ✅ Aucun nouveau fichier pour bkam.ma
+2025-07-25 17:16:38,196 - INFO - ✅ Aucun nouveau fichier pour cese.ma
+2025-07-25 17:16:38,196 - INFO - ✅ Aucun nouveau fichier pour finances.gov.ma
+2025-07-25 17:16:38,196 - INFO - ✅ Aucun nouveau fichier pour oecd.org
+2025-07-25 17:16:38,196 - INFO - ✅ Aucun nouveau fichier détecté - scraping ignoré
+2025-07-25 17:16:38,196 - INFO - ✅ Étape 1 terminée avec succès
+2025-07-25 17:16:40,197 - INFO - 
+==================================================
+2025-07-25 17:16:40,197 - INFO - 🔄 ÉTAPE 2: RÉORGANISATION DE LA BASE DE DONNÉES
+2025-07-25 17:16:40,197 - INFO - ==================================================
+2025-07-25 17:16:40,197 - INFO - 🚀 Démarrage de la réorganisation de la base de données...
+2025-07-25 17:16:40,289 - INFO - ✅ Réorganisation de la base de données terminée avec succès
+2025-07-25 17:16:40,289 - INFO - ✅ Étape 2 terminée avec succès
+2025-07-25 17:16:42,290 - INFO - 
+==================================================
+2025-07-25 17:16:42,290 - INFO - 🔄 ÉTAPE 3: ANALYSE INTELLIGENTE DES PDFs
+2025-07-25 17:16:42,290 - INFO - ==================================================
+2025-07-25 17:16:42,290 - INFO - 
+🔍 VÉRIFICATION DE LA NÉCESSITÉ DE L'ANALYSE
+2025-07-25 17:16:42,290 - INFO - --------------------------------------------------
+2025-07-25 17:16:42,296 - INFO - 📊 318 PDFs déjà analysés
+2025-07-25 17:16:42,296 - INFO - 📊 PDFs en base de données: 351
+2025-07-25 17:16:42,296 - INFO - 📊 PDFs déjà analysés: 318
+2025-07-25 17:16:42,296 - INFO - 📊 PDFs à analyser: 33
+2025-07-25 17:16:42,297 - INFO - 🚀 Démarrage de l'analyse intelligente des PDFs...
+2025-07-25 17:16:42,957 - INFO - ✅ Analyse intelligente des PDFs terminée avec succès
+2025-07-25 17:16:42,957 - INFO -    2025-07-25 17:16:42,711 - INFO - 
+2025-07-25 17:16:42,958 - INFO -    === Étape 2: Mise à jour du champ site_web ===
+2025-07-25 17:16:42,958 - INFO -    2025-07-25 17:16:42,713 - INFO - 
+2025-07-25 17:16:42,958 - INFO -    === Étape 3: Récupération des PDFs ===
+2025-07-25 17:16:42,958 - INFO -    2025-07-25 17:16:42,718 - INFO - 
+2025-07-25 17:16:42,959 - INFO -    === Étape 4: Analyse de 33 PDFs ===
+2025-07-25 17:16:42,959 - INFO -    2025-07-25 17:16:42,892 - INFO - 
+2025-07-25 17:16:42,959 - INFO -    === Étape 5: Sauvegarde des résultats ===
+2025-07-25 17:16:42,959 - INFO -    2025-07-25 17:16:42,906 - INFO - 
+2025-07-25 17:16:42,960 - INFO -    === RÉSUMÉ ===
+2025-07-25 17:16:42,960 - INFO - ✅ Étape 3 terminée avec succès
+2025-07-25 17:16:44,961 - INFO - 
+==================================================
+2025-07-25 17:16:44,962 - INFO - 🔄 ÉTAPE 4: DÉMARRAGE DU SERVEUR DJANGO
+2025-07-25 17:16:44,963 - INFO - ==================================================
+2025-07-25 17:16:44,963 - INFO - 🚀 Démarrage du serveur Django...
+2025-07-25 17:16:47,976 - INFO - ✅ Serveur Django démarré avec succès !
+2025-07-25 17:16:47,976 - INFO - 🌐 Le serveur est maintenant actif.
+2025-07-25 17:16:47,976 - INFO - 🔗 Vous pouvez accéder à l'interface à : http://127.0.0.1:8000/
+2025-07-25 17:16:47,977 - INFO - ⚠️  Utilisez Ctrl+C pour arrêter le serveur.
+2025-07-25 17:30:35,605 - INFO - 
+==================================================
+2025-07-25 17:30:35,606 - INFO - 🔄 ÉTAPE 1: SCRAPING INTELLIGENT
+2025-07-25 17:30:35,606 - INFO - ==================================================
+2025-07-25 17:30:35,606 - INFO - 
+🔍 VÉRIFICATION DE LA NÉCESSITÉ DU SCRAPING
+2025-07-25 17:30:35,606 - INFO - --------------------------------------------------
+2025-07-25 17:30:35,611 - INFO - 📊 351 fichiers déjà présents dans la base de données
+2025-07-25 17:30:35,612 - INFO - ✅ Aucun nouveau fichier pour agriculture.gov.ma
+2025-07-25 17:30:35,612 - INFO - ✅ Aucun nouveau fichier pour bkam.ma
+2025-07-25 17:30:35,613 - INFO - ✅ Aucun nouveau fichier pour cese.ma
+2025-07-25 17:30:35,613 - INFO - ✅ Aucun nouveau fichier pour finances.gov.ma
+2025-07-25 17:30:35,614 - INFO - ✅ Aucun nouveau fichier pour oecd.org
+2025-07-25 17:30:35,614 - INFO - ✅ Aucun nouveau fichier détecté - scraping ignoré
+2025-07-25 17:30:35,614 - INFO - ✅ Étape 1 terminée avec succès
+2025-07-25 17:30:37,615 - INFO - 
+==================================================
+2025-07-25 17:30:37,615 - INFO - 🔄 ÉTAPE 2: RÉORGANISATION DE LA BASE DE DONNÉES
+2025-07-25 17:30:37,615 - INFO - ==================================================
+2025-07-25 17:30:37,615 - INFO - 🚀 Démarrage de la réorganisation de la base de données...
+2025-07-25 17:30:37,722 - INFO - ✅ Réorganisation de la base de données terminée avec succès
+2025-07-25 17:30:37,723 - INFO - ✅ Étape 2 terminée avec succès
+2025-07-25 17:30:39,723 - INFO - 
+==================================================
+2025-07-25 17:30:39,723 - INFO - 🔄 ÉTAPE 3: ANALYSE INTELLIGENTE DES PDFs
+2025-07-25 17:30:39,724 - INFO - ==================================================
+2025-07-25 17:30:39,724 - INFO - 
+🔍 VÉRIFICATION DE LA NÉCESSITÉ DE L'ANALYSE
+2025-07-25 17:30:39,724 - INFO - --------------------------------------------------
+2025-07-25 17:30:39,728 - INFO - 📊 318 PDFs déjà analysés
+2025-07-25 17:30:39,729 - INFO - 📊 PDFs en base de données: 351
+2025-07-25 17:30:39,729 - INFO - 📊 PDFs déjà analysés: 318
+2025-07-25 17:30:39,729 - INFO - 📊 PDFs à analyser: 33
+2025-07-25 17:30:39,729 - INFO - 🚀 Démarrage de l'analyse intelligente des PDFs...
+2025-07-25 17:30:40,370 - INFO - ✅ Analyse intelligente des PDFs terminée avec succès
+2025-07-25 17:30:40,370 - INFO -    2025-07-25 17:30:40,100 - INFO - 
+2025-07-25 17:30:40,370 - INFO -    === Étape 2: Mise à jour du champ site_web ===
+2025-07-25 17:30:40,370 - INFO -    2025-07-25 17:30:40,102 - INFO - 
+2025-07-25 17:30:40,371 - INFO -    === Étape 3: Récupération des PDFs ===
+2025-07-25 17:30:40,371 - INFO -    2025-07-25 17:30:40,108 - INFO - 
+2025-07-25 17:30:40,371 - INFO -    === Étape 4: Analyse de 33 PDFs ===
+2025-07-25 17:30:40,371 - INFO -    2025-07-25 17:30:40,302 - INFO - 
+2025-07-25 17:30:40,371 - INFO -    === Étape 5: Sauvegarde des résultats ===
+2025-07-25 17:30:40,372 - INFO -    2025-07-25 17:30:40,316 - INFO - 
+2025-07-25 17:30:40,372 - INFO -    === RÉSUMÉ ===
+2025-07-25 17:30:40,372 - INFO - ✅ Étape 3 terminée avec succès
+2025-07-25 17:30:42,373 - INFO - 
+==================================================
+2025-07-25 17:30:42,373 - INFO - 🔄 ÉTAPE 4: DÉMARRAGE DU SERVEUR DJANGO
+2025-07-25 17:30:42,373 - INFO - ==================================================
+2025-07-25 17:30:42,373 - INFO - 🚀 Démarrage du serveur Django...
+2025-07-25 17:30:45,379 - INFO - ✅ Serveur Django démarré avec succès !
+2025-07-25 17:30:45,379 - INFO - 🌐 Le serveur est maintenant actif.
+2025-07-25 17:30:45,379 - INFO - 🔗 Vous pouvez accéder à l'interface à : http://127.0.0.1:8000/
+2025-07-25 17:30:45,380 - INFO - ⚠️  Utilisez Ctrl+C pour arrêter le serveur.

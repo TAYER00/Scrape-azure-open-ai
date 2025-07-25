@@ -6,7 +6,7 @@ from django.shortcuts import redirect
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', lambda request: redirect('scraper:home')),  # Redirection de la racine vers home avec namespace
+    path('', lambda request: redirect('scraper:pdf_analysis')),  # Redirection de la racine vers pdf_analysis avec namespace
     path('scraper/', include('scraper.urls')),  # Inclusion des URLs de l'app scraper
 ]
 
